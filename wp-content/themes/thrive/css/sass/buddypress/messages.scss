@@ -1,0 +1,384 @@
+.buddypress #item-body {
+	.messages {
+		@media(max-width: 768px) {
+			margin: 0 -10px;
+			.pagination,
+			.messages-options-nav {
+				padding: 0 10px;
+			}
+
+			#messages-bulk-management {
+				margin: 0;
+			}
+		}
+	}
+
+	form {
+
+		// BuddyPress Messages
+		&#messages-bulk-management{
+			@media(max-width: 768px) {
+				margin: 0 -10px;
+				.messages-options-nav {
+					padding: 0 10px;
+				}
+			}
+
+			table.messages-notices {
+				@media(max-width: 768px) {
+					border: 0;
+					box-shadow: none;
+				}
+
+				tr {
+					@media(max-width: 768px) {
+						padding: 0 10px;
+						&:hover {
+							background: none;
+						}
+					}
+				}
+				thead {
+					tr {
+						@media(max-width: 768px) {
+							border-top: 1px solid $dark_borders;
+							border-bottom: 1px solid $dark_borders;
+						}
+					}
+					th.thread-checkbox{
+					    padding: 10px 20px;
+					}
+				}
+				tbody {
+					td {
+						&.thread-info,
+						&.thread-options {
+							padding-left: 5px;
+						}
+						&.thread-from {
+							padding-left: 7%;
+							position: relative;
+							@media(max-width: 768px) {
+								padding-left: 50px;
+							}
+						}
+						&.thread-options {
+							a {
+								&:before {
+									@extend .buddypress_material_font_before;
+									position: absolute;
+								    top: -2.5px;
+								    left: 0;
+									display: none;
+								}
+								&.read:before {
+									content: 'library_books';
+								    font-size: 22px;
+								}
+								&.delete:before {
+									content: 'close';
+									top: -4.5px;
+								    left: 0;
+								}
+							}
+						}
+
+					}
+				}
+
+				@media(max-width: 768px) {
+					padding: 0;
+					margin-top: 0;
+					display: inline-block;
+					width: 100%;
+
+					thead,
+					tbody,
+					tr,
+					th,
+					td {
+						width: 100%;
+						border: none;
+						display: inline-block;
+					    vertical-align: top;
+						margin: 0;
+					}
+					th {
+					    line-height: normal;
+
+						&.thread-info,
+						&.thread-star,
+						&.message-action-star,
+						&.thread-options {
+							display: none;
+						}
+						&.thread-checkbox {
+						    width: 53px;
+						}
+						&.thread-from {
+							width: 80%;
+						    font-size: 16px;
+							padding: 10px 0;
+
+							img.avatar {
+
+							}
+						}
+
+					}
+
+					tr {
+						border-bottom: 1px solid $dark_borders;
+						position: relative;
+
+						&:hover {
+							background: none;
+						}
+					}
+
+					tbody td {
+						margin: 0;
+
+						&.bulk-select-check,
+						&.thread-from {
+							vertical-align: middle;
+						    line-height: 33.5px;
+						}
+						&.bulk-select-check {
+						    width: 53px;
+							 input[type="checkbox"] {
+								margin: 0;
+		    					vertical-align: middle;
+							}
+						}
+						&.thread-from {
+							width: auto;
+							img.avatar {
+								width: 35px;
+								top: 10px;
+							}
+
+							.message-from {
+								a {
+									color: $dark_text;
+									font-size: 14px;
+								}
+							}
+
+						}
+						&.thread-info {
+					        padding: 0 0 0 55px;
+							.activity {
+								font-size: 12px;
+								color: $dark_secondary_icon;
+							}
+							.small {
+								+ p {
+								    margin-bottom: 20px;
+								}
+							}
+							.thread-excerpt {
+								margin-bottom: 0;
+							}
+						}
+						&.thread-star {
+							background: transparent;
+							width: auto;
+							position: absolute;
+							top: 5px;
+						    right: 0;
+						}
+						&.thread-options {
+							font-size: 0;
+						    padding: 10px 0 5px 55px;
+
+							a {
+								font-size: 14px;
+							    margin-right: 20px;
+							    position: relative;
+							    padding-left: 25px;
+								&:before {
+									display: inline-block;
+								}
+								&.delete {
+									color: $red;
+								}
+							}
+						}
+					}
+
+				}
+
+			}
+		}
+
+		&#send_message_form {
+			ul.acfb-holder {
+				width: 100%;
+			    float: left;
+
+				li {
+					&.friend-tab {
+						color: $light;
+						background: $fallback_bg;
+
+						min-height: 40px;
+						line-height: 34px;
+
+						border-color: #eceff1;
+					    margin: 0 0 5px 5px;
+					    padding: 2px 25px 2px 35px;
+
+						position: relative;
+						left: -5px;
+
+						@media(max-width: 375px){
+							width: 100%;
+						}
+
+						span {
+							img {
+								position: absolute;
+							    left: 5px;
+							    top: 3.5px;
+							    min-width: 30px;
+							}
+
+							&.p {
+								font-size: 0;
+							    display: inline-block;
+							    height: 0;
+								position: absolute;
+								right: 5px;
+								top: 3px;
+
+								&:before {
+									@extend .buddypress_material_font_before;
+									content: "close";
+
+									background: $red;
+									width: auto;
+								    height: auto;
+								    border-radius: 50%;
+								    font-size: 12px;
+								    position: relative;
+								    top: 5.5px;
+								    padding: 2.5px;
+								}
+							}
+							a {
+								color: $dark_secondary_icon;
+							}
+						}
+					}
+
+					&:last-of-type {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+	}
+
+	// Message Notices
+	table.messages-notices.sitewide-notices {
+		@media(max-width: 768px) {
+			display: block;
+			display: block;
+		    box-shadow: none;
+		    border-left-width: 0;
+		    border-right-width: 0;
+		    margin-bottom: -10px;
+			tbody {
+				display: block;
+				tr {
+					display: block;
+					width: 100%;
+					border-width: 0;
+					border-bottom-width: 1px;
+
+					&:last-of-type {
+						border-bottom-width: 0;
+					}
+				}
+			}
+		}
+		tbody tr {
+			td {
+				@media(max-width: 768px) {
+					display: block;
+					width: 100%;
+					margin-bottom: 0;
+				}
+				&:first-of-type {
+					max-width: 0;
+    				padding: 0;
+
+					@media(max-width: 768px) {
+						display: none;
+					}
+				}
+				&:nth-child(2),
+				&:nth-child(3) {
+					width: 20%;
+
+					@media(max-width: 768px) {
+						width: 100%;
+						padding: 10px;
+					}
+				}
+				&:nth-child(3),
+				&:nth-child(4) {
+					padding-left: 0;
+
+					@media(max-width: 768px) {
+						width: 100%;
+						padding: 10px;
+					}
+				}
+				&:nth-child(4) {
+
+					.button{
+						&:first-of-type {
+							min-width: 118.77px;
+							text-align: center;
+						}
+						&:nth-child(2) {
+					    	padding: 0 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+table#message-threads {
+	@media (max-width: 768px) {
+
+		th.thread-star,
+		th.thread-from,
+		th.thread-options,
+
+		td.thread-star {
+			display: none;
+		}
+	}
+}
+
+#message-recipients {
+	.button.confirm {
+		  clear: both;
+		  float: none;
+		  display: block;
+		  width: 95px;
+		  margin-top: 25px;
+	}
+}
+
+.messages #send-to-input {
+	display: block;
+	clear: both;
+}

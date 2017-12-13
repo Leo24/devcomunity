@@ -1,0 +1,412 @@
+::selection {
+  background: $primary; /* WebKit/Blink Browsers */
+  color: $light_secondary;
+}
+::-moz-selection {
+  background: $primary; /* Gecko Browsers */
+  color: $light_secondary;
+}
+
+body {
+	color: $dark_text;
+	margin: 0;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	&.img-site-logo {
+		@media ( max-width: 768px ) {
+			margin: 0;
+            float: left;
+            max-width: 70%;
+		}
+	}
+}
+
+
+a {
+	@extend .primary;
+
+	transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+
+	&:focus,
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+}
+
+label {
+	display: block;
+	margin: 0.75em 0;
+}
+
+legend {
+  	display: block;
+  	width: 100%;
+  	padding: 0;
+  	padding-top: 15px;
+  	padding-bottom: 5px;
+  	margin-bottom: 0;
+  	font-size: 16px;
+  	line-height: inherit;
+  	color: $dark_secondary_icon;
+  	border: 0;
+  	border-bottom: none;
+}
+
+caption {
+	color: inherit;
+}
+
+.limiter {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#lock-outline {
+	.material-icons{
+		color: $dark_borders;
+	}
+}
+.thrive-card {
+	@include card(1);
+	padding: 25px 15px;
+	background: $light;
+	@media ( max-width: 768px ) {
+		padding: 10px 10px;
+	}
+}
+
+.thrive-list {
+	box-shadow: none;
+	border: 1px solid $dark_borders;
+	padding: 25px 35px;
+	background: $light;
+	&:hover {
+		background: $light_secondary;
+	}
+}
+
+.site#page {
+}
+
+
+.container.site-content {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#content-left-col {
+	@media ( min-width: 992px ) {
+		padding-right: 0;
+	}
+}
+
+.sidebar-content {
+	#content-left-col {
+		@media ( min-width: 992px ) {
+			padding-left: 0;
+			padding-right: 15px;
+		}
+	}
+}
+
+// Rules for sizing the icon.
+.material-icons {
+	position: relative;
+	top: 2.5px;
+}
+
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+// Rules for using icons as black on a light background.
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+// Rules for using icons as white on a dark background.
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.material_font_extend {
+    &:before {
+        @include material_font('');
+    }
+}
+.material_font_extend_after {
+    &:after {
+        @include material_font('');
+    }
+}
+
+#global-message {
+
+  	padding: 20px 40px;
+  	color: $light_secondary;
+
+  	&:before {
+        @extend .material_font_extend;
+        content: "error_outline";
+
+  		position: relative;
+  		top: 4px;
+  		font-size: 18px;
+  		margin-right: 5px;
+  	}
+
+  	&.alert.alert-danger {
+	  	&:before {
+            @extend .material_font_extend;
+            content: "error_outline";
+		}
+  		background: $red;
+  		a {
+  			color: $light;
+  		}
+  	}
+}
+#message{
+	&.success{
+		clear: both;
+		padding: 10px 10px 10px 39px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-radius: 4px;
+		font-size: 14px;
+		background: #7CB342;
+        position: relative;
+
+		color: $light_secondary;
+		&:before {
+            @extend .material_font_extend;
+            content: "check_circle";
+
+            position: absolute;
+            top: 9.5px;
+            left: 10px;
+		}
+	}
+	&.warning{
+		@extend .success;
+		background: #FFB300;
+		&:before {
+            content: "warning";
+		}
+	}
+	&.info{
+		@extend .success;
+		background: #039BE5;
+		&:before {
+            content: "info_outline";
+		}
+	}
+}
+
+.entry-footer {
+    > .edit-link {
+        display: block;
+        width: 100%;
+        a{
+            &.post-edit-link {
+                background-color: $primary;
+                &:before {
+                    @extend .material_font_extend;
+                    content: "edit";
+
+                    color: $light;
+                    position: relative;
+                    top: 10px
+                }
+            }
+            &#vc_load-inline-editor {
+                background-color: #607D8B;
+    		    background-image: url('css/images/visual_composer.png');
+    		    background-repeat: no-repeat;
+    		    background-position: center;
+    		    border: 0 none;
+    		    background-size: 24px;
+                margin-left: 10px;
+            }
+
+            &.post-edit-link,
+            &#vc_load-inline-editor {
+                font-size: 0;
+    		    height: 56px;
+    		    width: 56px;
+                line-height: 56px;
+                display: inline-block;
+    		    border-radius: 50%;
+                text-align: center;
+                @include card(2);
+                &:hover {
+                    @include card(3);
+                    -webkit-transform: translateY(-10px);
+			    	   -moz-transform: translateY(-10px);
+                         -o-transform: translateY(-10px);
+                            transform: translateY(-10px);
+                }
+            }
+        }
+    }
+}
+
+.subway-login-form {
+
+	padding: 25px;
+	background: #fff;
+	max-width: 380px;
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.12);
+	border-radius: 4px;
+
+	@media (max-width: 400px ) {
+		width: auto;
+	}
+	
+	.subway-login-lost-password a,
+	.login-remember label {
+			@extend .primary;
+			text-transform: uppercase;
+			font-weight: normal;
+	}
+
+	.subway-login-form__form {
+		.login-username,
+    	.login-password {
+
+    		margin: 30px 0;
+
+    		label {
+
+    			color: #9B9B9B;
+
+		    	transform: translateY(10px);
+		    	-moz-transform: translateY(10px);
+		    	-webkit-transform: translateY(10px);
+		    	-o-transform: translateY(10px);
+
+		    	transition: all 0.25s ease-in-out;
+		    	-webkit-transition: all 0.25s ease-in-out;
+		    	-moz-transition: all 0.25s ease-in-out;
+		    	-o-transition: all 0.25s ease-in-out;
+
+		    	position: absolute;
+
+		    	font-size: 16px;
+		    	font-weight: normal;
+		    	margin: 0;
+		    	cursor: auto;
+
+		    	&.inactive {
+		    		font-size: 12px;
+		    		transform: translateY(-10px);
+			    	-moz-transform: translateY(-10px);
+			    	-webkit-transform: translateY(-10px);
+			    	-o-transform: translateY(-10px);
+		    	}
+		    }
+
+		    > input {
+		    	&:focus {
+		    		line-height: 37.5px;
+		    	}
+		    }
+
+
+    	}
+	}
+
+	.subway-login-form-message {
+    	#message.success,
+    	#message.warning,
+    	#message.error,
+    	#message.info {
+    		background: transparent;
+    		padding: 0;
+    		&:before {
+    			display: none;
+    		}
+    	}
+
+    	#message.success { color: #4CAF50; }
+    	#message.error { color: #E91E63; }
+    	#message.warning { color: #FFC107; }
+    	#message{ color: #607D8B; }
+	}
+
+	.subway-login-form__actions {
+
+		padding: 25px;
+    	color: #FFF;
+    	@extend .bg-primary;
+    	margin: -25px -25px 25px -25px;
+
+    	h3 {
+			font-size: 16px;
+			color: $light_secondary;
+			line-height: 16px;
+			font-weight: normal;
+    	}
+
+    	.social-connect {
+    		/* button bg: */
+		    background: #3B5998;
+
+			box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.12), 0px 2px 8px 0px rgba(0,0,0,0.24);
+			&:hover {
+				box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 8px 0px rgba(0, 0, 0, 0.24);
+				transform: translateY(-5px);
+			}
+
+		    font-size: 16px;
+		    color: #FFF;
+		    line-height: 16px;
+		    height: 56px;
+		    width: 56px;
+		    text-align: center;
+		    text-indent: -9999px;
+		    margin-right: 15px;
+		    border-radius: 50%;
+		    background-image: url('css/images/facebook.png');
+		    padding-top: 17.5px;
+		    background-repeat: no-repeat;
+		    background-position: center;
+		    border: 0 none;
+		    background-size: 16px;
+
+			&.gp {
+				background: #DC4E41;
+				margin-right: 0;
+				background-image: url('css/images/google-plus.png');
+				background-repeat: no-repeat;
+			    background-position: center;
+		    	background-size: 16px;
+
+			}
+    	}
+    }
+}
+
+#thrive-logout-message {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#lock-outline {
+    img {
+        width: 120px;
+    }
+}

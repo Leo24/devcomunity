@@ -1,0 +1,501 @@
+
+---Downloaded files---
+The import files for: Thrive Intranet & Extranet Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://community.raketenstark.com
+Data file = /html/community/wp-content/uploads/2017/10/demo-content-import-file_2017-10-19__18-33-47.xml
+Widget file = /html/community/wp-content/uploads/2017/10/demo-widgets-import-file_2017-10-19__18-33-47.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import knb-category KnB Category 1
+[WARNING] Failed to import knb-category KnB Category 2
+[WARNING] Failed to import knb-category KnB Category 3
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_type variable
+[ERROR] Failed to import "T_7_back" (Medien)
+[ERROR] Failed to import "T_1_front" (Medien)
+[ERROR] Failed to import "T_1_back" (Medien)
+[ERROR] Failed to import "T_2_front" (Medien)
+[ERROR] Failed to import "T_2_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_3_back" (Medien)
+[ERROR] Failed to import "T_3_front" (Medien)
+[ERROR] Failed to import "T_4_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_5_front" (Medien)
+[ERROR] Failed to import "T_5_back" (Medien)
+[ERROR] Failed to import "T_6_front" (Medien)
+[ERROR] Failed to import "T_6_back" (Medien)
+[ERROR] Failed to import "T_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_back" (Medien)
+[ERROR] Failed to import "hoodie_1_back" (Medien)
+[ERROR] Failed to import "hoodie_1_front" (Medien)
+[ERROR] Failed to import "hoodie_2_front" (Medien)
+[ERROR] Failed to import "hoodie_5_back" (Medien)
+[ERROR] Failed to import "cd_1_angle" (Medien)
+[ERROR] Failed to import "hoodie_2_back" (Medien)
+[ERROR] Failed to import "hoodie_3_front" (Medien)
+[ERROR] Failed to import "hoodie_3_back" (Medien)
+[ERROR] Failed to import "hoodie_4_front" (Medien)
+[ERROR] Failed to import "hoodie_4_back" (Medien)
+[ERROR] Failed to import "hoodie_5_front" (Medien)
+[ERROR] Failed to import "hoodie_6_front" (Medien)
+[ERROR] Failed to import "hoodie_6_back" (Medien)
+[ERROR] Failed to import "poster_1_up" (Medien)
+[ERROR] Failed to import "Poster_1_flat" (Medien)
+[ERROR] Failed to import "poster_2_up" (Medien)
+[ERROR] Failed to import "Poster_2_flat" (Medien)
+[ERROR] Failed to import "poster_3_up" (Medien)
+[ERROR] Failed to import "Poster_3_flat" (Medien)
+[ERROR] Failed to import "poster_4_up" (Medien)
+[ERROR] Failed to import "Poster_4_flat" (Medien)
+[ERROR] Failed to import "poster_5_up" (Medien)
+[ERROR] Failed to import "Poster_5_flat" (Medien)
+[ERROR] Failed to import "cd_1_flat" (Medien)
+[ERROR] Failed to import "cd_2_angle" (Medien)
+[ERROR] Failed to import "cd_2_flat" (Medien)
+[ERROR] Failed to import "cd_3_angle" (Medien)
+[ERROR] Failed to import "cd_3_flat" (Medien)
+[ERROR] Failed to import "cd_4_flat" (Medien)
+[ERROR] Failed to import "cd_4_angle" (Medien)
+[ERROR] Failed to import "cd_5_angle" (Medien)
+[ERROR] Failed to import "cd_5_flat" (Medien)
+[ERROR] Failed to import "cd_6_angle" (Medien)
+[ERROR] Failed to import "cd_6_flat" (Medien)
+[ERROR] Failed to import "13" (Medien)
+[ERROR] Failed to import "4" (Medien)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import knb-category KnB Category 1
+[WARNING] Failed to import knb-category KnB Category 2
+[WARNING] Failed to import knb-category KnB Category 3
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_type variable
+[ERROR] Failed to import "T_7_back" (Medien)
+[ERROR] Failed to import "T_1_front" (Medien)
+[ERROR] Failed to import "T_1_back" (Medien)
+[ERROR] Failed to import "T_2_front" (Medien)
+[ERROR] Failed to import "T_2_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_3_back" (Medien)
+[ERROR] Failed to import "T_3_front" (Medien)
+[ERROR] Failed to import "T_4_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_5_front" (Medien)
+[ERROR] Failed to import "T_5_back" (Medien)
+[ERROR] Failed to import "T_6_front" (Medien)
+[ERROR] Failed to import "T_6_back" (Medien)
+[ERROR] Failed to import "T_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_back" (Medien)
+[ERROR] Failed to import "hoodie_1_back" (Medien)
+[ERROR] Failed to import "hoodie_1_front" (Medien)
+[ERROR] Failed to import "hoodie_2_front" (Medien)
+[ERROR] Failed to import "hoodie_5_back" (Medien)
+[ERROR] Failed to import "cd_1_angle" (Medien)
+[ERROR] Failed to import "hoodie_2_back" (Medien)
+[ERROR] Failed to import "hoodie_3_front" (Medien)
+[ERROR] Failed to import "hoodie_3_back" (Medien)
+[ERROR] Failed to import "hoodie_4_front" (Medien)
+[ERROR] Failed to import "hoodie_4_back" (Medien)
+[ERROR] Failed to import "hoodie_5_front" (Medien)
+[ERROR] Failed to import "hoodie_6_front" (Medien)
+[ERROR] Failed to import "hoodie_6_back" (Medien)
+[ERROR] Failed to import "poster_1_up" (Medien)
+[ERROR] Failed to import "Poster_1_flat" (Medien)
+[ERROR] Failed to import "poster_2_up" (Medien)
+[ERROR] Failed to import "Poster_2_flat" (Medien)
+[ERROR] Failed to import "poster_3_up" (Medien)
+[ERROR] Failed to import "Poster_3_flat" (Medien)
+[ERROR] Failed to import "poster_4_up" (Medien)
+[ERROR] Failed to import "Poster_4_flat" (Medien)
+[ERROR] Failed to import "poster_5_up" (Medien)
+[ERROR] Failed to import "Poster_5_flat" (Medien)
+[ERROR] Failed to import "cd_1_flat" (Medien)
+[ERROR] Failed to import "cd_2_angle" (Medien)
+[ERROR] Failed to import "cd_2_flat" (Medien)
+[ERROR] Failed to import "cd_3_angle" (Medien)
+[ERROR] Failed to import "cd_3_flat" (Medien)
+[ERROR] Failed to import "cd_4_flat" (Medien)
+[ERROR] Failed to import "cd_4_angle" (Medien)
+[ERROR] Failed to import "cd_5_angle" (Medien)
+[ERROR] Failed to import "cd_5_flat" (Medien)
+[ERROR] Failed to import "cd_6_angle" (Medien)
+[ERROR] Failed to import "cd_6_flat" (Medien)
+[ERROR] Failed to import "13" (Medien)
+[ERROR] Failed to import "4" (Medien)
+[ERROR] Failed to import "5" (Medien)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import knb-category KnB Category 1
+[WARNING] Failed to import knb-category KnB Category 2
+[WARNING] Failed to import knb-category KnB Category 3
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_type variable
+[ERROR] Failed to import "T_7_back" (Medien)
+[ERROR] Failed to import "T_1_front" (Medien)
+[ERROR] Failed to import "T_1_back" (Medien)
+[ERROR] Failed to import "T_2_front" (Medien)
+[ERROR] Failed to import "T_2_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_3_back" (Medien)
+[ERROR] Failed to import "T_3_front" (Medien)
+[ERROR] Failed to import "T_4_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_5_front" (Medien)
+[ERROR] Failed to import "T_5_back" (Medien)
+[ERROR] Failed to import "T_6_front" (Medien)
+[ERROR] Failed to import "T_6_back" (Medien)
+[ERROR] Failed to import "T_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_back" (Medien)
+[ERROR] Failed to import "hoodie_1_back" (Medien)
+[ERROR] Failed to import "hoodie_1_front" (Medien)
+[ERROR] Failed to import "hoodie_2_front" (Medien)
+[ERROR] Failed to import "hoodie_5_back" (Medien)
+[ERROR] Failed to import "cd_1_angle" (Medien)
+[ERROR] Failed to import "hoodie_2_back" (Medien)
+[ERROR] Failed to import "hoodie_3_front" (Medien)
+[ERROR] Failed to import "hoodie_3_back" (Medien)
+[ERROR] Failed to import "hoodie_4_front" (Medien)
+[ERROR] Failed to import "hoodie_4_back" (Medien)
+[ERROR] Failed to import "hoodie_5_front" (Medien)
+[ERROR] Failed to import "hoodie_6_front" (Medien)
+[ERROR] Failed to import "hoodie_6_back" (Medien)
+[ERROR] Failed to import "poster_1_up" (Medien)
+[ERROR] Failed to import "Poster_1_flat" (Medien)
+[ERROR] Failed to import "poster_2_up" (Medien)
+[ERROR] Failed to import "Poster_2_flat" (Medien)
+[ERROR] Failed to import "poster_3_up" (Medien)
+[ERROR] Failed to import "Poster_3_flat" (Medien)
+[ERROR] Failed to import "poster_4_up" (Medien)
+[ERROR] Failed to import "Poster_4_flat" (Medien)
+[ERROR] Failed to import "poster_5_up" (Medien)
+[ERROR] Failed to import "Poster_5_flat" (Medien)
+[ERROR] Failed to import "cd_1_flat" (Medien)
+[ERROR] Failed to import "cd_2_angle" (Medien)
+[ERROR] Failed to import "cd_2_flat" (Medien)
+[ERROR] Failed to import "cd_3_angle" (Medien)
+[ERROR] Failed to import "cd_3_flat" (Medien)
+[ERROR] Failed to import "cd_4_flat" (Medien)
+[ERROR] Failed to import "cd_4_angle" (Medien)
+[ERROR] Failed to import "cd_5_angle" (Medien)
+[ERROR] Failed to import "cd_5_flat" (Medien)
+[ERROR] Failed to import "cd_6_angle" (Medien)
+[ERROR] Failed to import "cd_6_flat" (Medien)
+[ERROR] Failed to import "13" (Medien)
+[ERROR] Failed to import "4" (Medien)
+[ERROR] Failed to import "5" (Medien)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import knb-category KnB Category 1
+[WARNING] Failed to import knb-category KnB Category 2
+[WARNING] Failed to import knb-category KnB Category 3
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_type variable
+[ERROR] Failed to import "T_7_back" (Medien)
+[ERROR] Failed to import "T_1_front" (Medien)
+[ERROR] Failed to import "T_1_back" (Medien)
+[ERROR] Failed to import "T_2_front" (Medien)
+[ERROR] Failed to import "T_2_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_3_back" (Medien)
+[ERROR] Failed to import "T_3_front" (Medien)
+[ERROR] Failed to import "T_4_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_5_front" (Medien)
+[ERROR] Failed to import "T_5_back" (Medien)
+[ERROR] Failed to import "T_6_front" (Medien)
+[ERROR] Failed to import "T_6_back" (Medien)
+[ERROR] Failed to import "T_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_back" (Medien)
+[ERROR] Failed to import "hoodie_1_back" (Medien)
+[ERROR] Failed to import "hoodie_1_front" (Medien)
+[ERROR] Failed to import "hoodie_2_front" (Medien)
+[ERROR] Failed to import "hoodie_5_back" (Medien)
+[ERROR] Failed to import "cd_1_angle" (Medien)
+[ERROR] Failed to import "hoodie_2_back" (Medien)
+[ERROR] Failed to import "hoodie_3_front" (Medien)
+[ERROR] Failed to import "hoodie_3_back" (Medien)
+[ERROR] Failed to import "hoodie_4_front" (Medien)
+[ERROR] Failed to import "hoodie_4_back" (Medien)
+[ERROR] Failed to import "hoodie_5_front" (Medien)
+[ERROR] Failed to import "hoodie_6_front" (Medien)
+[ERROR] Failed to import "hoodie_6_back" (Medien)
+[ERROR] Failed to import "poster_1_up" (Medien)
+[ERROR] Failed to import "Poster_1_flat" (Medien)
+[ERROR] Failed to import "poster_2_up" (Medien)
+[ERROR] Failed to import "Poster_2_flat" (Medien)
+[ERROR] Failed to import "poster_3_up" (Medien)
+[ERROR] Failed to import "Poster_3_flat" (Medien)
+[ERROR] Failed to import "poster_4_up" (Medien)
+[ERROR] Failed to import "Poster_4_flat" (Medien)
+[ERROR] Failed to import "poster_5_up" (Medien)
+[ERROR] Failed to import "Poster_5_flat" (Medien)
+[ERROR] Failed to import "cd_1_flat" (Medien)
+[ERROR] Failed to import "cd_2_angle" (Medien)
+[ERROR] Failed to import "cd_2_flat" (Medien)
+[ERROR] Failed to import "cd_3_angle" (Medien)
+[ERROR] Failed to import "cd_3_flat" (Medien)
+[ERROR] Failed to import "cd_4_flat" (Medien)
+[ERROR] Failed to import "cd_4_angle" (Medien)
+[ERROR] Failed to import "cd_5_angle" (Medien)
+[ERROR] Failed to import "cd_5_flat" (Medien)
+[ERROR] Failed to import "cd_6_angle" (Medien)
+[ERROR] Failed to import "cd_6_flat" (Medien)
+[ERROR] Failed to import "13" (Medien)
+[ERROR] Failed to import "4" (Medien)
+[ERROR] Failed to import "5" (Medien)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import knb-category KnB Category 1
+[WARNING] Failed to import knb-category KnB Category 2
+[WARNING] Failed to import knb-category KnB Category 3
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_type variable
+[ERROR] Failed to import "T_7_back" (Medien)
+[ERROR] Failed to import "T_1_front" (Medien)
+[ERROR] Failed to import "T_1_back" (Medien)
+[ERROR] Failed to import "T_2_front" (Medien)
+[ERROR] Failed to import "T_2_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_3_back" (Medien)
+[ERROR] Failed to import "T_3_front" (Medien)
+[ERROR] Failed to import "T_4_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_5_front" (Medien)
+[ERROR] Failed to import "T_5_back" (Medien)
+[ERROR] Failed to import "T_6_front" (Medien)
+[ERROR] Failed to import "T_6_back" (Medien)
+[ERROR] Failed to import "T_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_back" (Medien)
+[ERROR] Failed to import "hoodie_1_back" (Medien)
+[ERROR] Failed to import "hoodie_1_front" (Medien)
+[ERROR] Failed to import "hoodie_2_front" (Medien)
+[ERROR] Failed to import "hoodie_5_back" (Medien)
+[ERROR] Failed to import "cd_1_angle" (Medien)
+[ERROR] Failed to import "hoodie_2_back" (Medien)
+[ERROR] Failed to import "hoodie_3_front" (Medien)
+[ERROR] Failed to import "hoodie_3_back" (Medien)
+[ERROR] Failed to import "hoodie_4_front" (Medien)
+[ERROR] Failed to import "hoodie_4_back" (Medien)
+[ERROR] Failed to import "hoodie_5_front" (Medien)
+[ERROR] Failed to import "hoodie_6_front" (Medien)
+[ERROR] Failed to import "hoodie_6_back" (Medien)
+[ERROR] Failed to import "poster_1_up" (Medien)
+[ERROR] Failed to import "Poster_1_flat" (Medien)
+[ERROR] Failed to import "poster_2_up" (Medien)
+[ERROR] Failed to import "Poster_2_flat" (Medien)
+[ERROR] Failed to import "poster_3_up" (Medien)
+[ERROR] Failed to import "Poster_3_flat" (Medien)
+[ERROR] Failed to import "poster_4_up" (Medien)
+[ERROR] Failed to import "Poster_4_flat" (Medien)
+[ERROR] Failed to import "poster_5_up" (Medien)
+[ERROR] Failed to import "Poster_5_flat" (Medien)
+[ERROR] Failed to import "cd_1_flat" (Medien)
+[ERROR] Failed to import "cd_2_angle" (Medien)
+[ERROR] Failed to import "cd_2_flat" (Medien)
+[ERROR] Failed to import "cd_3_angle" (Medien)
+[ERROR] Failed to import "cd_3_flat" (Medien)
+[ERROR] Failed to import "cd_4_flat" (Medien)
+[ERROR] Failed to import "cd_4_angle" (Medien)
+[ERROR] Failed to import "cd_5_angle" (Medien)
+[ERROR] Failed to import "cd_5_flat" (Medien)
+[ERROR] Failed to import "cd_6_angle" (Medien)
+[ERROR] Failed to import "cd_6_flat" (Medien)
+[ERROR] Failed to import "13" (Medien)
+[ERROR] Failed to import "4" (Medien)
+[ERROR] Failed to import "5" (Medien)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import knb-category KnB Category 1
+[WARNING] Failed to import knb-category KnB Category 2
+[WARNING] Failed to import knb-category KnB Category 3
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_type variable
+[ERROR] Failed to import "T_7_back" (Medien)
+[ERROR] Failed to import "T_1_front" (Medien)
+[ERROR] Failed to import "T_1_back" (Medien)
+[ERROR] Failed to import "T_2_front" (Medien)
+[ERROR] Failed to import "T_2_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_3_back" (Medien)
+[ERROR] Failed to import "T_3_front" (Medien)
+[ERROR] Failed to import "T_4_back" (Medien)
+[ERROR] Failed to import "T_4_front" (Medien)
+[ERROR] Failed to import "T_5_front" (Medien)
+[ERROR] Failed to import "T_5_back" (Medien)
+[ERROR] Failed to import "T_6_front" (Medien)
+[ERROR] Failed to import "T_6_back" (Medien)
+[ERROR] Failed to import "T_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_front" (Medien)
+[ERROR] Failed to import "hoodie_7_back" (Medien)
+[ERROR] Failed to import "hoodie_1_back" (Medien)
+[ERROR] Failed to import "hoodie_1_front" (Medien)
+[ERROR] Failed to import "hoodie_2_front" (Medien)
+[ERROR] Failed to import "hoodie_5_back" (Medien)
+[ERROR] Failed to import "cd_1_angle" (Medien)
+[ERROR] Failed to import "hoodie_2_back" (Medien)
+[ERROR] Failed to import "hoodie_3_front" (Medien)
+[ERROR] Failed to import "hoodie_3_back" (Medien)
+[ERROR] Failed to import "hoodie_4_front" (Medien)
+[ERROR] Failed to import "hoodie_4_back" (Medien)
+[ERROR] Failed to import "hoodie_5_front" (Medien)
+[ERROR] Failed to import "hoodie_6_front" (Medien)
+[ERROR] Failed to import "hoodie_6_back" (Medien)
+[ERROR] Failed to import "poster_1_up" (Medien)
+[ERROR] Failed to import "Poster_1_flat" (Medien)
+[ERROR] Failed to import "poster_2_up" (Medien)
+[ERROR] Failed to import "Poster_2_flat" (Medien)
+[ERROR] Failed to import "poster_3_up" (Medien)
+[ERROR] Failed to import "Poster_3_flat" (Medien)
+[ERROR] Failed to import "poster_4_up" (Medien)
+[ERROR] Failed to import "Poster_4_flat" (Medien)
+[ERROR] Failed to import "poster_5_up" (Medien)
+[ERROR] Failed to import "Poster_5_flat" (Medien)
+[ERROR] Failed to import "cd_1_flat" (Medien)
+[ERROR] Failed to import "cd_2_angle" (Medien)
+[ERROR] Failed to import "cd_2_flat" (Medien)
+[ERROR] Failed to import "cd_3_angle" (Medien)
+[ERROR] Failed to import "cd_3_flat" (Medien)
+[ERROR] Failed to import "cd_4_flat" (Medien)
+[ERROR] Failed to import "cd_4_angle" (Medien)
+[ERROR] Failed to import "cd_5_angle" (Medien)
+[ERROR] Failed to import "cd_5_flat" (Medien)
+[ERROR] Failed to import "cd_6_angle" (Medien)
+[ERROR] Failed to import "cd_6_flat" (Medien)
+[ERROR] Failed to import "13" (Medien)
+[ERROR] Failed to import "4" (Medien)
+[ERROR] Failed to import "5" (Medien)
+[ERROR] Failed to import "予定資金繰り表.xls - 資金繰り表-8" (Medien)
+[ERROR] Failed to import "13620258_1152907348105744_8007984968280501071_n" (Medien)
+[WARNING] Failed to import "A wonderful serenity has taken possession of my entire soul.": Invalid post type forum
+[WARNING] Failed to import "I am alone, and feel the charm of existence in this spot": Invalid post type forum
+[WARNING] Failed to import "I should be incapable of drawing a single stroke...": Invalid post type forum
+[WARNING] Failed to import "VvE": Invalid post type forum
+[WARNING] Failed to import "Test": Invalid post type forum
+[WARNING] Failed to import "How to permanently store password on a browser": Invalid post type knowledge_base
+[WARNING] Failed to import "How to contact Envato Marketplaces": Invalid post type knowledge_base
+[WARNING] Failed to import "Deleting your account in few days": Invalid post type knowledge_base
+[WARNING] Failed to import "Renewing your Credit Card": Invalid post type knowledge_base
+[WARNING] Failed to import "How to save your files in protected directories": Invalid post type knowledge_base
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Sidebar : 
+
+Gears: Social Media Widget - Social Media - Imported
+Thrive: Featured Group - Featured Group - Imported
+Gears: Recent Posts - Recent Posts - Imported
+Veranstaltungsliste - Upcoming Events - Imported
+wpknb_widget - Site Reference - Site does not support widget
+
+BP Sidebar : 
+
+Thrive: Featured Member - Featured Member - Imported
+Thrive: Featured Group - Featured Group - Imported
+(BuddyPress) Friends - No Title - Imported
+(BuddyPress) Groups - Groups - Imported
+(BuddyPress) Members - Popular Members - Imported
+
+Sidenav Sidebar : 
+
+(TaskBreaker) My Recent Task - My Recent Tasks - Imported
+(BuddyPress) Recently Active Members - Recently Active Members - Imported
+(BuddyPress) Members - Members - Imported
+Text - Info - Imported
+
+Archives : 
+
+Gears: Social Media Widget - Social Media - Imported
+Thrive: Featured Member - Writer of the Month - Imported
+Gears: Recent Posts - Recent Posts - Imported
+Veranstaltungsliste - Upcoming Events - Imported
+wpknb_widget - Site Reference - Site does not support widget
+
+Dashboard : 
+
+Veranstaltungsliste - Upcoming Events - Imported
+(TaskBreaker) My Recent Task - My Recent Tasks - Imported
+Thrive: Birthday Widget - Upcoming Birthdays - Imported
+Thrive: Featured Member - Featured Member - Imported
+Gears: Recent Posts - Recent Posts - Imported
+Thrive: Featured Group - Featured Group - Imported
+(BuddyPress) Members - Staff - Imported
+(BuddyPress) Groups - Groups - Imported
+Polls - Polls - Imported
+
+Footer : 
+
+Text - About - Imported
+bbp_search_widget - Search Forums - Site does not support widget
+(BuddyPress) Recently Active Members - Recently Active Members - Imported
+wpknb_widget - Site Reference - Site does not support widget
+
+Projects : 
+
+(TaskBreaker) My Recent Task - My Recent Tasks - Imported
+Thrive: Birthday Widget - Birthdays - Imported
+Gears: Recent Posts - Recent Posts - Imported
+
+
+
+---pt-ocdi/after_import---
+

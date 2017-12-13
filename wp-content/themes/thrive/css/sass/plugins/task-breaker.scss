@@ -1,0 +1,25 @@
+#task_breaker-task-add-tab {
+    /*Task Breaker (temporary)*/
+    a {
+        padding: 7.5px 15px 7.5px 15px;
+    }
+}
+
+#task_breaker-project-tab-content {
+    margin-top: -2px;
+}
+
+@media( max-width: 768px ){
+	#task_breaker-dashboard-at-a-glance ul li {
+		width: 100%;
+	}
+
+	#task_breaker-dashboard-at-a-glance ul li .task_breaker-dashboard-at-a-glance-box {
+		margin-bottom: 0px;
+	}
+}
+
+#task_breaker-new-project-modal {
+	z-index: 2000;
+	background-color: rgba(0, 0, 0, 0.78);
+}

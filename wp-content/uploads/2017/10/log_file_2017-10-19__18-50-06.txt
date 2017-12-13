@@ -1,0 +1,76 @@
+
+---Downloaded files---
+The import files for: Thrive Intranet & Extranet Demo were successfully downloaded!
+Initial max execution time = 600
+Files info:
+Site URL = http://community.raketenstark.com
+Data file = /html/community/wp-content/uploads/2017/10/demo-content-import-file_2017-10-19__18-50-06.xml
+Widget file = /html/community/wp-content/uploads/2017/10/demo-widgets-import-file_2017-10-19__18-50-06.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Sidebar : 
+
+Gears: Social Media Widget - Social Media - Imported
+Thrive: Featured Group - Featured Group - Imported
+Gears: Recent Posts - Recent Posts - Imported
+Veranstaltungsliste - Upcoming Events - Imported
+wpknb_widget - Site Reference - Site does not support widget
+
+BP Sidebar : 
+
+Thrive: Featured Member - Featured Member - Imported
+Thrive: Featured Group - Featured Group - Imported
+(BuddyPress) Friends - No Title - Imported
+(BuddyPress) Groups - Groups - Imported
+(BuddyPress) Members - Popular Members - Imported
+
+Sidenav Sidebar : 
+
+(TaskBreaker) My Recent Task - My Recent Tasks - Imported
+(BuddyPress) Recently Active Members - Recently Active Members - Imported
+(BuddyPress) Members - Members - Imported
+Text - Info - Imported
+
+Archives : 
+
+Gears: Social Media Widget - Social Media - Imported
+Thrive: Featured Member - Writer of the Month - Imported
+Gears: Recent Posts - Recent Posts - Imported
+Veranstaltungsliste - Upcoming Events - Imported
+wpknb_widget - Site Reference - Site does not support widget
+
+Dashboard : 
+
+Veranstaltungsliste - Upcoming Events - Imported
+(TaskBreaker) My Recent Task - My Recent Tasks - Imported
+Thrive: Birthday Widget - Upcoming Birthdays - Imported
+Thrive: Featured Member - Featured Member - Imported
+Gears: Recent Posts - Recent Posts - Imported
+Thrive: Featured Group - Featured Group - Imported
+(BuddyPress) Members - Staff - Imported
+(BuddyPress) Groups - Groups - Imported
+Polls - Polls - Imported
+
+Footer : 
+
+Text - About - Imported
+bbp_search_widget - Search Forums - Site does not support widget
+(BuddyPress) Recently Active Members - Recently Active Members - Imported
+wpknb_widget - Site Reference - Site does not support widget
+
+Projects : 
+
+(TaskBreaker) My Recent Task - My Recent Tasks - Imported
+Thrive: Birthday Widget - Birthdays - Imported
+Gears: Recent Posts - Recent Posts - Imported
+
+
+
+---pt-ocdi/after_import---
+

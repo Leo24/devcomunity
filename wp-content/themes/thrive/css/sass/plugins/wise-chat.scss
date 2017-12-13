@@ -1,0 +1,636 @@
+#thrive-wisechat-support {
+
+	position: fixed;
+    z-index: 4000;
+    bottom: 0;
+    right: 15px;
+
+    #thrive-chat-label {
+    	display: none;
+   	}
+
+   	#thrive-chat-icon {
+		float: left;
+		em {
+			font-style: normal;
+			font-size: 12px;
+			position: relative;
+			top: -5px;
+		}
+   	}
+
+   	.wcControlsButtonsIncluded a.wcAddImageAttachment {
+   		background: none;
+   		border: 0;
+   		cursor: pointer;
+   		&:before {
+			@extend .material_font_extend;
+			content: "camera";
+
+   			position: absolute;
+   			top: 2.25px;
+   			right: 0px;
+   			@extend .primary;
+   		}
+
+   	}
+
+    &.inactive {
+
+    	width: 250px;
+
+    	.wcContainer {
+    		display: none;
+    	}
+
+    	#thrive-wisechat-support-close-btn-icon {
+    		display: none;
+    	}
+
+    	#thrive-chat-label {
+    		display: block;
+    	}
+    }
+
+    .wcContainer {
+
+    	width: 250px;
+
+    	transition: all 0.25s ease-in-out;
+    	-webkit-transition: all 0.25s ease-in-out;
+    	-moz-transition: all 0.25s ease-in-out;
+
+    	&.wcUsersListIncluded {
+    		width: 350px;
+            @media(max-width: 480px) {
+               width: 350px;
+            }
+            @media(max-width: 375px) {
+               width: 300px;
+            }
+            @media(max-width: 320px) {
+               width: 280px;
+            }
+    	}
+    }
+
+    .wcContainer .wcUsersList {
+    	border: 0;
+    	padding: 5px 0;
+    	margin: 0;
+    	.wcCurrentUser {
+    		&:before {
+    			content: ".";
+    			text-indent: -9999px;
+    			height: 15px;
+    			width: 15px;
+    			background: green;
+    			border-radius: 50%;
+    			display: block;
+    			float: left;
+    			margin-right: 2.5px;
+    		}
+    	}
+    }
+
+    #thrive-wisechat-support-close-btn {
+    	@extend .bg-primary-700;
+    	color: $light;
+    	text-align: right;
+    	padding: 5px 5px;
+
+    	i {
+    		cursor: pointer;
+    	}
+    }
+
+    .wcContainer, .wcError {
+    	border-radius: 0;
+    	padding-top: 0;
+    }
+
+    .wcContainer .wcMessages {
+    	margin: 0;
+    }
+
+    .wcMessage .wcImage {
+    	display: block;
+    }
+
+    .wcControls {
+    	background: $light;
+    	border-width: 1px;
+    	border-style: solid;
+    	border-color: $dark_borders;
+    	border-top: 0;
+    	padding: 0 10px;
+        .wcCurrentUserName {
+            margin: 5px 0;
+        }
+
+    	.wcSubmitButton {
+    		padding: 5px;
+    		line-height: 1px;
+    		height: 30px;
+    		border-radius: 0;
+    		margin-right: -6px;
+            margin-top: 7.5px;
+            position: relative;
+            top: 2.5px;
+    	}
+    }
+
+    .wcContainer input[type="text"],
+    .wcContainer input[type="password"],
+    .wcContainer textarea {
+    		border: none;
+    		margin-bottom: 0;
+    		line-height: 27.5px;
+    	}
+}
+/**
+ * WiseChat Pro Support
+ */
+.admin-bar {
+    #thrive-wisechat-support {
+        @media(max-width: 615px) {
+            z-index: 999999;
+        }
+        .wcSidebarMode .wcUsersList {
+            top: 32px;
+            @media(max-width: 768px) {
+                top: 46px;
+            }
+            @media(max-width: 615px) {
+                top: 0;
+            }
+        }
+    }
+}
+#thrive-wisechat-support {
+    &.fb-mode-enabled,
+    &.has-shortcode,
+    &.has-wise-chat {
+        #thrive-wisechat-support-close-btn {
+            display: none;
+        }
+    }
+    &.fb-mode-enabled {
+        .wcContainer {
+            > .wcWindowTitle:first-of-type {
+                @media(max-width: 768px) {
+                    min-width: 300px;
+                    max-width: 300px;
+                    left: 160px;
+                }
+                @media(max-width: 615px) {
+                    max-width: none;
+                    z-index: 300001;
+                    left: auto;
+                }
+                &.inactive {
+                    @media(max-width: 768px) {
+                        max-width: 30px;
+                        min-width: 30px;
+                        left: auto;
+                    }
+                    @media(max-width: 680px) {
+                        left: 100px;
+                    }
+                    @media(max-width: 615px) {
+                        max-width: none;
+                        left: auto;
+                    }
+                }
+            }
+
+            .wcWindowContent,
+            .wcMessagesContainerTab,
+            .wcWindowTitle,
+            .wcMessages,
+            .wcControls {
+                min-width: 300px;
+                max-width: 300px;
+                @media(max-width: 615px) {
+                    min-width: 100%;
+                    max-width: none;
+                }
+            }
+            .wcMessagesContainersTabs {
+                @media(max-width: 768px) {
+                    position: relative;
+                    height: 30px;
+                    width: 350px;
+                    float: right;
+                    text-align: right;
+                    right: -35px;
+                    top: 1px;
+                }
+                @media(max-width: 615px) {
+                    text-align: left;
+                    position: static;
+                }
+
+            }
+            .wcMessagesContainerTab {
+                @media(max-width: 768px) {
+                    text-align: left;
+                }
+                &.wcMessagesContainerTabMinimized {
+                    @media(max-width: 768px) {
+                        min-width: 30px;
+                        max-width: 30px;
+                        height: 29px;
+                        position: relative;
+                        right: auto!important;
+                        display: inline-block;
+                        float: right;
+                    }
+                    @media(max-width: 615px) {
+                        max-width: none;
+                        right: 0!important;
+                        position: fixed;
+                        min-width: 100%;
+                    }
+
+                    .wcMessagesContainerTabLink {
+                        @media(max-width: 768px) {
+                            display: none;
+                        }
+                        @media(max-width: 615px) {
+                            display: inline-block;
+                        }
+                    }
+                    .wcMessagesContainerTabMinMaxLink {
+                        @media(max-width: 768px) {
+                            right: 2px;
+                        }
+                        @media(max-width: 615px) {
+                            right: 28px;
+                        }
+                    }
+                    .wcMessagesContainerTabCloseLink {
+                        @media(max-width: 768px) {
+                            display: none;
+                        }
+                        @media(max-width: 615px) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .wcMessagesContainerTab:not(.wcMessagesContainerTabMinimized),
+            .wcMessages,
+            .wcControls {
+                @media(max-width: 768px) {
+                    left: 160px;
+                }
+                @media(max-width: 680px) {
+                    left: 100px;
+                }
+                @media(max-width: 615px) {
+                    left: auto;
+                }
+            }
+
+            .wcMessages,
+            .wcControls {
+                &.wcInvisible {
+                    @media(max-width: 768px) {
+                        min-width: 30px;
+                        max-width: 30px;
+                        display: none !important;
+                    }
+                    @media(max-width: 615px) {
+                        max-width: 300px;
+                        min-width: 300px;
+                    }
+                }
+            }
+            .wcUsersList,
+            .wcCustomizations.wcInvisible,
+            .wcUsersCounter.wcInvisible {
+                @media(min-width: 615px) {
+                    display: block!important;
+                }
+            }
+            .wcMessages {
+                height: 300px;
+                &:not(.wcMessages1) {
+                    @media(min-width: 615px) {
+                        display: block!important;
+                    }
+                }
+                &.wcInvisible {
+                    @media(min-width: 615px) {
+                        display: none!important;
+                    }
+                }
+            }
+            .wcControls {
+                .wcInputContainer {
+                    margin-left: -15px;
+                    margin-bottom: 5px;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        height: 100%;
+                        min-width: 280px;
+                        background: white;
+                        border-radius: 6px;
+                        display: inline-block;
+                        position: absolute;
+                        left: 10px;
+                    }
+                    textarea {
+                        background: transparent;
+                        max-height: 100px;
+                        padding-right: 23px;
+                        border-radius: 0;
+                        overflow-y: visible !important;
+                        position: relative;
+                        right: -10px;
+                    }
+                }
+                .wcToolButton,
+                .wcSubmitButton {
+                    margin-top: 0;
+                    top: 0;
+                }
+                .wcToolButton {
+                    float: left;
+                    margin-bottom: 10px;
+                    position: relative;
+                    left: -14px;
+                    &:before {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .wcContainer {
+        &.wcUsersListIncluded {
+            width: 600px;
+            @media(max-width: 768px) {
+                width: 400px;
+            }
+            @media(max-width: 480px) {
+                width: 400px;
+            }
+            @media(max-width: 440px) {
+                width: 100%;
+            }
+        }
+        &.wcSidebarModeUsersListTogglerEnabled {
+
+        }
+        .wcMessages {
+            .wcCurrentUserMessage {
+                background: none;
+                border: none;
+                img.wcMessageAvatar {
+                    float: right;
+                    margin-left: 7px;
+                    margin-right: 0;
+                }
+            }
+            .wcMessage {
+                margin: 5px;
+                border: none;
+                .wcMessageContainer {
+                    background: #eceff1;
+                    border-radius: 6px;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    .wcToolButton {
+        &:before {
+            z-index: 9999;
+            cursor: pointer;
+        }
+    }
+}
+#thrive-wisechat-support.inactive {
+    &.fb-mode-enabled {
+        .wcContainer {
+            display: block;
+        }
+    }
+}
+
+.thrive-inline {
+    .wcContainer a.wcAddImageAttachment {
+        background: none;
+        border: 0;
+        cursor: pointer;
+        &:before {
+            @extend .material_font_extend;
+            content: "camera";
+
+            position: relative;
+            top: 5px;
+            right: 0px;
+            @extend .primary;
+        }
+    }
+    .wcContainer {
+        .wcControls {
+            .wcSubmitButton {
+                position: relative;
+                top: 10px;
+            }
+            .wcToolButton {
+                margin-top: 7.5px;
+            }
+            .wcCurrentUserName {
+                margin: 10px 0;
+            }
+        }
+        .wcInputContainer textarea.wcInput {
+            padding: 5px;
+        }
+        input[type="button"],
+        input[type="submit"] {
+            padding: 0 25px;
+            line-height: 20px;
+            border: 0;
+            border-radius: 2px;
+
+            @extend .bg-primary-700;
+            &:hover,
+            &:focus,
+            &:active {
+                @extend .bg-primary-700;
+                padding: 0 25px;
+            }
+            &:hover {
+                @include card(2);
+            }
+        }
+    }
+    #thrive-wisechat-support {
+        .wcUsersList {
+            .wcCurrentUser {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
+    .wcUsersList {
+        .wcUserInChannel {
+            padding: 0 10px;
+
+            .wcUserListAvatar {
+                border-radius: 50%;
+            }
+        }
+        .wcCurrentUser {
+            &:before {
+                display: none;
+            }
+            .wcUserListAvatar {
+                padding: 2px;
+                background: #9CCC65;
+            }
+        }
+    }
+    .wcContainer {
+        input[type="button"],
+        input[type="submit"] {
+            padding: 0 25px;
+            line-height: 20px;
+            border: 0;
+        	border-radius: 2px;
+
+            @extend .bg-primary-700;
+            &:hover,
+            &:active {
+                @extend .bg-primary-700;
+            }
+            &:hover {
+                @include card(2);
+            }
+        }
+        .wcCustomizations {
+            padding: 5px;
+            a.wcCustomizeButton {
+                color: $primary;
+                font-size: 12px;
+                display: inline-block;
+                height: 25px;
+                padding-left: 30px;
+                line-height: 25px;
+                position: relative;
+                &:before {
+                    @extend .material_font_extend;
+                    content: 'format_color_fill';
+                    display: inline-block;
+                    position: absolute;
+                    left: 5px;
+                }
+            }
+        }
+        .wcUsersList {
+            .wcCurrentUser {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+        .wcMessages {
+            .wcMessageAvatar {
+                border-radius: 50%;
+                max-width: 35px;
+            }
+            .wcWpMessage {
+
+            }
+        }
+        .wcInputContainer {
+            textarea {
+                padding-left: 0;
+            }
+        }
+        .wcControls {
+            .wcToolButton {
+                text-align: center;
+                color: $primary;
+            }
+            .wcInsertEmoticonButton,
+            .wcAddFileAttachment {
+                background: none;
+                &:before {
+                    @extend .material_font_extend;
+                    position: relative;
+                    top: 5px;
+                }
+            }
+            .wcInsertEmoticonButton {
+                &:before {
+                    content: 'tag_faces';
+                }
+            }
+            .wcAddFileAttachment {
+                &:before {
+                    content: 'attach_file';
+                }
+            }
+        }
+    }
+    .colorPicker-picker {
+        border-radius: 50%;
+    }
+    .wcEmoticonsLayer {
+        background: #fff;
+        border: none;
+        min-width: 285px;
+        @include card(2);
+        a {
+            background: none;
+            border: none;
+        }
+    }
+
+    .colorPicker-palette {
+        min-width: 235px;
+        background: #fff!important;
+        border: none!important;
+        @include card(2);
+
+        .colorPicker-swatch {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            border: 1px solid #9a9a9a;
+        }
+    }
+    .wcSidebarMode .wcWindowTitleActive,
+    .wcSidebarMode .wcMessagesContainersTabs > .wcWindowTitleActive {
+        background: $primary;
+        border-color: $primary;
+    }
+    #thrive-wisechat-support {
+        .wcControlsButtonsIncluded a.wcAddImageAttachment:before {
+            position: relative;
+            top: 5px;
+        }
+        .wcContainer input[type="password"] {
+            width: 100%;
+            max-width: none;
+            margin-bottom: 10px;
+        }
+    }
+}
+/**
+ * Hotfix for <https://github.com/codehaiku/thrive-wordpress-theme-lts/issues/5>
+ */
+body.thrive-inline #thrive-wisechat-support .wcControlsButtonsIncluded a.wcAddImageAttachment:before,
+body.thrive-inline #thrive-wisechat-support .wcContainer .wcControls .wcAddFileAttachment:before {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}

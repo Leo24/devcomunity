@@ -1,0 +1,112 @@
+/*
+Theme Name: Thrive
+Theme URI: http://themeforest.net/item/thrive-intranet-wordpress-community-theme/12275020
+Author: Dunhakdis
+Author URI: http://themeforest.net/user/dunhakdis
+Description: Thrive is an innovative WordPress Theme designed to cater company portals, organisational websites, company intranet and extranets. Thrive helps you build a WordPress based intranet for your company so that your staffs and members can easily share information, files, events, docs, resources, etc.  Thrive can also be used to facilitate group projects, reports, and activities.
+Version: 2.1.9
+License: Envato License
+License URI: http://themeforest.net/licenses
+Text Domain: thrive
+Tags: custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu
+
+Thrive is an innovative WordPress Theme designed to cater company portals, organisation websites, company intranet and extranets. It also helps you build a WordPress based intranet for your company so that your staffs and members can easily share information, files, events, docs, tickets, messages, and forms.
+*/
+
+@import "colors.scss";
+@import "mixins.scss";
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Typography
+2.0 General Tags
+3.0 WordPress Core
+4.0 Menu
+5.0 Footer
+6.0 Forms
+7.0 Widgets
+8.0 Spacing
+9.0 Posts
+10.0 Comments
+11.0 Contents
+12.0 Archives
+13.0 Pages
+14.0 Secondary Menu
+15.0 Visual Composer
+16.0 Internet Explorer
+XX.0 Plugins
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+1.0 Typography
+--------------------------------------------------------------*/
+@import "typography.scss";
+/*--------------------------------------------------------------
+2.0 General Tags
+--------------------------------------------------------------*/
+@import "general.scss";
+/*--------------------------------------------------------------
+3.0 WordPress Core
+--------------------------------------------------------------*/
+@import "wordpress.scss";
+/*--------------------------------------------------------------
+4.0 Menu
+--------------------------------------------------------------*/
+@import "menu.scss";
+/*--------------------------------------------------------------
+5.0 Footer
+--------------------------------------------------------------*/
+@import "footer.scss";
+/*--------------------------------------------------------------
+6.0 Forms
+--------------------------------------------------------------*/
+@import "forms.scss";
+/*--------------------------------------------------------------
+7.0 Widgets
+--------------------------------------------------------------*/
+@import "widgets.scss";
+/*--------------------------------------------------------------
+8.0 Spacing
+--------------------------------------------------------------*/
+@import "spacing.scss";
+/*--------------------------------------------------------------
+9.0 Posts
+--------------------------------------------------------------*/
+@import "posts.scss";
+/*--------------------------------------------------------------
+10.0 Comments
+--------------------------------------------------------------*/
+@import "comments.scss";
+/*--------------------------------------------------------------
+11.0 Contents
+--------------------------------------------------------------*/
+@import "content.scss";
+/*--------------------------------------------------------------
+12.0 Archives
+--------------------------------------------------------------*/
+@import "archives.scss";
+/*--------------------------------------------------------------
+13.0 Pages
+--------------------------------------------------------------*/
+@import "page.scss";
+/*--------------------------------------------------------------
+14.0 Secondary Menu
+--------------------------------------------------------------*/
+@import "menu-secondary.scss";
+/*--------------------------------------------------------------
+
+/*--------------------------------------------------------------
+15.0 Visual Composer
+--------------------------------------------------------------*/
+@import "visual-composer.scss";
+/*--------------------------------------------------------------
+16.0 Internet Explorer
+--------------------------------------------------------------*/
+@import "ie.scss";
+/*--------------------------------------------------------------
+X.X Plugins
+--------------------------------------------------------------*/
+@import "plugins.scss";
+@import "beta.scss";
+@import "layout-2-columns.scss";

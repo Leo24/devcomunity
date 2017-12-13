@@ -1,0 +1,69 @@
+#buddydrive-item-nav {
+	ul {
+		padding-left: 0;
+		li {
+			list-style: none;
+		}
+	}
+}
+
+div#buddydrive-main #buddydrive-uploader .drag-drop #drag-drop-area {
+    border: 2px dashed #9E9E9E;
+}
+
+@media (max-width: 768px) {
+
+	nav#buddydrive-item-nav ul li a {
+		padding: 0;
+		display: block;
+	}
+
+	#buddydrive-item-nav ul li#buddydrive-action-analytics  {
+		float: none;
+		display: block;
+		clear: both;
+	}
+
+	nav#buddydrive-item-nav ul li.last {
+	    float: none;
+    	padding: 0;
+    	font-size: 15px;
+    	margin: 31px 0 0 0;
+	}
+
+}
+
+.buddydrive-item-name {
+	min-width: auto;
+}
+table#buddydrive-dir {
+	@media ( max-width: 768px ) {
+		tr td:first-child,
+		tr td:nth-child(3),
+		tr td:nth-child(4),
+		th:first-child,
+		th.buddydrive-privacy,
+		th.buddydrive-mime-type
+
+		 {
+			display: none;
+		}
+	}
+}
+
+nav#buddydrive-item-nav ul li:first-child a {
+	padding-left: 0;
+}
+
+/**
+ * New BuddyDrive
+ */
+#buddydrive-main {
+	.subsubsub {
+		padding-left: 0;
+		clear: both;
+		li {
+			list-style: none;
+		}
+	}
+}

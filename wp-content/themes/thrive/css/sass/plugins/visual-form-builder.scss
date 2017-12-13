@@ -1,0 +1,177 @@
+#ui-datepicker-div {
+	@include card(2);
+
+	.ui-datepicker-header {
+		background: $light;
+		margin-bottom: -1px;
+		font-weight: 700;
+		padding: 10px;
+		position: relative;
+
+		.ui-datepicker-prev,
+		.ui-datepicker-next {
+			position: absolute;
+		    height: 24px;
+			cursor: pointer;
+		}
+		.ui-datepicker-prev{
+			left: 5px;
+			&:before {
+				@extend .material_font_extend;
+				content: "keyboard_arrow_left";
+			}
+		}
+		.ui-datepicker-next {
+			right: 5px;
+			&:before {
+				@extend .material_font_extend;
+				content: "keyboard_arrow_right";
+			}
+		}
+		.ui-datepicker-title {
+			color: $dark_secondary_icon;
+			padding: 0 24px;
+		    text-align: center;
+		}
+	}
+
+	.ui-datepicker-calendar {
+		box-shadow: none;
+		text-align: center;
+		th {
+			text-align: center;
+		}
+		td {
+			a {
+				color: $dark_secondary_icon;
+			    width: 40px;
+			    height: 40px;
+			    line-height: 40px;
+				display: block;
+				position: relative;
+			    z-index: 4;
+
+				@media(max-width: 375px) {
+					width: 25px;
+				    height: 25px;
+				    line-height: 25px;
+				}
+				&.ui-state-highlight,
+				&.ui-state-active,
+				&.ui-state-hover {
+					color: $light;
+					&:before {
+						-webkit-transform: scale(1);
+						   -moz-transform: scale(1);
+								transform: scale(1);
+					}
+				}
+				&:before {
+					content: "";
+					background: $primary_700;
+					width: 100%;
+					height: 100%;
+				    display: block;
+					border-radius: 50%;
+				    position: absolute;
+					z-index: -2;
+
+					-webkit-transform: scale(0);
+					   -moz-transform: scale(0);
+							transform: scale(0);
+
+					-webkit-transition: all 0.25s ease-in-out;
+					   -moz-transition: all 0.25s ease-in-out;
+							transition: all 0.25s ease-in-out;
+				}
+				&.ui-state-highlight {
+					&:before {
+						background: $primary
+					}
+				}
+			}
+		}
+	}
+}
+
+.vfb-span {
+	label {
+		font-size: 14px;
+		font-weight: normal;
+		color: $dark_secondary_icon;
+	}
+
+	.vfb-choice {
+		display: inline-block;
+		margin: 0.75em;
+	}
+}
+
+.vfb-fieldset {
+
+	background: $yellow_50;
+	padding: 20px;
+	border-radius: 4px;
+	margin: 20px 0;
+	border: 1px solid $yellow_100;
+
+	.vfb-section {
+
+		padding-left: 0;
+
+		li {
+			list-style: none;
+
+			select {
+			    background-color: transparent;
+			}
+
+			&.vfb-item-checkbox,
+			&.vfb-item-radio {
+				.vfb-span {
+					label {
+						position: relative;
+					    top: -2px;
+					}
+				}
+			}
+			&.vfb-item-time{
+				.vfb-time{
+					display: inline-block;
+					margin-right: 15px;
+					line-height: 0;
+
+					label {
+						float: left;
+					    margin-right: 5px
+					}
+				}
+			}
+		}
+	}
+
+}
+
+label{
+	&.vfb-error {
+		background: $red;
+		color: $light_secondary;
+		clear: both;
+		padding: 10px 10px 10px 39px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-radius: 4px;
+		font-size: 14px;
+	    font-weight: normal;
+		border: none;
+		position: relative;
+		&:before {
+			@extend .material_font_extend;
+			content: "error_outline";
+
+			position: absolute;
+		    top: 9.5px;
+		    left: 10px;
+		}
+	}
+}

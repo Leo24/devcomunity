@@ -1,0 +1,38 @@
+.vc_toggle_title > h4 {
+	font-size: 14px;
+	line-height: 1.3
+}
+
+#content .wpb_content_element .wpb_tabs_nav {
+    margin: 0;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+
+    li {
+    	border: 0;
+    }
+}
+
+.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header,
+.wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab {
+	background: $light;
+}
+.thrive-inline{
+	.ui-accordion .ui-accordion-header{
+		padding: .5em .5em 0 .7em;
+	}
+	.wpb_accordion .wpb_accordion_wrapper{
+		.ui-state-active .ui-icon{
+		    top: 17.5px;
+		}
+		.ui-state-default .ui-icon{
+		    top: 17.5px;
+		}
+	}
+	.flexslider.flexslider_fade {
+		overflow: hidden;
+		.flex-control-paging {
+		    margin-top: -15px;
+		}
+	}
+}

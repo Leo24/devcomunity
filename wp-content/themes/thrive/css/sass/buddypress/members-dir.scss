@@ -1,0 +1,223 @@
+.buddypress {
+
+	&.directory.members {
+
+		#search-members-form {
+			margin-bottom: 20px;
+		}
+
+		.item-list-tabs {
+
+			display: inline-block;
+			margin-bottom: -5px;
+			float: left;
+
+			&#subnav {
+				float: right;
+				text-transform: uppercase;
+  				font-size: 14px;
+  				margin-top: 0;
+			}
+
+			ul {
+
+				padding-left: 0;
+				display: inline-block;
+				margin-bottom: 25px;
+
+				li {
+
+					float: left;
+					list-style: none;
+					margin-bottom: 0;
+					margin-right: 15px;
+					display: block;
+					position: relative;
+
+					a {
+						padding: 0;
+						display: block;
+						color: $dark_secondary_icon;
+						font-weight: bold;
+						font-size: 12px;
+						text-transform: uppercase;
+						border-bottom: 2px solid $dark_borders;
+					}
+
+					&.loading {
+						a {
+							padding-right: 30px;
+							&:after {
+								@extend .buddypress_material_font_after;
+								content: "refresh";
+
+								@include rotate();
+								@include rotating();
+								position: absolute;
+								top: 0;
+								right: 10px;
+								font-size: 18px;
+								line-height: 1em ;
+							}
+						}
+					}
+
+					&.selected {
+						a {
+							@extend .primary;
+							border-color: $primary;
+						}
+					}
+				}
+			}
+		}
+
+		#members-dir-list {
+			width: 100%;
+			display: block;
+			clear: both;
+			margin-bottom: 0;
+		}
+	}
+
+	ul#friends-list,
+	ul#members-list {
+		padding-left: 0;
+		 li {
+		 	list-style:  none;
+		 	border-bottom: 1px solid $dark_borders;
+		 	padding: 15px 25px;
+		 	margin: 0 -15px;
+
+		 	@media( max-width: 768px ) {
+		 		margin: 0 -10px;
+		 	}
+
+		 	.item-title {
+		 		span.update {
+		 			display: block;
+		 			margin: 10px 0;
+
+		 			.activity-read-more {
+		 				@include caption();
+		 				margin-left: 10px;
+		 				a {
+		 					@extend .secondary;
+		 				}
+		 				&:after {
+							@extend .buddypress_material_font_after;
+							content: "arrow_forward";
+
+		 					font-size: 18px;
+		 					position: relative;
+		 					top: 5px;
+		 					@extend .secondary;
+		 				}
+		 			}
+		 		}
+
+		 	}
+
+		 	.activity {
+		 		color: $dark_secondary_icon;
+				font-size: 13px;
+		 	}
+
+		 	.action {
+
+		 		.is_friend {
+		 			a:before {
+						@extend .buddypress_material_font_before;
+						content: "indeterminate_check_box";
+
+		 				position: relative;
+		 				top: 7.5px;
+		 			}
+		 		}
+
+		 		a {
+		 			font-size: 12px;
+		 			font-weight: bold;
+		 			text-transform: uppercase;
+		 			@extend .secondary;
+		 			&:before {
+						@extend .buddypress_material_font_before;
+						content: "person_add";
+
+		 				position: relative;
+		 				top: 5px;
+		 				margin-right: 10px;
+		 			}
+
+		 		}
+
+		 		a.remove {
+		 			&:before {
+						content: "indeterminate_check_box";
+		 			}
+		 		}
+		 	}
+		}
+	}
+
+	ul#friend-list {
+		padding-left: 0;
+	    margin: 0 -15px 1.5em;
+
+		@media( max-width: 768px ) {
+			margin: 0 -10px 1.5em;
+		}
+
+		 li {
+		 	list-style:  none;
+		 	border-bottom: 1px solid $dark_borders;
+	 	    padding: 15px;
+			float: left;
+		    width: 100%;
+			margin-bottom: 0;
+
+			&:last-of-type {
+				margin-bottom: 1.5em;
+			}
+
+			.item-avatar {
+				float: left;
+			    display: inline-block;
+			    margin-right: 30px;
+
+				@media( max-width: 480px ) {
+					margin-right: 7.338%;
+					width: 25%;
+				}
+			}
+			.item {
+				display: inline-block;
+				width: 80%;
+				float: left;
+				margin-bottom: 15px;
+				@media( max-width: 480px ) {
+				    width: 67.5%;
+				}
+			}
+			.action {
+				display: inline-block;
+			    width: 80%;
+			    float: left;
+				@media( max-width: 480px ) {
+				    width: 67.5%;
+				}
+				@media( max-width: 320px ) {
+				    float: right;
+				    font-size: 0;
+					.button {
+						width: 100%;
+					    text-align: center;
+						&.accept{
+							margin-bottom: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

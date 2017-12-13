@@ -1,0 +1,2630 @@
+/**
+ * Learndash LMS CSS
+ *
+ * @package thrive
+ * @since version 1.6.0
+ */
+
+ /**
+ * wpProQuiz_front_style.css content
+ * originally handled by the learndash plugin
+ * but we dequeue it inside functions.php
+ */
+ .wpProQuiz_content,.wpProQuiz_content h2{margin-bottom:10px}.wpProQuiz_answerCorrect{background:#6db46d;font-weight:700}.wpProQuiz_answerCorrect label{font-weight:700}.wpProQuiz_answerIncorrect{background:#ff9191;font-weight:700}.wpProQuiz_content{margin-top:10px}.wpProQuiz_button,.wpProQuiz_button:hover{margin:0;padding:5px 10px;background:#13455b;border-radius:11px;color:#fff;font-weight:700;border:1px solid #13455b;box-shadow:1px 1px 1px #333;text-shadow:none;filter:none;float:none}.wpProQuiz_question_page{margin-bottom:10px}.wpProQuiz_question_page span{font-weight:700}.wpProQuiz_questionListItem:last-child,.wpProQuiz_questionListItemLastChildIE{padding:3px;margin-bottom:0}.wpProQuiz_questionListItem{padding:3px;margin-bottom:5px;background-image:none;margin-left:0;list-style:none;border:0}.wpProQuiz_questionListItem>table{border-collapse:collapse;margin:0;padding:0;width:100%}.wpProQuiz_catOverview ol,.wpProQuiz_list,.wpProQuiz_listItem,.wpProQuiz_maxtrixSortCriterion,.wpProQuiz_questionList,.wpProQuiz_resultsList,.wpProQuiz_sortStringList{list-style:none;padding:0;margin:0}.wpProQuiz_list{border:0}.wpProQuiz_questionList{margin-bottom:10px;background:#f8faf5;border:1px solid #c3d1a3;padding:5px;list-style:none}.wpProQuiz_listItem{position:relative;border:0;background-image:none}.wpProQuiz_response{background:#f8faf5;border:1px solid #c4c4c4;padding:5px;margin-bottom:15px;box-shadow:1px 1px 2px #AAA}.wpProQuiz_response span{font-weight:700}.wpProQuiz_sort{width:25px}.wpProQuiz_results h3{margin-bottom:10px}.wpProQuiz_sort_correct_answer{font-weight:700;margin-right:5px;display:none}.wpProQuiz_sortStringItem,.wpProQuiz_sortable{padding:5px;border:1px solid #d3d3d3;box-shadow:2px 2px 1px #EEE;background-color:#f8faf5;cursor:move}.wpProQuiz_time_limit .time{font-weight:700;margin-top:5px;margin-bottom:5px}.wpProQuiz_time_limit .wpProQuiz_progress{height:10px;background-color:#00f;margin-bottom:5px}.wpProQuiz_time_limit_expired{font-weight:700;font-size:15px;text-align:center}.wpProQuiz_question_text{margin-bottom:10px;overflow:hidden}.wpProQuiz_tipp>div{padding:10px;background-color:#ddecff;border:1px dotted #363636;border-radius:10px;position:absolute;bottom:5px;left:5px;right:5px;box-shadow:2px 2px 5px 0 #313131;z-index:99999}.wpProQuiz_matrixSortString,.wpProQuiz_matrixSortString>h3{margin-bottom:10px;margin-top:0}.wpProQuiz_matrixSortString{background:#f8faf5;border:1px solid #c3d1a3;padding:5px}.wpProQuiz_sortStringList{padding:10px;border:0}.wpProQuiz_maxtrixSortCriterion,.wpProQuiz_maxtrixSortText,.wpProQuiz_placehold{padding:5px}.wpProQuiz_sortStringList>li{float:left;margin-left:5px;margin-right:5px;margin-bottom:5px}.wpProQuiz_placehold,.wpProQuiz_sortStringItem{background-image:none;margin:0;list-style:none}.wpProQuiz_placehold{background-color:#ffffc2;height:30px;min-width:50px}.wpProQuiz_mextrixTr>td{border:1px solid #d1d1d1;padding:5px;vertical-align:middle}.wpProQuiz_points{font-weight:700;text-align:center;margin-bottom:20px}.wpProQuiz_cloze input[type=text]{background:0 0;border:0;border-bottom:1px solid;height:18px;line-height:18px;margin:0;padding:0 4px;color:#000;border-radius:0;box-shadow:0 0}.wpProQuiz_cloze input:focus{outline:0}.wpProQuiz_questionListItem input,.wpProQuiz_questionListItem label{margin:0;font-weight:400;display:inline}.wpProQuiz_questionListItem input{float:none;display:inline}.wpProQuiz_resultsList{border:0}.wpProQuiz_resultsList>li{background-image:none;padding:0;margin:0;list-style-type:none;border:0}.wpProQuiz_loadQuiz,.wpProQuiz_lock,.wpProQuiz_prerequisite,.wpProQuiz_startOnlyRegisteredUser{border:1px dotted #ffc3c3;background-color:#fff7f7}.wpProQuiz_loadQuiz p,.wpProQuiz_lock p,.wpProQuiz_prerequisite p,.wpProQuiz_startOnlyRegisteredUser p{margin:20px;font-weight:700}.wpProQuiz_toplistTable{width:100%;border:1px solid #c3d1a3;border-collapse:collapse;margin:0}.wpProQuiz_toplistTable caption{caption-side:top;text-align:right;padding-bottom:2px;color:gray;margin:0;font-size:11px}.wpProQuiz_toplistTable thead tr{background:#9bbb59;padding:5px;color:#fff;font-weight:700}.wpProQuiz_toplistTable tbody td:first-child{font-weight:700}.wpProQuiz_toplistTable td,.wpProQuiz_toplistTable th{padding:5px;text-align:center;border:0}.wpProQuiz_toplistTable th{background:#9bbb59}.wpProQuiz_toplistTrOdd{background-color:#ebf1de}.wpProQuiz_addToplist{margin-top:10px;background-color:#f5faea;padding:10px;border:1px solid #c3d1a3}.wpProQuiz_addToplistMessage{border:1px solid #a0a0a0;background-color:#fcffb3;margin-bottom:5px;border-radius:5px;padding:5px;font-weight:700;color:#696969}.wpProQuiz_resultTable{margin:15px auto;width:400px;border:1px solid #c4c4c4;padding:15px;font-weight:700}.wpProQuiz_resultTable table{width:100%;border-collapse:collapse;margin:0;border:0}.wpProQuiz_resultName{width:100px;border-right:1px solid #868686;padding:10px 0;border-bottom:0;border-top:0;border-left:0}.wpProQuiz_resultValue{padding:0;border:0}.wpProQuiz_box,.wpProQuiz_reviewQuestion{border:1px solid #c3d1a3;background-color:#f8faf5}.wpProQuiz_resultValue div{color:#000;text-align:right;box-shadow:1px 1px 3px 1px #c4c4c4;display:inline-block;height:18px;zoom:1;margin-right:3px;vertical-align:middle}.wpProQuiz_addBox label{display:inline}.wpProQuiz_addBox input[type=text]{margin:0}.wpProQuiz_reviewQuestion{max-height:100px;overflow:hidden;position:relative}.wpProQuiz_checkPage h3{margin:10px 0}.wpProQuiz_checkPage ol,.wpProQuiz_reviewQuestion ol{list-style-type:none;margin:0;padding:5px 12px 0 5px;zoom:1;position:relative;border:0}.wpProQuiz_reviewQuestion ol:after{content:".";display:block;height:0;clear:both;visibility:hidden}.wpProQuiz_reviewQuestionTarget{font-weight:700;border-color:#7db1d3;box-shadow:0 0 2px 1px #c4c4c4}.wpProQuiz_checkPage li,.wpProQuiz_reviewQuestion li{float:left;margin:0 5px 5px 0;border:1px solid #cfcfcf;padding:5px 0;width:30px;text-align:center;background-color:#fff;cursor:pointer;list-style-type:none;background-image:none}.wpProQuiz_reviewQuestion div{position:absolute;right:0;background-color:#b8b8b8;top:0;height:20px;width:10px;border:0;border-radius:10px;cursor:move}.wpProQuiz_reviewLegend{padding:5px;margin-bottom:8px}.wpProQuiz_reviewLegend ol{list-style-type:none;padding:0;margin:0;border:0}.wpProQuiz_reviewLegend li{float:left;padding-right:5px;list-style-type:none;margin:0;border:0;background-image:none}.wpProQuiz_reviewColor{height:10px;width:10px;display:inline-block;margin-right:2px}.wpProQuiz_button2{border:1px solid #dadada;background:#f5f5f5;color:#303030;border-radius:4px;padding:3px 5px;box-shadow:1px 1px 1px #a7a7a7;text-shadow:none;filter:none;margin:0;font-weight:400}.wpProQuiz_button2:hover{background:#ebebeb}.wpProQuiz_reviewDiv{margin:20px 0}.wpProQuiz_header{margin:0}.wpProQuiz_catOverview{margin-top:10px;margin-bottom:20px}.wpProQuiz_catOverview li{list-style:none;padding:0;clear:left;border-bottom:1px dashed #aaa;height:1.05em;margin:10px 0 0;position:relative}.wpProQuiz_catOverview span{background:#fff;padding:0 3px 0 0;float:left;position:absolute;text-decoration:none}span.wpProQuiz_catPercent{font-weight:700;padding-left:5px;color:#000;right:0}.wpProQuiz_forms{margin:20px 0}.wpProQuiz_required{color:red;font-weight:700}.wpProQuiz_invalidate{border:1px solid #ffcfcf;background:#ffebe8;padding:4px;margin:4px 0;display:none}.wpProQuiz_forms table{width:auto;border-collapse:separate;border-spacing:2px}.wpProQuiz_forms td{vertical-align:top;padding:0 0 8px;margin:0;border:0;background:0 0}.wpProQuiz_forms input,.wpProQuiz_forms label,.wpProQuiz_forms select,.wpProQuiz_forms textarea{margin:0;float:none;display:inline}.wpProQuiz_forms select{width:auto}
+ /* -- End wpProQuiz_front_style*/
+
+.wpb_wrapper #ld_categorydropdown form{
+    margin-left: 15px;
+}
+
+.thrive-ld-course{
+    width: 28.3%;
+    padding: 0;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 45px;
+    float: left;
+}
+
+.thrive-ld-course:nth-child(n+1) ul.post-categories li  a {
+	color: #C62828;
+	}
+
+.thrive-ld-course:nth-child(3n+1) ul.post-categories li  a {
+	color: #FFB300;
+}
+
+.thrive-ld-course:nth-child(3n) ul.post-categories li  a {
+	color: #8E24AA;
+	}
+
+.thrive-ld-featured-image {
+	position: relative;
+}
+.thrive-ld-course-overlay {
+	position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+	background: rgba(0,0,0,0);
+}
+
+.thrive-ld-overlay-wrapper {
+    position: absolute;
+    display: table;
+	height: 100%;
+    width: 100%;
+
+}
+
+.thrive-ld-featured-image:hover .thrive-ld-link-icon {
+	transform: translateY( 0 );
+}
+
+.thrive-ld-featured-image:hover .thrive-ld-see-course {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    text-transform: uppercase;
+	transform: translateY( 0 );
+}
+
+.thrive-ld-featured-image:hover .thrive-ld-course-overlay {
+	background: rgba(0,0,0,0.5);
+}
+
+.thrive-ld-featured-image-wrap img,
+.thrive-ld-course-overlay,
+.thrive-ld-link-icon,
+.thrive-ld-see-course {
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.thrive-ld-overlay-wrap{
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+	overflow: hidden;
+}
+
+.site-content .thrive-ld-overlay-wrap  a {
+	display: block;
+	color: #fff;
+    font-size: 14px;
+}
+
+.thrive-ld-link-icon {
+	transform: translateY( -20em );
+    color: #fff;
+}
+
+.thrive-ld-see-course {
+	transform: translateY( 20em);
+}
+.thrive-ld-title {
+    margin-bottom: 15px;
+}
+
+body.thrive-inline .thrive-ld-categories ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+body.thrive-inline .thrive-ld-categories ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+}
+body.thrive-inline .thrive-ld-categories{
+    padding: 25px 0 10px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.thrive-ld-title h2{
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+	margin-bottom: 25px;
+}
+.thrive-ld-title h2 a {
+    color: black;
+}
+.thrive-ld-author{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.thrive-ld-avatar{
+    width: auto;
+    display: inline;
+    float: left;
+}
+body.thrive-inline.thrive-ld-avatar img {
+    border-radius: 50%;
+}
+.thrive-ld-name{
+	padding-left: 10px;
+    float: left;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.thrive-ld-lesson-count{
+    padding-left: 10px;
+    float: right;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+body.thrive-inline .entry-thumbnail img{
+	width: 100%;
+}
+
+
+
+/* Courses */
+body.thrive-inline.single-sfwd-courses .entry-meta,
+/* Lessons */
+body.thrive-inline.single-sfwd-lessons .entry-meta,
+/* Topics */
+body.thrive-inline.single-sfwd-topic .entry-meta{
+    background: #000;
+}
+/* Quiz */
+body.thrive-inline.single-sfwd-quiz h1.entry-title{
+    background: #000;
+	width: 100%;
+	padding-right: 30px;
+}
+/* Courses */
+body.thrive-inline.single-sfwd-courses h1.entry-title,
+/* Lessons */
+body.thrive-inline.single-sfwd-lessons h1.entry-title,
+/* Topics */
+body.thrive-inline.single-sfwd-topic h1.entry-title,
+/* Quiz */
+body.single-sfwd-quiz h1.entry-title{
+    color: #fff;
+    background: #000;
+    padding: 25px 30px 30px;
+    padding-left: 65px;
+    margin-top: 0px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-indent: -25px;
+}
+body.thrive-inline.single-sfwd-lessons h1.entry-title{
+	width:100%;
+    padding-right: 0;
+}
+body.thrive-inline.single-sfwd-courses h1.entry-title:before,
+body.thrive-inline.single-sfwd-lessons h1.entry-title:before,
+body.thrive-inline.single-sfwd-topic h1.entry-title:before,
+body.thrive-inline.single-sfwd-quiz h1.entry-title:before,
+
+body.thrive-inline .learndash .notcompleted:after,
+body.thrive-inline #learndash_profile .notcompleted:after,
+body.thrive-inline .learndash .completed:after,
+body.thrive-inline #learndash_profile .completed:after,
+body.thrive-inline #quiz_list > div h4 > a:before,
+
+
+
+.thrive-inline .widget.widget_sfwd-courses-widget ul li h4 a:before,
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 > a:before,
+.thrive-inline .widget.widget_sfwd-quiz-widget ul li h4 a:before,
+.thrive-inline .widget.widget_sfwd-transactions-widget ul li h4 a:before,
+.thrive-inline .widget.widget_sfwd-certificates-widget ul li h4 a:before,
+
+/* Widget Lesson Topic Dots */
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a:before,
+
+/* BuddyPress and Profile Shortcode */
+body.thrive-inline.my-account #learndash_profile .list_arrow.collapse:before,
+body.thrive-inline.my-account #learndash_profile .list_arrow.expand:before,
+body.thrive-inline #learndash_profile .list_arrow.collapse:before,
+body.thrive-inline #learndash_profile .list_arrow.expand:before,
+
+.widget .lesson_incomplete.list_arrow.collapse:before,
+.widget .lesson_incomplete.list_arrow.expand:before,
+.widget .list_arrow.collapse.lesson_completed:before,
+.widget .list_arrow.expand.lesson_completed:before,
+.widget .list_arrow.collapse.lesson_incomplete:before,
+.widget .list_arrow.expand.lesson_incomplete:before,
+
+.widget_ldcourseinfo .learndash-profile-course-title a:before
+{
+  content: "library_books";
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+body.thrive-inline.single-sfwd-courses h1.entry-title:before,
+body.thrive-inline.single-sfwd-lessons h1.entry-title:before,
+body.thrive-inline.single-sfwd-topic h1.entry-title:before,
+body.thrive-inline.single-sfwd-quiz h1.entry-title:before{
+	content: "library_books";
+    top: 5px;
+    left: 10px;
+    position: relative;
+}
+body.thrive-inline .learndash .notcompleted:after,
+body.thrive-inline #learndash_profile .notcompleted:after,
+body.thrive-inline .learndash .completed:after,
+body.thrive-inline #learndash_profile .completed:after{
+    content: "check";
+    position: absolute;
+    right: 0;
+    font-size: 35px;
+    transform: translateY(-5px);
+}
+body.thrive-inline #quiz_list > div h4 > a:before{
+    content: "attach_file";
+    color: #ebeff2;
+    font-size: 40px;
+    position: absolute;
+    left: -10px;
+}
+body.thrive-inline.page #quiz_list > div h4 > a:before{
+    left: 0;
+}
+body.thrive-inline.page .learndash .notcompleted:after,
+body.thrive-inline.page #learndash_profile .notcompleted:after,
+body.thrive-inline.page .learndash .completed:after,
+body.thrive-inline.page #learndash_profile .completed:after{
+	right: -5px;
+}
+body.thrive-inline.page .learndash #quiz_list .notcompleted:after,
+body.thrive-inline.page #learndash_profile #quiz_list .notcompleted:after,
+body.thrive-inline.page .learndash #quiz_list .completed:after,
+body.thrive-inline.page #learndash_profile #quiz_list .completed:after{
+	right: 10px;
+}
+body.thrive-inline .learndash .notcompleted:after,
+body.thrive-inline #learndash_profile .notcompleted:after{
+	color:#ebeff2;
+}
+body.thrive-inline .learndash .completed:after,
+body.thrive-inline #learndash_profile .completed:after{
+	color: #558b2f;
+}
+body.thrive-inline.my-account #learndash_profile .list_arrow.expand:before,
+body.thrive-inline #learndash_profile .list_arrow.expand:before,
+body.thrive-inline.my-account #learndash_profile .list_arrow.collapse:before,
+body.thrive-inline #learndash_profile .list_arrow.collapse:before{
+ 	color: #558b2f;
+	position: relative;
+    top: 3px;
+}
+
+body.thrive-inline.my-account #learndash_profile .list_arrow.expand:before,
+body.thrive-inline #learndash_profile .list_arrow.expand:before{
+	content: "keyboard_arrow_down";
+ 	color: #558b2f;
+}
+body.thrive-inline.my-account #learndash_profile .list_arrow.collapse:before,
+body.thrive-inline #learndash_profile .list_arrow.collapse:before{
+	content: "keyboard_arrow_right";
+}
+
+.thrive-inline .widget.widget_sfwd-courses-widget ul li h4 a:before{
+	content: "school";
+}
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 > a:before{
+	content: "assignment";
+}
+/* Widget Lesson Topic Dots*/
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a.topic-completed:before {
+	content: "radio_button_checked";
+    font-size: 15px;
+}
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a.topic-notcompleted:before {
+	content: "radio_button_unchecked";
+    font-size: 15px;
+}
+
+
+.thrive-inline .widget.widget_sfwd-quiz-widget ul li h4 a:before{
+	content: "class";
+}
+.thrive-inline .widget.widget_sfwd-transactions-widget ul li h4 a:before{
+	content: "call_split";
+}
+.thrive-inline .widget.widget_sfwd-certificates-widget ul li h4 a:before{
+	content: "card_membership";
+}
+
+
+
+body.thrive-inline.single-sfwd-lessons h1.entry-title:before{
+}
+body.thrive-inline.single-sfwd-topic h1.entry-title:before{
+}
+/* Courses */
+body.thrive-inline.single-sfwd-courses .posted-on,
+body.thrive-inline.single-sfwd-courses .byline,
+body.thrive-inline.single-sfwd-courses .entry-actions,
+/* Lessons */
+body.thrive-inline.single-sfwd-lessons .posted-on,
+body.thrive-inline.single-sfwd-lessons .byline,
+body.thrive-inline.single-sfwd-lessons .entry-actions,
+
+/* Topics */
+body.thrive-inline.single-sfwd-topic .posted-on,
+body.thrive-inline.single-sfwd-topic .byline,
+body.thrive-inline.single-sfwd-topic .entry-actions,
+
+/* Quiz */
+body.thrive-inline.single-sfwd-quiz .posted-on,
+body.thrive-inline.single-sfwd-quiz .byline,
+body.thrive-inline.single-sfwd-quiz .entry-actions,
+body.thrive-inline.single-sfwd-quiz .wpProQuiz_content h2{
+	display: none;
+}
+body.thrive-inline.single-sfwd-courses #content.site-content #content-left-col #primary.content-area article.hentry,
+body.thrive-inline.single-sfwd-lessons #content.site-content #content-left-col #primary.content-area article.hentry,
+body.thrive-inline.single-sfwd-topic #content.site-content #content-left-col #primary.content-area article.hentry,
+body.thrive-inline.single-sfwd-quiz #content.site-content #content-left-col #primary.content-area article.hentry{
+	padding: 0px;
+}
+body.thrive-inline.single-sfwd-courses #content.site-content #content-left-col #primary.content-area article.hentry header,
+body.thrive-inline.single-sfwd-lessons #content.site-content #content-left-col #primary.content-area article.hentry header,
+body.thrive-inline.single-sfwd-topic #content.site-content #content-left-col #primary.content-area article.hentry header,
+body.thrive-inline.single-sfwd-quiz #content.site-content #content-left-col #primary.content-area article.hentry header {
+	margin-bottom: 25px;
+}
+
+body.thrive-inline.single-sfwd-courses .entry-content,
+body.thrive-inline.single-sfwd-lessons .entry-content,
+body.thrive-inline.single-sfwd-topic .entry-content,
+body.thrive-inline.single-sfwd-quiz .entry-content{
+    margin: 0 30px;
+	position: relative;
+}
+
+/* Courses */
+body.thrive-inline.single-sfwd-courses #learndash_course_status{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+}
+/* Topics */
+body.thrive-inline.single-sfwd-topic .learndash .learndash_topic_dots.type-dots{
+    width: auto;
+    max-width: 40%;
+    position: absolute;
+    top: -80px;
+    right: 0;
+    color: #fff;
+    padding-left: 16%;
+}
+/* Assignment */
+body.thrive-inline #learndash_uploaded_assignments td {
+    padding: 10px 0;
+}
+body.thrive-inline #learndash_uploaded_assignments td:nth-child(2) a:before{
+	content: "comment";
+    font-size: 17px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+	position: relative;
+    top: 5px;
+    right: 5px;
+}
+/* Button Links */
+body.thrive-inline #learndash_back_to_lesson{
+    padding-top: 10px;
+    float: left;
+    display: block;
+    width: 100%;
+}
+body.thrive-inline .has-post-thumbnail #learndash_back_to_lesson{
+    padding-top: 15px;
+	margin-bottom: 10px;
+}
+
+/* Topics Progress*/
+body.thrive-inline.single-sfwd-topic  .learndash_topic_dots b {
+    position: absolute;
+    left: 0;
+}
+
+body.thrive-inline.single-sfwd-topic .learndash_topic_dots a span{
+    padding-left: 0;
+    min-height: 0;
+    line-height: normal;
+}
+
+body.thrive-inline.single-sfwd-courses #learndash_course_status b{
+    width: 10px;
+    height: 10px;
+    background: #8bc34a;
+    border: 2px solid #689f38;
+    color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+}
+body.thrive-inline.single-sfwd-courses #learndash_course_materials{
+	color: rgba(0, 0, 0, 0.54);
+	background: #f7f7f7;
+    padding: 25px 15px;
+    box-shadow: inset 0px 1px 3px 0 rgba(0,0,0,0.12);
+	margin-bottom: 35px;
+}
+body.thrive-inline.single-sfwd-courses #learndash_course_materials p{
+	margin-bottom: 15px;
+}
+/* Topics */
+body.thrive-inline #learndash_lesson_topics_list div > strong {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 35px;
+    border-bottom: none;
+}
+body.thrive-inline.single-sfwd-lessons #learndash_lesson_topics_list ul > li.nth-of-type-odd,
+body.thrive-inline.single-sfwd-lessons #learndash_lesson_topics_list ul > li:nth-of-type(odd){
+	background: transparent;
+}
+body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-completed span,
+body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-notcompleted span{
+    padding: 15px 0;
+}
+
+/* shared with before and after */
+body.thrive-inline.single-sfwd-courses #learndash_course_materials:before{
+    content: ' ';
+    height: 0;
+    position: relative;
+    width: 0;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    border-top: 12px solid #ffffff;
+    font-size: 0;
+    line-height: 0;
+}
+/* top-stacked, smaller arrow */
+body.thrive-inline.single-sfwd-courses #learndash_course_materials:before {
+    border-bottom-color: #FFF;
+    position: relative;
+    top: -25px;
+    left: auto;
+    right: auto;
+    z-index: 2;
+    width: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Quiz Form */
+body.thrive-inline.single-sfwd-quiz  .thrive-customized-select .thrive-customized-select-inner{
+    overflow: visible;
+    top: -5px;
+    height: 30px;
+}
+body.thrive-inline.single-sfwd-quiz  .thrive-customized-select .thrive-customized-select-inner:after{
+	right: -2px;
+}
+body.single.single-sfwd-quiz.thrive-inline .wpProQuiz_listItem {
+    margin-top: 30px;
+}
+
+
+/* Course Content */
+body.thrive-inline.single-sfwd-courses #learndash_lessons #lesson_heading{
+	display: none;
+}
+body.thrive-inline #learndash_course_content_title {
+	margin-bottom: 15px!important;
+}
+body.thrive-inline .expand_collapse {
+    top: 0;
+    margin-bottom: 20px;
+}
+body.thrive-inline #learndash_lessons,
+body.thrive-inline #learndash_quizzes,
+body.thrive-inline #learndash_profile,
+body.thrive-inline #learndash_lesson_topics_list > div{
+
+    background-color: transparent;
+    border: 0px solid #DDDDDD;
+    border-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    margin-bottom: 30px;
+}
+body.thrive-inline #lessons_list > div > div,
+body.thrive-inline #course_list > div > div,
+body.thrive-inline #quiz_list > div > div,
+body.thrive-inline .single-sfwd-lessons #learndash_lesson_topics_list ul > li > span.sn,
+body.thrive-inline .singular-sfwd-lessons #learndash_lesson_topics_list ul > li > span.sn {
+    display: table-cell;
+    width: 5%;
+    text-align: center;
+    border-right: 1px solid transparent;
+    border-top: 1px dashed #c6c6c6;
+    position: absolute;
+}
+body.thrive-inline #lessons_list > div h4,
+body.thrive-inline #course_list > div h4,
+body.thrive-inline #learndash_lesson_topics_list ul > li > span.topic_item{
+    width: 100%;
+    border-top: 1px dashed #c6c6c6;
+	display: block;
+	margin-bottom: 0;
+}
+
+body.thrive-inline #quiz_list > div h4,
+body.thrive-inline #quiz_list{
+    border-top: 0px dashed #c6c6c6;
+}
+
+body.thrive-inline #quiz_list .list-count {
+	display: none;
+}
+body.thrive-inline #quiz_list > div h4 > a {
+	font-size: 15px;
+	text-indent: 40px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    float: right;
+}
+body.thrive-inline #learndash_course_content_titl{
+	margin-bottom: 35px;
+}
+
+body.thrive-inline #lessons_list .list-count{
+    display: block;
+    border-radius: 50%;
+    padding: 10px 10px;
+    line-height: 8px;
+    border: 3px solid #ebeff2;
+    width: 35px;
+    height: 34px;
+    position: absolute;
+    transform: translateY(12px);
+}
+
+
+body.thrive-inline #lessons_list > div h4 > a{
+	text-indent: 0px;
+    padding-left: 20px;
+    line-height: 25px;
+    width: 100%;
+    display: block;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+body.thrive-inline #course_list > div h4 > a,
+body.thrive-inline #learndash_quizzes a,
+body.thrive-inline.single-sfwd-courses #learndash_quizzes a,
+body.thrive-inline #quiz_list > div h4 > a{
+	text-indent: 0px;
+    padding-left: 70px;
+    line-height: 40px;
+    width: 100%;
+    display: block;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+}
+body.thrive-inline #learndash_quizzes a, body.thrive-inline.single-sfwd-courses #learndash_quizzes a,
+body.thrive-inline #quiz_list > div h4 > a{
+    padding-left: 20px;
+}
+
+
+body.thrive-inline .learndash .notcompleted,
+body.thrive-inline #learndash_profile .notcompleted,
+body.thrive-inline .learndash .completed,
+body.thrive-inline #learndash_profile .completed
+{
+    background: none no-repeat;
+    background-size: 0;
+	max-width: 98%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 0;
+
+}
+body.thrive-inline #learndash_profile .flip,
+body.thrive-inline #learndash_profile .flip>div {
+    float: left;
+    width: 100%;
+}
+body.thrive-inline #learndash_profile .flip .learndash_profile_heading.course_overview_heading{
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}
+body.thrive-inline #learndash_profile #course_list div:last-of-type h4 {
+    float: left;
+    padding-bottom: 30px;
+}
+body.thrive-inline.my-account #learndash_profile #course_list div:last-of-type h4 a,
+body.thrive-inline #learndash_profile #course_list div:last-of-type h4 a{
+    padding-bottom: 0;
+}
+body.thrive-inline .learndash .completed:after,
+body.thrive-inline #learndash_profile .completed:after
+{
+    color: #7cb342;
+}
+
+
+.entry-content #learndash_course_content .learndash_topic_dots .nth-of-type-odd,
+.entry-content .learndash_nevigation_lesson_topics_list .nth-of-type-odd,
+.entry-content #learndash_course_content .learndash_topic_dots ul > li,
+.entry-content #learndash_course_content .learndash_topic_dots ul > li:hover,
+
+.entry-content #learndash_lessons h4 > a:hover,
+.entry-content  #learndash_quizzes h4 > a:hover,
+.entry-content  #learndash_lesson_topics_list ul > li > span.topic_item:hover,
+.entry-content  #learndash_lessons h4 > a:hover,
+.entry-content #learndash_quizzes h4 > a:hover,
+.entry-content  #learndash_lesson_topics_list ul > li > span.topic_item:hover
+{
+	background: transparent;
+}
+body.thrive-inline #learndash_lessons a,
+body.thrive-inline #learndash_quizzes a,
+body.thrive-inline .expand_collapse a,
+body.thrive-inline .learndash_topic_dots a,
+body.thrive-inline .learndash_topic_dots a > span,
+body.thrive-inline #learndash_lesson_topics_list span a,
+body.thrive-inline #learndash_profile a,
+body.thrive-inline #learndash_profile a span{
+    font-family: inherit;
+}
+
+body.thrive-inline .learndash .topic-completed span,
+body.thrive-inline .learndash .topic-notcompleted span{
+	background: none;
+}
+body.thrive-inline .learndash .topic-completed span:before,
+body.thrive-inline .learndash .topic-notcompleted span:before{
+    content: " ";
+    width: 12px;
+    height: 12px;
+    background: #8bc34a;
+    border: 3px solid #689f38;
+    color: transparent;
+    text-indent: -9999px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    top: 2.5px;
+    margin-right: 10px;
+}
+body.thrive-inline .learndash .topic-notcompleted span:before{
+    background: #90a4ae;
+    border: 3px solid #607d8b;
+}
+body.thrive-inline .learndash_topic_dots ul .topic-completed span,
+body.thrive-inline .learndash_topic_dots ul .topic-notcompleted span{
+    padding-left: 70px;
+    text-indent: -15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.entry-content #learndash_course_content .learndash_topic_dots ul li:last-of-type {
+    margin-bottom: 15px;
+}
+body.thrive-inline #lessons_list,
+body.thrive-inline #course_list,
+body.thrive-inline .learndash_profile_quizzes,
+body.thrive-inline #learndash_lesson_topics_list ul,
+body.thrive-inline .learndash_nevigation_lesson_topics_list{
+    border-bottom: 1px dashed #c6c6c6;
+}
+
+body.thrive-inline form#sfwd-mark-complete + #learndash_next_prev_link {
+    margin: 0 0 25px 0;
+}
+body.thrive-inline #learndash_next_prev_link{
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+}
+
+body.thrive-inline #learndash_next_prev_link a{
+	display: inline-block;
+}
+
+
+body.thrive-inline #learndash_complete_prev_course,
+body.thrive-inline #learndash_complete_prev_lesson,
+body.thrive-inline #learndash_complete_prev_topic,
+body.thrive-inline #learndash_complete_prerequisites a,
+body.thrive-inline .wpProQuiz_loadQuiz,
+body.thrive-inline .wpProQuiz_lock,
+body.thrive-inline .wpProQuiz_prerequisite,
+body.thrive-inline .wpProQuiz_startOnlyRegisteredUser{
+    display: block;
+    background: #E53935;
+    float: left;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
+    clear: both;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    padding-left: 39px;
+    position: relative;
+}
+body.thrive-inline #learndash_complete_prev_course:before,
+body.thrive-inline #learndash_complete_prev_lesson:before,
+body.thrive-inline #learndash_complete_prev_topic:before,
+body.thrive-inline #learndash_complete_prerequisites a:before,
+body.thrive-inline .wpProQuiz_loadQuiz:before,
+body.thrive-inline .wpProQuiz_lock:before,
+body.thrive-inline .wpProQuiz_prerequisite:before,
+body.thrive-inline .wpProQuiz_startOnlyRegisteredUser:before {
+    content: "error_outline";
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+body.thrive-inline .wpProQuiz_loadQuiz p,
+body.thrive-inline .wpProQuiz_lock p,
+body.thrive-inline .wpProQuiz_prerequisite p,
+body.thrive-inline .wpProQuiz_startOnlyRegisteredUser p{
+	margin: 0;
+}
+body.thrive-inline #learndash_complete_prerequisites {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+body.thrive-inline .has-post-thumbnail #learndash_complete_prerequisites {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+body.thrive-inline #learndash_complete_prerequisites a{
+    margin-top: 15px;
+    display: block;
+}
+body.thrive-inline .btn-blue,
+body.thrive-inline .learndash_checkout_button input[type="submit"],
+body.thrive-inline .btn-join,
+body.thrive-inline #btn-join,
+body.thrive-inline a#quiz_continue_link,
+body.thrive-inline .wpProQuiz_button,
+body.thrive-inline #learndash_back_to_lesson a,
+body.thrive-inline #learndash_next_prev_link a{
+	background: #0288D1;
+	display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 0 25px;
+    line-height: 36px;
+    height: 36px;
+    transition: all 0.25s ease-in-out!important;
+    -webkit-transition: all 0.25s ease-in-out!important;
+    -moz-transition: all 0.25s ease-in-out!important;
+    font-weight: 400;
+    box-shadow: 0 1.5px 1px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+    margin-bottom: 15px;
+}
+body.thrive-inline .quiz_continue_link{
+    margin: 0 !important;
+    float: right;
+}
+body.thrive-inline #learndash_course_certificate a {
+    margin-bottom: 20px;
+}
+body.thrive-inline .btn-blue:hover,
+body.thrive-inline .learndash_checkout_button input[type="submit"]:hover,
+body.thrive-inline .btn-join:hover,
+body.thrive-inline #btn-join:hover,
+body.thrive-inline a#quiz_continue_link:hover,
+body.thrive-inline  .wpProQuiz_button:hover,
+body.thrive-inline #learndash_back_to_lesson a:hover,
+body.thrive-inline #learndash_next_prev_link a:hover{
+    color: #fff;
+    border-color:transparent ;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+}
+
+
+body.thrive-inline #learndash_lessons #lesson_heading,
+body.thrive-inline #learndash_profile .learndash_profile_heading,
+body.thrive-inline #learndash_quizzes #quiz_heading,
+body.thrive-inline #learndash_lesson_topics_list div > strong,
+body.thrive-inline #learndash_uploaded_assignments h2{
+    background-color: transparent;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0;
+    margin: 35px 0;
+    display: block;
+}
+
+body.thrive-inline #learndash_quizzes #quiz_heading{
+    margin-bottom: 15px;
+}
+body.thrive-inline #learndash_lessons #lesson_heading,
+body.thrive-inline #learndash_lessons .right,
+body.thrive-inline #learndash_quizzes .right,
+body.thrive-inline #learndash_profile .learndash_profile_heading .ld_profile_status
+{	display: none;}
+
+body.thrive-inline #learndash_course_certificate {
+    margin: 0;
+    position: relative;
+}
+body.thrive-inline.single-sfwd-courses iframe,
+body.thrive-inline.single-sfwd-lessons iframe,
+body.thrive-inline.single-sfwd-topic iframe,
+body.thrive-inline.single-sfwd-quiz iframe{
+	width: 100%;
+    position: relative;
+	margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+body.thrive-inline .expand_collapse a,
+body.thrive-inline .learndash_topic_dots a,
+body.thrive-inline .learndash_topic_dots a > span,
+body.thrive-inline #learndash_lesson_topics_list span a,
+body.thrive-inline #learndash_profile a,
+body.thrive-inline #learndash_profile a span,
+body.thrive-inline #course_navigation .learndash_topic_widget_list a > span,
+.widget_course_return,
+#course_navigation .widget_course_return a{
+	opacity: 0.8;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+}
+
+#course_navigation .widget_course_return a {
+    display: block;
+    padding-left: 55px;
+    position: relative;
+    top: -20px;
+    margin-bottom: -20px;
+}
+
+body.thrive-inline #course_navigation .learndash_topic_widget_list a > span{
+    padding-left: 30px;
+    text-indent: -17px;
+}
+body.thrive-inline .expand_collapse a:hover,
+body.thrive-inline .learndash_topic_dots a:hover,
+body.thrive-inline .learndash_topic_dots a > span:hover,
+body.thrive-inline #learndash_lesson_topics_list span a:hover,
+body.thrive-inline #learndash_profile a:hover,
+body.thrive-inline #learndash_profile a span:hover,
+body.thrive-inline #course_navigation .learndash_topic_widget_list a > span:hover,
+.widget_course_return:hover,
+#course_navigation .widget_course_return a:hover{
+	opacity: 1;
+}
+body.thrive-inline.single-sfwd-courses #content table,
+body.thrive-inline.single-sfwd-lessons #content table,
+body.thrive-inline.single-sfwd-topic #content table,
+body.thrive-inline.single-sfwd-quiz #content table{
+    border: none;
+    border-bottom: 0;
+    box-shadow: none
+}
+body.thrive-inline #content .wpProQuiz_questionListItem>table{
+	margin: 0;
+}
+body.thrive-inline #content table tr.wpProQuiz_mextrixTr {
+    border: 1px dashed #C6C6C6;
+}
+body.thrive-inline.single-sfwd-courses #content table tr,
+body.thrive-inline.single-sfwd-lessons #content table tr,
+body.thrive-inline.single-sfwd-topic #content table tr,
+body.thrive-inline #content table.wpProQuiz_toplistTable tr{
+    border: 1px dashed #c6c6c6;
+	border-left-width: 0;
+	border-right-width: 0;
+	background: transparent;
+}
+body.thrive-inline #content table.wpProQuiz_toplistTable tr{
+    border: none;
+}
+body.thrive-inline #content .wpProQuiz_forms table tr{
+	margin-bottom: 20px;
+    display: block;
+    border: none;
+}
+body.thrive-inline #content .wpProQuiz_forms tr:hover{
+	background: none;
+}
+body.thrive-inline #content .wpProQuiz_forms td:nth-child(1) {
+    margin-bottom: 15px;
+}
+body.thrive-inline #content .wpProQuiz_forms td {
+	padding: 0;
+    display: block;
+	margin-bottom: 0;
+}
+body.thrive-inline .wpProQuiz_formFields .thrive-customized-select .thrive-customized-select-inner:after,
+body.thrive-inline #content .wpProQuiz_forms td .thrive-customized-select .thrive-customized-select-inner:after{
+    content: "arrow_drop_down";
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    position: relative;
+    color: rgba(0, 0, 0, 0.54);
+    float: right;
+}
+body.thrive-inline #content .wpProQuiz_forms td .wpProQuiz_formFields label {
+    display: block;
+}
+body.thrive-inline #content .wpProQuiz_forms td input[type="text"],
+body.thrive-inline #content .wpProQuiz_forms td textarea {
+    margin-bottom: 0;
+    padding-top:0;
+    padding-bottom:0;
+}
+body.thrive-inline #leardash_upload_assignment td{
+    padding: 20px 0;
+}
+body.thrive-inline #leardash_upload_assignment input[name=uploadfile]{
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+body.thrive-inline .learndash.user_has_access u {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* BuddyPress Courses  */
+body.thrive-inline.my-account #course_list > div h4 > a,
+body.thrive-inline #course_list > div h4 > a{
+    text-indent: 0px;
+    padding-top: 15px;
+    word-break: break-word;
+    line-height: 30px;
+    position: relative;
+    top: 5px;
+    max-width: 98%;
+}
+
+
+body.thrive-inline.my-account #learndash_profile .list_arrow.collapse,
+body.thrive-inline.my-account #learndash_profile .list_arrow.expand,
+body.thrive-inline #learndash_profile .list_arrow.collapse,
+body.thrive-inline #learndash_profile .list_arrow.expand{
+	background: none;
+    z-index: 1000;
+    position: relative;
+    top: 56.5px;
+    display: inline;
+    border: none;
+}
+
+body.thrive-inline.my-account #learndash_profile .list_arrow.collapse,
+body.thrive-inline.my-account #learndash_profile .list_arrow.expand {
+    top: 48px;
+}
+body.thrive-inline.my-account #learndash_profile .notcompleted,
+body.thrive-inline.my-account #learndash_profile .completed,
+body.thrive-inline #learndash_profile .notcompleted,
+body.thrive-inline #learndash_profile .completed {
+	max-width: 100%;
+}
+body.thrive-inline.my-account #learndash_profile .notcompleted:after,
+body.thrive-inline.my-account #learndash_profile .completed:after,
+body.thrive-inline #learndash_profile .notcompleted:after,
+body.thrive-inline #learndash_profile .completed:after {
+    right: -5px;
+}
+body.thrive-inline.my-account #buddypress #item-body h3{ font-size: 0;}
+
+
+
+body.thrive-inline.my-account #learndash_profile .learndash_profile_heading,
+body.thrive-inline #learndash_profile .learndash_profile_heading {
+    font-size: 12px;
+    font-weight: normal;
+    text-indent: 40px;
+    margin-bottom: 15px;
+	color: #919191;
+}
+
+
+body.thrive-inline.my-account dd.course_progress div.course_progress_blue,
+body.thrive-inline dd.course_progress div.course_progress_blue {
+    background-color: #558b2f;
+}
+
+body .learndash_profile_quiz_heading,
+body .learndash_profile_quiz_heading>div{
+	background: none;
+	border-top: 1px dashed #C6C6C6;
+	border-bottom: 1px dashed #C6C6C6;
+}
+body.thrive-inline.my-account #learndash_profile .course_progress,
+body.thrive-inline #learndash_profile .course_progress {
+    background: #ECEFF1;
+    width: 91%;
+    margin: 0 0 0 40px;
+}
+body.thrive-inline #learndash_profile #course_list .right,
+body.thrive-inline.my-account #learndash_profile #course_list .right {
+    color: #333;
+    position: relative;
+    top: -20px;
+    float: left;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading{
+    border-top: 1px dashed #C6C6C6;
+    border-bottom: 1px dashed #C6C6C6;
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+}
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .quiz_title,
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .certificate,
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .scores,
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .quiz_date{
+	padding: 10px 0;
+	text-align: center;
+	color: #919191;
+}
+body.thrive-inline #learndash_profile .quiz_title,
+body.thrive-inline #learndash_profile .certificate,
+body.thrive-inline #learndash_profile .scores,
+body.thrive-inline #learndash_profile .quiz_date{
+	display: inline-block;
+    padding: 20px 10px 0;
+    padding-left: 0!important;
+    font-size: 12px;
+    line-height: 13px;
+    border: none;
+    float: left;
+	color: #919191;
+}
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .quiz_title,
+body.thrive-inline #learndash_profile .quiz_title
+{width: 40%;}
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .certificate,
+body.thrive-inline #learndash_profile .certificate
+{width: 30%;}
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .scores,
+body.thrive-inline #learndash_profile .scores
+{width: 15%;}
+body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .quiz_date,
+body.thrive-inline #learndash_profile .quiz_date
+{width: 15%;}
+.learndash_profile_quizzes.clear_both:last-child {
+    border: none;
+    margin-bottom: 10px;
+}
+body.thrive-inline #learndash_profile .learndash_profile_quizzes .failed_icon,
+body.thrive-inline #learndash_profile .learndash_profile_quizzes .passed_icon {
+    width: 0;
+    height: 0;
+    background: none;
+    position: relative;
+	display: block;
+}
+body.thrive-inline #learndash_profile .learndash_profile_quizzes .failed_icon:before,
+body.thrive-inline #learndash_profile .learndash_profile_quizzes .passed_icon:before{
+	font-size: 20px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    left: -10px;
+    top: -5px;
+    margin-right: 0;
+    position: absolute;
+}
+body.thrive-inline #learndash_profile .learndash_profile_quizzes .failed_icon:before{
+    content: "close";
+    color: red;
+}
+body.thrive-inline #learndash_profile .learndash_profile_quizzes .passed_icon:before{
+    content: "check";
+    color: #96C267;
+}
+body.thrive-inline #learndash_profile .quiz_title a{
+	padding-left: 40px;
+    display: block;
+}
+body.thrive-inline .learndash_profile_quizzes .passed .scores {
+    color: #96C267;
+}
+/* Leader Boards */
+body.thrive-inline #content table.wpProQuiz_toplistTable tr td {
+    margin: 0;
+    padding: 10px 0;
+}
+body.thrive-inline #content table.wpProQuiz_toplistTable th{
+    background: #757575;
+	color: #fff;
+}
+body.thrive-inline #content table.wpProQuiz_toplistTable tr th:nth-child(1) {
+    width: 5%!important;
+}
+body.thrive-inline #content table.wpProQuiz_toplistTable tr th:nth-child(2) {
+    width: 40%!important;
+}
+body.thrive-inline #content table.wpProQuiz_toplistTable tr th:nth-child(3) {
+    width: 25%!important;
+}
+body.thrive-inline #content table.wpProQuiz_toplistTable tr th:nth-child(4) {
+    width: 15%!important;
+}
+body.thrive-inline #content table.wpProQuiz_toplistTable tr th:nth-child(5) {
+    width: 15%!important;
+}
+
+
+/* LearnDash Profile ShortCode */
+body.thrive-inline #learndash_profile .learndash_profile_heading.no_radius.clear_both {
+    margin-top: 20px;
+}
+body.thrive-inline #learndash_profile .learndash_profile_heading.no_radius.clear_both span {
+	font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-indent: 0;
+    float: left;
+    position: relative;
+}
+body.thrive-inline  #learndash_profile .profile_info .profile_avatar img{
+    border-radius: 50%;
+}
+body.thrive-inline #learndash_profile .profile_edit_profile a {
+    text-transform: capitalize;
+}
+
+body.thrive-inline #learndash_profile .learndash_profile_heading span {
+	display: none;
+}
+
+body.thrive-inline #learndash_profile .learndash_profile_details{
+    position: relative;
+    top: 15px;
+}
+
+
+/* Quiz Questions */
+body.thrive-inline.single-sfwd-quiz .entry-content .learndash {
+    margin: 25px 0;
+}
+
+body.thrive-inline .wpProQuiz_box,
+body.thrive-inline .wpProQuiz_reviewQuestion {
+    background: none;
+    border: none;
+    border-top: 1px dashed #c6c6c6;
+    border-bottom: 1px dashed #c6c6c6;
+    padding: 15px 0 10px 0;
+}
+body.thrive-inline .wpProQuiz_checkPage ol,
+body.thrive-inline .wpProQuiz_reviewQuestion ol {
+    padding: 0;
+}
+body.thrive-inline .wpProQuiz_catOverview ol {
+    padding: 0;
+}
+body.thrive-inline .wpProQuiz_reviewQuestion{
+    overflow: visible;
+    max-height: 100%;
+}
+body.thrive-inline .wpProQuiz_checkPage li,
+body.thrive-inline .wpProQuiz_reviewQuestion li{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 5px 5px 0;
+}
+body.thrive-inline .wpProQuiz_reviewQuestionTarget {
+    box-shadow: 0 1.5px 1px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+    transition: all 0.12s ease-in-out;
+}
+body.thrive-inline .wpProQuiz_progress{
+	background: #558b2f;
+}
+
+/* Quiz Legend */
+body.thrive-inline .wpProQuiz_reviewLegend li:nth-child(odd)>.wpProQuiz_reviewColor,
+body.thrive-inline .wpProQuiz_reviewLegend li:nth-child(even)>.wpProQuiz_reviewColor{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+}
+body.thrive-inline .wpProQuiz_reviewLegend {
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+body.thrive-inline .wpProQuiz_reviewLegend ol,
+body.thrive-inline .wpProQuiz_quiz>ol{
+	padding-left:0;
+}
+
+body.thrive-inline .wpProQuiz_reviewLegend li:nth-child(odd)>.wpProQuiz_reviewColor{
+    background: #A2CF6E;
+    border: 3px solid #668749;
+}
+body.thrive-inline .wpProQuiz_reviewLegend li:nth-child(even)>.wpProQuiz_reviewColor{
+    background: #FF9800!important;
+    border: 3px solid #FB8C00;
+}
+
+body.thrive-inline .wpProQuiz_reviewQuestion ol{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+body.thrive-inline .content-area .wpProQuiz_reviewQuestion ol{
+    padding: 0;
+}
+body.thrive-inline .content-area ul li.wpProQuiz_questionListItem{
+	list-style: none;
+	padding-left: 20px;
+    word-break: break-word;
+}
+body.thrive-inline .content-area ul.wpProQuiz_questionList[data-type="single"] li.wpProQuiz_questionListItem.wpProQuiz_answerCorrect,
+body.thrive-inline .content-area ul.wpProQuiz_questionList[data-type="single"] li.wpProQuiz_questionListItem.wpProQuiz_answerIncorrect,
+body.thrive-inline .content-area ul.wpProQuiz_questionList[data-type="multiple"] li.wpProQuiz_questionListItem.wpProQuiz_answerCorrect,
+body.thrive-inline .content-area ul.wpProQuiz_questionList[data-type="multiple"] li.wpProQuiz_questionListItem.wpProQuiz_answerIncorrect {
+    padding-left: 20px;
+}
+body.thrive-inline .content-area ul.wpProQuiz_questionList{
+    padding-left: 0;
+	padding-right: 0;
+    border: none;
+    background: none;
+    overflow-x: auto;
+}
+body.thrive-inline .content-area ul.wpProQuiz_questionList li.wpProQuiz_questionListItem.wpProQuiz_answerCorrect,
+body.thrive-inline .content-area ul.wpProQuiz_questionList li.wpProQuiz_questionListItem.wpProQuiz_answerIncorrect {
+    padding-left: 3px;
+}
+body.thrive-inline ul.wpProQuiz_sortStringList.ui-sortable li{
+	list-style: none;
+}
+body.thrive-inline .content-area ul.wpProQuiz_questionList.ui-sortable li,
+body.thrive-inline .content-area .wpProQuiz_matrixSortString + ul.wpProQuiz_questionList li,
+body.thrive-inline ul.wpProQuiz_sortStringList.ui-sortable,
+body.thrive-inline .wpProQuiz_maxtrixSortCriterion,
+body.thrive-inline .wpProQuiz_maxtrixSortText,
+body.thrive-inline .wpProQuiz_placehold,
+body.thrive-inline .content-area ul.wpProQuiz_questionList[data-type="cloze_answer"] li,
+body.thrive-inline .content-area ul.wpProQuiz_questionList[data-type="free_answer"] li{
+    word-break: break-word;
+    padding-left: 0;
+}
+body.thrive-inline ul.wpProQuiz_sortStringList.ui-sortable {
+    overflow-x: auto;
+}
+body.thrive-inline .wpProQuiz_questionListItem input[type="checkbox"],
+body.thrive-inline .wpProQuiz_questionListItem input[type="radio"] {
+    position: relative;
+    top: 4px;
+    margin-left: -17px;
+    float: left;
+}
+
+/* Quiz Textbox */
+
+/* Free Answer */
+body.thrive-inline .wpProQuiz_questionInput[type=text]{
+    width: 100%!important;
+}
+/* Cloze Answer*/
+body.thrive-inline .wpProQuiz_questionListItem .wpProQuiz_cloze input[type=text]{
+	display: inline;
+    color: inherit;
+    position: relative;
+    line-height: 0;
+    height: 25px;
+	word-break: break-all;
+    padding-bottom: 10px;
+    transition: padding 0.25s ease-in-out, border-color 0.25s ease-in-out;
+    -webkit-transition: padding 0.25s ease-in-out, border-color 0.25s ease-in-out;
+    -moz-transition: padding 0.25s ease-in-out, border-color 0.25s ease-in-out;
+}
+body.thrive-inline .wpProQuiz_questionListItem .wpProQuiz_cloze input[type=text]:focus{
+    line-height: 0;
+    padding-bottom: 20px;
+}
+.single-sfwd-quiz{
+	overflow: visible;
+}
+body.thrive-inline .wpProQuiz_questionListItem.ui-sortable-handle.ui-sortable-placeholder,
+body.thrive-inline .wpProQuiz_placehold{
+    border: 1px dashed #c6c6c6;
+	height: 30px;
+	visibility:visible!important;
+	background: none;
+	list-style: none;
+}
+body.thrive-inline .wpProQuiz_matrixSortString {
+    background: none;
+    padding: 5px;
+    border: 1px dashed #C6C6C6;
+}
+body.thrive-inline .wpProQuiz_mextrixTr>td{
+    border: 1px dashed #C6C6C6;
+}
+body.thrive-inline .wpProQuiz_sortStringItem,
+body.thrive-inline .wpProQuiz_sortable {
+    background-color: #ECEFF1;
+    border: none;
+	list-style: none;
+}
+body.thrive-inline .wpProQuiz_sortStringItem:hover,
+body.thrive-inline .wpProQuiz_sortable:hover,
+body.thrive-inline .wpProQuiz_sortStringItem:focus,
+body.thrive-inline .wpProQuiz_sortable:focus{
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.24);
+    transition: box-shadow 0.25s ease-in-out;
+    -webkit-transition: box-shadow 0.25s ease-in-out;
+    -moz-transition: box-shadow 0.25s ease-in-out;
+}
+
+
+body.thrive-inline .wpProQuiz_resultTable,
+body.thrive-inline .wpProQuiz_resultTable table,
+body.thrive-inline .wpProQuiz_resultTable table tbody,
+body.thrive-inline .wpProQuiz_resultTable table tbody tr {
+	display: block;
+	width: 100%;
+}
+
+	body.thrive-inline #content .wpProQuiz_resultTable table tr {
+		border: none;
+		margin-bottom: 35px
+	}
+	body.thrive-inline #content .wpProQuiz_resultTable table tr:hover {
+		background: none;
+	}
+	body.thrive-inline #content .wpProQuiz_resultTable table td {
+		border: none;
+		padding: 0;
+		margin-bottom: 10px;
+		width: 100%;
+		display: block;
+		overflow: hidden;
+		border-radius: 4px;
+	}
+	body.thrive-inline #content .wpProQuiz_resultTable table tbody tr .wpProQuiz_resultValue {
+		height: 18px;
+		background: #ECEFF1;
+		max-width: 240px;
+		margin: auto;
+	}
+	body.thrive-inline #content .wpProQuiz_resultTable table tbody tr .wpProQuiz_resultValue span {
+		display: block;
+		text-align: center;
+		position: relative;
+		top: -19px;
+		color: #4E4E4E;
+		font-weight: normal;
+		font-size: 12px;
+	}
+	body.thrive-inline #content .wpProQuiz_resultTable table tbody tr .wpProQuiz_resultName {
+		text-align: center;
+	}
+	body.thrive-inline #content .wpProQuiz_resultValue div {
+		border-radius: 4px;
+		box-shadow: none;
+		display: block;
+	}
+
+
+body.thrive-inline .wpProQuiz_header {
+    margin-bottom: 1.09091em;
+}
+body.thrive-inline .wpProQuiz_checkPage {
+    margin-top: 25px;
+}
+body.thrive-inline .wpProQuiz_resultTable {
+	padding: 0;
+    border: none;
+}
+body.thrive-inline .content-area ul.wpProQuiz_resultsList{
+	padding-left: 0;
+    background: #ECEFF1;
+    border-radius: 4px;
+    padding: 10px;
+}
+body.thrive-inline .content-area ul.wpProQuiz_resultsList li {
+    list-style: none;
+}
+body.thrive-inline .wpProQuiz_response{
+    background: #ECEFF1;
+    border: none;
+	box-shadow: none;
+    padding: 0;
+    margin: 20px 0 30px 0px;
+}
+body.thrive-inline .wpProQuiz_incorrect,
+body.thrive-inline .wpProQuiz_correct{
+	padding: 15px;
+    border-radius: 4px;
+}
+
+body.thrive-inline .wpProQuiz_incorrect p,
+body.thrive-inline .wpProQuiz_correct p{
+	margin: 0;
+}
+
+body.thrive-inline .wpProQuiz_catOverview li {
+    margin-bottom: 30px;
+}
+
+body.thrive-inline .wpProQuiz_incorrect,
+body.thrive-inline .wpProQuiz_answerIncorrect{
+    background: #C62828;
+    color: #fff;
+}
+body.thrive-inline .wpProQuiz_correct,
+body.thrive-inline .wpProQuiz_answerCorrect {
+    background: #7CB342;
+    color: #fff;
+}
+body.thrive-inline .wpProQuiz_correct,
+body.thrive-inline .wpProQuiz_incorrect {
+    color: rgba(255, 255, 255, 0.7);
+    clear: both;
+    padding: 10px 39px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+    position: relative;
+}
+
+body.thrive-inline .wpProQuiz_correct span:before,
+body.thrive-inline .wpProQuiz_incorrect span:before {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+body.thrive-inline .wpProQuiz_correct span:before {
+    content: "check_circle";
+}
+body.thrive-inline .wpProQuiz_incorrect span:before {
+    content: "cancel";
+}
+
+body.thrive-inline .wpProQuiz_answerCorrect .wpProQuiz_sortable,
+body.thrive-inline .wpProQuiz_answerIncorrect .wpProQuiz_sortable {
+    background: rgba(255, 255, 255, 0.24);
+}
+
+
+body.thrive-inline .wpProQuiz_addToplist,
+body.thrive-inline .wpProQuiz_addToplistMessage{
+    background: #ECEFF1;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 20px 25px;
+}
+body.thrive-inline .wpProQuiz_addToplist span {
+    font-weight: 400!important;
+    width: 100%;
+    display: block;
+}
+body.thrive-inline .wpProQuiz_addToplistMessage{
+	background: #558b2f;
+    color: #fff;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+}
+body.thrive-inline .wpProQuiz_addBox {
+    margin-top: 20px;
+}
+body.thrive-inline .wpProQuiz_toplistTrOdd {
+    background-color: #EEEEEE;
+}
+body.thrive-inline .wpProQuiz_questionListItem:last-child,
+body.thrive-inline .wpProQuiz_questionListItemLastChildIE {
+    margin-bottom: 10px;
+}
+body.thrive-inline .wpProQuiz_tipp>div {
+    padding: 15px;
+    background-color: rgb(241, 241, 241);
+    border: 1px dashed#C6C6C6;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    right: 5px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.24);
+    z-index: 99999;
+}
+
+/* Certificate */
+#thrive-sfwd-certificate-single {
+    position: relative;
+}
+#thrive-sfwd-certificate-content {
+	position: absolute;
+    top: 50%;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+
+/* Widgets */
+.widget #course_navigation .learndash_nevigation_lesson_topics_list .lesson {
+    margin: 0 0 0px 5px;
+}
+.widget #course_navigation .learndash_nevigation_lesson_topics_list .lesson a{
+	font-size: 15px !important;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+/* Lesson Arrows */
+.widget .lesson_incomplete.list_arrow.collapse,
+.widget .lesson_incomplete.list_arrow.expand,
+.widget .lesson_completed.list_arrow.collapse,
+.widget .lesson_completed.list_arrow.expand,
+.widget .learndash_nevigation_lesson_topics_list .topic-completed span,
+.widget .learndash_nevigation_lesson_topics_list .topic-notcompleted span
+{
+	cursor: pointer;
+	background: none;
+}
+
+
+
+
+.widget .list_arrow.collapse.lesson_completed:before,
+.widget .list_arrow.expand.lesson_completed:before{
+	color: #558b2f;
+}
+.widget .lesson_incomplete.list_arrow.expand:before,
+.widget .list_arrow.expand.lesson_completed:before,
+.widget .lesson_incomplete.list_arrow.collapse:before,
+.widget .list_arrow.collapse.lesson_completed:before{
+    position: relative;
+    top: 7.5px;
+    left: -2px;
+}
+.widget .list_arrow.expand.lesson_incomplete:before,
+.widget .list_arrow.collapse.lesson_incomplete:before{
+	color: #747474
+}
+.widget .list_arrow.expand.lesson_completed:before,
+.widget .list_arrow.collapse.lesson_completed:before{
+	color: #558b2f
+}
+.widget .lesson_incomplete.list_arrow.collapse:before,
+.widget .list_arrow.collapse.lesson_completed:before{
+    content: "keyboard_arrow_right";
+}
+.widget .lesson_incomplete.list_arrow.expand:before,
+.widget .list_arrow.expand.lesson_completed:before{
+    content: "keyboard_arrow_down";
+}
+
+
+.thrive-inline .widget.widget_sfwd-courses-widget ul li h4 a:before,
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 >a:before,
+.thrive-inline .widget.widget_sfwd-quiz-widget ul li h4 a:before,
+.thrive-inline .widget.widget_sfwd-transactions-widget ul li h4 a:before,
+.thrive-inline .widget.widget_sfwd-certificates-widget ul li h4 a:before{
+    position: absolute;
+    left: 0;
+}
+.widget .learndash_nevigation_lesson_topics_list .topic-completed span:before,
+.widget .learndash_nevigation_lesson_topics_list .topic-notcompleted span:before{
+    content: " ";
+    width: 12px;
+    height: 12px;
+    background: #8bc34a;
+    border: 3px solid #689f38;
+    color: transparent;
+    text-indent: -9999px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+.widget .learndash_nevigation_lesson_topics_list .topic-notcompleted span:before{
+    background: #90a4ae;
+    border: 3px solid #607d8b;
+}
+
+.widget .learndash_nevigation_lesson_topics_list {
+    border-bottom: none;
+}
+
+.widget_ldcoursenavigation #course_navigation .learndash_navigation_lesson_topics_list .lesson {
+    margin: 5px 0;
+    padding-left: 15px;
+}
+
+
+.widget_ldcoursenavigation #course_navigation .learndash_navigation_lesson_topics_list .lesson > a,
+.widget_ldcoursenavigation #course_navigation .learndash_navigation_lesson_topics_list .list_lessons ul li a span {
+    font-size: 14px!important;
+}
+
+.widget_ldcoursenavigation #course_navigation .learndash_navigation_lesson_topics_list .list_lessons ul {
+    padding-left: 15px;
+}
+
+.widget_ldcoursenavigation #course_navigation .learndash_navigation_lesson_topics_list ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+.widget_ldcoursenavigation #course_navigation .learndash_navigation_lesson_topics_list .list_lessons ul li a span {
+    padding-left: 30px;
+    text-indent: initial;
+    margin: 0;
+}
+
+
+body.thrive-inline .widget_course_return {
+    border-top: 1px dashed #ddd;
+}
+.widget .ld-course-info-my-courses{
+    width: 100%;
+    display: block;
+}
+.widget .ld-course-info-my-courses img{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+    float: left;
+}
+
+.widget .ld-entry-title.entry-title{
+    background: #000;
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 15px;
+    float: left;
+}
+.widget .ld-entry-title.entry-title a{
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    line-height: 20px
+}
+.widget #ld_course_info_mycourses_list h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.widget #ld_course_info h4,
+.widget #course_progress_details h4{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.widget #ld_course_info h4:after,
+.widget #course_progress_details h4:after{
+	content: " ";
+    display: block;
+    width: 60px;
+    height: 2px;
+    border-bottom: 2px solid #424242;
+    margin-top: 15px;
+}
+
+.widget #course_progress_details {
+	display: block;
+}
+
+.widget_ldcourseinfo #course_progress_details {
+    padding-left: 39px;
+    position: relative;
+}
+
+.widget_ldcourseinfo #course_progress_details + br {
+    display: none;
+}
+
+.widget_ldcourseinfo #course_progress_details h4 {
+    margin-left: -39px;
+}
+
+.widget_ldcourseinfo #course_progress_details .learndash-profile-course-title {
+    width: 100%;
+    font-size: 0;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.widget_ldcourseinfo #course_progress_details .learndash-profile-course-title:first-of-type {
+    margin-top: 0;
+}
+
+.widget_ldcourseinfo #course_progress_details .learndash-profile-course-title a:before {
+    content: 'announcement';
+    position: absolute;
+    left: 0;
+}
+
+.widget #course_progress_details strong{
+	color: rgba(33, 33, 33, 0.55);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.widget #course_navigation .learndash_nevigation_lesson_topics_list ul li{
+	margin-bottom: 0;
+}
+body.thrive-inline .widget .learndash_nevigation_lesson_topics_list {
+border-bottom: 0px dashed #c6c6c6;
+}
+
+/* Widget Progress Bar */
+body.thrive-inline .widget.widget_ldcourseprogress>dd.course_progress {
+    width: 100%;
+}
+
+/* Courses-Widget  & Quizzes Widget*/
+.thrive-inline .widget.widget_sfwd-courses-widget ul li,
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li,
+.thrive-inline .widget.widget_sfwd-quiz-widget ul li,
+.thrive-inline .widget.widget_sfwd-transactions-widget ul li,
+.thrive-inline .widget.widget_sfwd-certificates-widget ul li {
+	padding-left: 39px;
+    position: relative;
+}
+.thrive-inline .widget.widget_sfwd-courses-widget ul li h4,
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4,
+.thrive-inline .widget.widget_sfwd-quiz-widget ul li h4,
+.thrive-inline .widget.widget_sfwd-transactions-widget ul li h4,
+.thrive-inline .widget.widget_sfwd-certificates-widget ul li h4 {
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.thrive-inline .widget.widget_sfwd-lessons-widget ul {
+    padding: 0!important;
+}
+
+body.thrive-inline .widget.widget_sfwd-lessons-widget ul li a{
+	font-size: 15px!important;
+    font-weight: 400;
+    line-height: 20px!important;
+	font-style: normal;
+    display: inline-block;
+    width: 100%;
+}
+/* Widget Lesson Topic Dots*/
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 {
+}
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots {
+    display: inline-block;
+}
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots:first-of-type {
+    margin-top: 10px;
+}
+
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a:last-of-type {
+    margin-bottom: 0;
+}
+
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a:before {
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a span {
+    display: inline-block;
+    font-size: 14px;
+}
+.thrive-inline .widget.widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a span:before {
+    content: attr(title);
+    display: inline-block;
+}
+
+body.thrive-inline #thrive_footer_widget .footer-widget .widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a span:before {
+    color: rgba(255, 255, 255, 0.7);
+
+    -webkit-transition: all 0.25s ease-in-out;
+       -moz-transition: all 0.25s ease-in-out;
+            transition: all 0.25s ease-in-out;
+}
+body.thrive-inline #thrive_footer_widget .footer-widget .widget_sfwd-lessons-widget ul li h4 .learndash_topic_dots a:hover span:before {
+    text-decoration: underline;
+}
+body.thrive-inline #thrive_footer_widget .footer-widget .widget .list_arrow.expand.lesson_incomplete:before,
+body.thrive-inline #thrive_footer_widget .footer-widget .widget .list_arrow.collapse.lesson_incomplete:before {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 992px) {
+	.thrive-ld-course{
+		width: 45%;
+		padding: 0;
+		margin-right: 2.5%;
+		margin-left: 2.5%;
+		margin-top: 45px;
+		margin-bottom: 45px;
+		float: left;
+	}
+	.thrive-ld-course-overlay,
+	.thrive-ld-featured-image:hover .thrive-ld-course-overlay {
+		background: #000;
+		height: initial;
+		position: relative;
+		float: left;
+		top: 100%;
+		padding:8px 0 10px 0;
+	}
+	.thrive-ld-overlay-wrapper {
+		position: relative;
+		float: left;
+	}
+	.thrive-ld-link-icon,
+	.thrive-ld-see-course,
+	.thrive-ld-featured-image:hover .thrive-ld-see-course{
+	    text-transform: uppercase;
+	    transform: translateY( 0 );
+		display: block;
+	    position: relative;
+	}
+	.thrive-ld-info-container {
+		float: left;
+	}
+	body.thrive-inline.single-sfwd-courses h1.entry-title,
+	body.thrive-inline.single-sfwd-lessons h1.entry-title,
+	body.thrive-inline.single-sfwd-topic h1.entry-title,
+	body.single-sfwd-quiz h1.entry-title{
+		max-height:none;
+	}
+
+	.site-content .thrive-ld-overlay-wrap a,
+	.thrive-ld-featured-image:hover .thrive-ld-see-course,
+	.thrive-ld-link-icon .material-icons{
+	    font-size: 14px;
+		line-height: 15px;
+		font-weight: 500;
+		width: 100%;
+	}
+	.thrive-ld-link-icon .material-icons {
+		font-size: 20px;
+	}
+	body.thrive-inline.single-sfwd-courses h1.entry-title,
+	body.thrive-inline.single-sfwd-topic h1.entry-title,
+	body.single-sfwd-quiz h1.entry-title{
+		width: 100%;
+		padding-right: 42%;
+	}
+	body.thrive-inline.single-sfwd-courses #learndash_course_status{
+		width: 30%;
+	}
+	/* Lesson List */
+	body.thrive-inline #lessons_list .list-count{
+	    transform: translateY(10px);
+	}
+	body.thrive-inline #lessons_list > div h4 > a {
+		padding-left: 45px;
+	}
+	body.thrive-inline .learndash_topic_dots ul .topic-completed span, body.thrive-inline .learndash_topic_dots ul .topic-notcompleted span {
+		padding-left: 75px;
+	}
+
+	/* Lessons */
+	body.thrive-inline.single-sfwd-topic .has-post-thumbnail .learndash .learndash_topic_dots.type-dots {
+		padding-left: 195px;
+	}
+	/* Topics */
+	body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-completed span,
+	body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-notcompleted span {
+		padding-left: 5px;
+	}
+	/* Quiz */
+	body.thrive-inline #course_list > div h4 > a,
+	body.thrive-inline #learndash_quizzes a,
+	body.thrive-inline.single-sfwd-courses #learndash_quizzes a{
+	padding-left: 25px
+	}
+	body.thrive-inline .content-area ul.wpProQuiz_questionList{
+		margin: 0;
+	}
+	body.thrive-inline .wpProQuiz_mextrixTr>td{
+		width: 50%;
+	}
+/* Shortcode And BuddyPress My Course */
+	body.thrive-inline.my-account #learndash_profile .learndash_profile_heading,
+	body.thrive-inline #learndash_profile .learndash_profile_heading{
+	    text-indent: 40px;
+	}
+	body.thrive-inline #learndash_profile #course_list .right,
+	body.thrive-inline.my-account #learndash_profile #course_list .right{
+		position: absolute;
+		display: block;
+		margin: auto;
+		width: 96%;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_quizzes .failed_icon:before,
+	body.thrive-inline #learndash_profile .learndash_profile_quizzes .passed_icon:before{
+		left: -5px;
+	}
+	body.thrive-inline.my-account #learndash_profile #course_list div:last-of-type h4 a,
+	body.thrive-inline #learndash_profile #course_list div:last-of-type h4 a{
+
+	}
+	body.thrive-inline.my-account #learndash_profile #course_list div:last-of-type h4 .flip>div, body.thrive-inline #learndash_profile #course_list div:last-of-type h4 .flip>div {
+		position: relative;
+		top: -15px;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .certificate,
+	body.thrive-inline #learndash_profile .certificate
+	{width: 20%;}
+
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .scores,
+	body.thrive-inline #learndash_profile .scores
+	{width: 20%;}
+
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .quiz_date,
+	body.thrive-inline #learndash_profile .quiz_date
+	{width: 20%;}
+	/* Widgets */
+
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+	body.thrive-inline.single-sfwd-courses .entry-content,
+	body.thrive-inline.single-sfwd-lessons .entry-content,
+	body.thrive-inline.single-sfwd-topic .entry-content,
+	body.thrive-inline.single-sfwd-quiz .entry-content {
+		margin: 0;
+		position: relative;
+		padding: 0 10px;
+	}
+	.thrive-ld-course,
+	.thrive-ld-course:nth-child(1n),
+	.thrive-ld-course:nth-child(2n){
+		width: 100%;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+		height: auto;
+		float: left;
+	}
+	.thrive-ld-info-container {
+		padding: 0 ;
+	}
+	body.thrive-inline.single-sfwd-courses #learndash_course_status{
+		top:-80px;
+	}
+
+	body.thrive-inline.single-sfwd-courses .has-post-thumbnail #learndash_course_status,
+	body.thrive-inline.single-sfwd-courses #learndash_course_status,
+	body.thrive-inline.single-sfwd-topic .has-post-thumbnail .learndash .learndash_topic_dots.type-dots,
+	body.thrive-inline .learndash_topic_dots b{
+		color: rgba(0, 0, 0, 0.54);
+	}
+	body.thrive-inline.single-sfwd-courses #learndash_course_status b{
+		top: 3px;
+		width: 15px;
+		height: 15px;
+	}
+	body.thrive-inline.single-sfwd-courses .has-post-thumbnail #learndash_course_status,
+	body.thrive-inline.single-sfwd-courses #learndash_course_status{
+		width: 100%;
+		position: relative;
+	    top: 0;
+	    text-align: left;
+		margin-bottom: 25px;
+	}
+	body.thrive-inline.single-sfwd-topic .learndash_topic_dots b {
+		left: 0px;
+		position: absolute;
+	}
+	body.thrive-inline.single-sfwd-topic .learndash .learndash_topic_dots.type-dots,
+	body.thrive-inline.single-sfwd-topic .has-post-thumbnail .learndash .learndash_topic_dots.type-dots{
+		max-width: 100%;
+		width: 100%;
+		text-align: left;
+		text-indent: -0;
+		padding-left: 105px;
+		margin-bottom: 15px;
+		position: relative;
+		top: 0;
+		display: block;
+		max-height: none;
+	}
+	body.thrive-inline.single-sfwd-topic .learndash_topic_dots a {
+		position: relative;
+		float: left;
+		margin-left: 30px;
+	}
+	body.thrive-inline .learndash .topic_item .topic-completed span:before,
+	body.thrive-inline .learndash .topic_item .topic-notcompleted span:before,
+	body.thrive-inline .learndash #learndash_lesson_topics_list .topic-completed span:before,
+	body.thrive-inline .learndash #learndash_lesson_topics_list .topic-notcompleted span:before{
+		left: 0;
+		top: 2px;
+		width: 12px;
+		height: 12px;
+	}
+	body.thrive-inline .learndash .topic-completed span:before,
+	body.thrive-inline .learndash .topic-notcompleted span:before{
+		left: -23px;
+		top: 4px;
+		width: 15px;
+		height: 15px;
+	}
+	/* Single Course */
+	body.thrive-inline.single-sfwd-courses h1.entry-title,
+	body.thrive-inline.single-sfwd-topic h1.entry-title,
+	body.single-sfwd-quiz h1.entry-title {
+		padding-right: 25px;
+	}
+	body.thrive-inline.single-sfwd-courses h1.entry-title:before,
+	body.thrive-inline.single-sfwd-lessons h1.entry-title:before,
+	body.thrive-inline.single-sfwd-topic h1.entry-title:before,
+	body.thrive-inline.single-sfwd-quiz h1.entry-title:before {
+	    margin-right: 9px;
+	}
+	body.thrive-inline .learndash_topic_dots ul .topic-completed span,
+	body.thrive-inline .learndash_topic_dots ul .topic-notcompleted span {
+		padding-left: 65px;
+	}
+	body.thrive-inline #course_list > div h4 > a,
+	body.thrive-inline #learndash_quizzes a,
+	body.thrive-inline.single-sfwd-courses #learndash_quizzes a,
+	body.thrive-inline #quiz_list > div h4 > a{
+		padding-left: 25px;
+	}
+	body.thrive-inline .learndash .notcompleted:after,
+	body.thrive-inline #learndash_profile .notcompleted:after,
+	body.thrive-inline .learndash .completed:after,
+	body.thrive-inline #learndash_profile .completed:after{
+	    margin-right: 10px;
+	}
+	body.thrive-inline #quiz_list > div h4 > a:before{
+		left: 10px;
+	}
+	/* Lesson */
+	body.thrive-inline #lessons_list > div h4 > a {
+		padding-left: 30px;
+	}
+	/* Topics */
+	body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-completed span,
+	body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-notcompleted span {
+		padding-left: 5px;
+	}
+	/* Learndash Profile */
+	body.thrive-inline #learndash_profile .profile_info .profile_avatar{
+		width: 100%;
+	}
+	body.thrive-inline #learndash_profile .profile_info .profile_avatar img {
+		border-radius: 50%;
+		display: block;
+		margin: auto;
+		width: 150px;
+	}
+	body.thrive-inline #learndash_profile .profile_edit_profile{
+		margin: 15px 0;
+	}
+	body.thrive-inline #learndash_profile .profile_edit_profile a,
+	body.thrive-inline .expand_collapse a,
+	body.thrive-inline #learndash_profile .expand_collapse a{
+	    font-size: 12px;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_details {
+		width: 100%;
+		text-align: center;
+		top: 0;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_heading.no_radius.clear_both{
+		margin: 0;
+	}
+	body.thrive-inline.my-account #learndash_profile .learndash_profile_heading,
+	body.thrive-inline #learndash_profile .learndash_profile_heading{
+	    text-indent: 40px;
+	}
+	body.thrive-inline.my-account #learndash_profile .course_progress,
+	body.thrive-inline #learndash_profile .course_progress {
+		width: 88.5%;
+	}
+	body.thrive-inline.my-account #learndash_profile .notcompleted,
+	body.thrive-inline.my-account #learndash_profile .completed,
+	body.thrive-inline #learndash_profile .notcompleted,
+	body.thrive-inline #learndash_profile .completed {
+		max-width: 94%;
+		line-height: 25px;
+	}
+	body.thrive-inline.my-account #learndash_profile .notcompleted:after,
+	body.thrive-inline.my-account #learndash_profile .completed:after,
+	body.thrive-inline #learndash_profile .notcompleted:after,
+	body.thrive-inline #learndash_profile .completed:after {
+		margin-right: -6%;
+	}
+}
+@media (max-width: 480px) {
+	.thrive-ld-featured-image:hover .thrive-ld-see-course{
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.site-content .thrive-ld-overlay-wrap a{
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.thrive-ld-course-overlay, .thrive-ld-featured-image:hover .thrive-ld-course-overlay {
+		padding-bottom: 10px;
+	}
+	.entry-content #ld_categorydropdown>span {
+		display: none;
+	}
+	.entry-content #ld_categorydropdown form {
+		margin-left: 0;
+	}
+    .entry-content #ld_categorydropdown form select {
+        margin-left: 0;
+    }
+	body.thrive-inline.single-sfwd-courses .entry-content,
+	body.thrive-inline.single-sfwd-lessons .entry-content,
+	body.thrive-inline.single-sfwd-topic .entry-content,
+	body.thrive-inline.single-sfwd-quiz .entry-content {
+		margin: 0;
+		position: relative;
+		padding: 0 10px;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .quiz_title,
+	body.thrive-inline #learndash_profile .quiz_title{
+		width: 100%;
+		display: block;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .certificate,
+	body.thrive-inline #learndash_profile .certificate{
+		width: 100%;
+		display: block;
+		text-align: left;
+		text-indent: 40px;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .certificate .certificate_icon,
+	body.thrive-inline #learndash_profile .certificate .certificate_icon{
+	    float: left;
+		margin-left: 40px;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .scores,
+	body.thrive-inline #learndash_profile .scores{
+		width: 100%;
+		display: block;
+		text-align: left;
+		text-indent: 40px;
+	}
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading .quiz_date,
+	body.thrive-inline #learndash_profile .quiz_date{
+		width: 100%;
+		display: block;
+		text-align: left;
+		text-indent: 40px;
+	}
+	body.thrive-inline .learndash .notcompleted:after,
+	body.thrive-inline #learndash_profile .notcompleted:after,
+	body.thrive-inline .learndash .completed:after,
+	body.thrive-inline #learndash_profile .completed:after {
+	    right: 0;
+	    font-size: 20px;
+	}
+	body.thrive-inline.single-sfwd-courses .has-post-thumbnail #learndash_course_status,
+	body.thrive-inline.single-sfwd-courses #learndash_course_status{
+	    margin-bottom: 20px;
+	}
+	body.thrive-inline.my-account #learndash_profile .course_progress,
+	body.thrive-inline #learndash_profile .course_progress {
+		width: 88.5%;
+		left: 9.5%;
+		margin: 0 0 0 7px;
+	}
+	body.thrive-inline #learndash_profile #course_list .right,
+	body.thrive-inline.my-account #learndash_profile #course_list .right {
+		position: relative;
+		display: block;
+		top: -20px;
+		width: 88.5%;
+		left: 9.5%;
+		margin: 0 0 0 7px;
+	}
+	body.thrive-inline #learndash_lessons,
+	body.thrive-inline #learndash_quizzes,
+	body.thrive-inline #learndash_profile,
+	body.thrive-inline #learndash_lesson_topics_list > div {
+	    margin-bottom: 20px;
+	}
+	body.thrive-inline #lessons_list > div h4 > a {
+	    padding-left: 25px;
+	}
+	body.thrive-inline #lessons_list .list-count {
+		width: 25px;
+		height: 24px;
+		padding: 5px 0;
+		transform: translateY(16px);
+		text-align: center;
+	}
+	body.thrive-inline .learndash_topic_dots ul .topic-completed span,
+	body.thrive-inline .learndash_topic_dots ul .topic-notcompleted span {
+		display: inline-block;
+		word-break: break-word;
+		text-align: center;
+	}
+	body.thrive-inline #learndash_next_prev_link {
+		display: block;
+		width: 100%;
+		margin-top: 20px;
+		font-size: 0;
+		float: left;
+	}
+	body.thrive-inline #learndash_back_to_lesson a,
+	body.thrive-inline #learndash_next_prev_link a,
+	body.thrive-inline #learndash_back_to_lesson{
+		display: block;
+		word-break: break-word;
+		text-align: center;
+	    margin-bottom: 20px;
+	}
+	body.thrive-inline #learndash_back_to_lesson a{
+	    margin-bottom: 25px;
+	}
+	body.thrive-inline #learndash_back_to_lesson a,
+	input[name="sfwd_mark_complete"]{
+	    width: 100%;
+		display: inline-block;
+	}
+	body.thrive-inline form#sfwd-mark-complete {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	body.thrive-inline #learndash_next_prev_link a .meta-nav {
+		display: none;
+	}
+	body.thrive-inline.single-sfwd-courses .learndash_topic_dots ul .topic-completed span,
+	body.thrive-inline.single-sfwd-courses .learndash_topic_dots ul .topic-notcompleted span,
+	body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-notcompleted span{
+	    text-align: left;
+	    padding-left: 50px;
+	}
+	body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-completed span,
+	body.thrive-inline.single-sfwd-lessons .learndash_topic_dots ul .topic-notcompleted span{
+	    padding-left: 8px;
+		text-align: left;
+	}
+	body.thrive-inline .wpProQuiz_resultTable table tbody tr .wpProQuiz_resultValue {
+		height: 18px;
+		background: #ECEFF1;
+		max-width: 240px;
+		margin: auto;
+	}
+	body.thrive-inline .wpProQuiz_resultTable table tbody tr .wpProQuiz_resultName {
+		text-align: center;
+	}
+	body.thrive-inline .wpProQuiz_button,
+	body.thrive-inline a#quiz_continue_link,
+	body.thrive-inline .wpProQuiz_certificate a,
+	body.thrive-inline .learndash_join_button input[name="course_join"]{
+		width: 100%;
+		text-align: center;
+		display: block;
+		height: 100%;
+		line-height: 20px;
+		padding: 10px 25px;
+	}
+	body.thrive-inline .quiz_continue_link,
+	body.thrive-inline .slickQuizWrapper,
+	body.thrive-inline .quizReturn {
+		margin-bottom: 0px!important;
+		width: 100%;
+	}
+	body.thrive-inline .wpProQuiz_quiz input[name=check] {
+		position: relative;
+		right: -10px;
+	}
+	body.thrive-inline #learndash_course_certificate a {
+		width: 100%;
+		text-align: center;
+		height: auto;
+		line-height: 20px;
+		padding: 10px 15px;
+	}
+	body.thrive-inline .wpProQuiz_reviewDiv input[name="review"],
+	body.thrive-inline .wpProQuiz_reviewDiv input[name="quizSummary"],
+	body.thrive-inline #leardash_upload_assignment input[name=uploadfile] {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	body.thrive-inline #leardash_upload_assignment input[name=uploadfile]{
+		margin-bottom: 0;
+	}
+	body.thrive-inline table#leardash_upload_assignment,
+	body.thrive-inline table#leardash_upload_assignment tbody,
+	body.thrive-inline table#leardash_upload_assignment tr,
+	body.thrive-inline table#leardash_upload_assignment td {
+		display: block;
+		width: 100%;
+	}
+	body.thrive-inline #content table#leardash_upload_assignment tr {
+		border: none;
+	}
+	body.thrive-inline table#leardash_upload_assignment td {
+		padding: 0;
+		margin: 0;
+	}
+	body.thrive-inline .learndash_topic_dots ul .topic-completed span,
+	body.thrive-inline .learndash_topic_dots ul .topic-notcompleted span {
+		padding-left: 55px;
+	}
+	body.thrive-inline #learndash_quizzes a, body.thrive-inline.single-sfwd-courses #learndash_quizzes a,
+	body.thrive-inline #quiz_list > div h4 > a {
+		line-height: 25px;
+		padding-right: 20px;
+	}
+	body.thrive-inline #quiz_list > div h4 > a:before{
+		font-size: 30px;
+	}
+	body.thrive-inline.page #quiz_list > div h4 > a:before{
+		left: 5px;
+	}
+	body.thrive-inline.page .learndash #quiz_list .notcompleted:after,
+	body.thrive-inline.page #learndash_profile #quiz_list .notcompleted:after,
+	body.thrive-inline.page .learndash #quiz_list .completed:after,
+	body.thrive-inline.page #learndash_profile #quiz_list .completed:after{
+		right: 0;
+	}
+
+	body.thrive-inline #learndash_profile .learndash_profile_quiz_heading{
+		display: none;
+	}
+	body.thrive-inline #course_list > div h4 .overview.table {
+		margin-bottom: 0;
+	}
+	body.thrive-inline #quiz_list > div h4 > a{
+		padding-left: 25px;
+	}
+	body.thrive-inline #content .wpProQuiz_questionListItem>table tbody,
+	body.thrive-inline #content .wpProQuiz_questionListItem>table tr,
+	body.thrive-inline #content .wpProQuiz_questionListItem>table td{
+		display: block;
+		width: 100%;
+	}
+	body.thrive-inline #content .wpProQuiz_questionListItem>table tr{
+		border:none;
+	}
+	body.thrive-inline.my-account #learndash_profile .notcompleted,
+	body.thrive-inline.my-account #learndash_profile .completed{
+		max-width: 91%;
+	}
+	body.thrive-inline #learndash_profile .notcompleted,
+	body.thrive-inline #learndash_profile .completed {
+		max-width: 95%;
+	}
+	body.thrive-inline.my-account #learndash_profile .notcompleted:after,
+	body.thrive-inline.my-account #learndash_profile .completed:after{
+		margin-right: -10%;
+	}
+	body.thrive-inline #learndash_profile .notcompleted:after,
+	body.thrive-inline #learndash_profile .completed:after {
+		margin-right: -5%;
+	}
+	body.thrive-inline #learndash_uploaded_assignments td {
+	    display: block;
+		margin: 0;
+	}
+	body.thrive-inline #learndash_uploaded_assignments td:nth-child(2){
+		text-align: right;
+	}
+	.widget .ld-entry-title.entry-title{
+	    line-height: 15px;
+	}
+	/* Leader boards Table*/
+	body.thrive-inline #content table.wpProQuiz_toplistTable thead {
+		display: none;
+	}
+	body.thrive-inline #content table.wpProQuiz_toplistTable tr+tr+tr+tr {
+		display: block!important;
+		float: left;
+		width: 100%;
+	    padding: 10px 0;
+	}
+	body.thrive-inline #content table.wpProQuiz_toplistTable tr+tr+tr+tr:nth-child(odd){
+	    background: #EEEEEE;
+	}
+	body.thrive-inline #content table.wpProQuiz_toplistTable tr+tr+tr+tr td:nth-child(1) {
+		display: block;
+		width: 20%;
+		float: left;
+		background: transparent;
+	}
+	body.thrive-inline #content table.wpProQuiz_toplistTable tr+tr+tr+tr td:nth-child(2),
+	body.thrive-inline #content table.wpProQuiz_toplistTable tr+tr+tr+tr td:nth-child(3),
+	body.thrive-inline #content table.wpProQuiz_toplistTable tr+tr+tr+tr td:nth-child(4),
+	body.thrive-inline #content table.wpProQuiz_toplistTable tr+tr+tr+tr td:nth-child(5){
+		display: inline-block;
+		width: 80%;
+		float: right;
+		text-align: left;
+		background: transparent;
+		color: #000000!important
+	}
+	body.thrive-inline .wpProQuiz_toplistTrOdd{
+		background: transparent;
+	}
+}
+
+.thrive-ld-courses-wrapper {
+  margin: 0 -2.5%;
+}
+
+@media ( max-width: 992px ) {
+  .thrive-ld-courses-wrapper {
+      margin: 0 auto;
+  }
+}

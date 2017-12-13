@@ -1,0 +1,105 @@
+// Item Header 
+#item-header {
+
+	@include card(1);
+
+	overflow: hidden;
+	background: $light;
+	margin: 15px 0 0;
+	padding: 30px 30px;
+	position: relative;
+	color: $light;
+	z-index: 2;
+
+	&.groups-item-header {
+		padding-bottom: 0;
+		@media ( max-width: 768px ) {
+			padding: 35px 25px;
+		}
+	}
+
+	span.thrive-member-role {
+		padding: 0 10px;
+		top: -5px;
+		position: relative;
+		@media ( max-width: 768px ) {
+			position: static;
+			margin: 15px 0;
+		}
+	}
+
+	#item-actions,
+	#item-header-avatar,
+	#item-header-content {
+		position: relative;
+		z-index: 2;
+	}
+
+
+	#cover-photo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+
+	&:after {
+		content: " ";
+		position: absolute;
+		background: rgba( 0, 0, 0, 0.25 );
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	@media ( max-width: 768px ) {
+		padding: 35px 25px;
+	}
+
+	@media ( max-width: 992px ) {
+	}
+
+	img.avatar {
+		border-radius: 50%;
+	}
+
+	.user-nicename {
+		@include caption();
+		margin-bottom: 5px;
+	}
+
+	#item-header-avatar,
+	#item-header-content {
+		float: left;
+	}
+
+	#item-header-avatar {
+		width: 20%;
+	}
+
+	#item-header-content {
+		
+		width: 80%;
+		padding: 0 20px 20px 20px;
+
+		&:after {
+			content: " ";
+			clear: both;
+		}
+
+		.activity {
+			@include caption();
+			color: $light;
+		}
+	}
+	
+}
+
+.groups.single-item {
+	#item-header {
+		margin-bottom: 0;
+	}
+}

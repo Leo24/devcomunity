@@ -1,0 +1,133 @@
+/**
+ * KnB CSS Support
+ *
+ * @since version 2.0
+ */
+.thrive-inline {
+    .wpknb-single > h2 {
+        font-weight: normal;
+        font-size: 1.8em;
+        opacity: 0.87;
+    }
+    .wpknb .wpknb-search span #searchsubmit {
+        padding: 0 20px;
+        font-size: 12px;
+    }
+
+    .wpknb .wpknb-search {
+        position: relative;
+        &:before {
+            @extend .material_font_extend;
+            content: "search";
+            position: absolute;
+            top: 7.5px;
+            left: 10px;
+            color: $dark_disabled;
+        }
+        #s {
+            border: 1px solid #d2d2d2;
+            box-shadow: 0px 1px 3px -1px #c4c6c8;
+            padding: 0 10px 0 40px;
+        }
+    }
+
+
+    h1.wpknb-title {
+        font-size: 14px;
+        opacity: 0.54;
+        margin-bottom: 15px;
+    }
+
+    .wpknb-single {
+        margin-top: 35px;
+    }
+
+    .wpknb .wpknb-meta {
+        clear: both;
+        margin-top: -15px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        opacity: 0.87;
+        color: #383636;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 15px;
+    }
+
+    &.single-knowledge_base {
+        .nav-previous,
+        .nav-next {
+            @include card(1);
+            margin: 15px 0;
+            padding: 15px;
+            background: #fff;
+
+            &:before {
+                @extend .material_font_extend;
+                content: "import_contacts";
+                position: relative;
+                top: 5px;
+                margin-right: 10px;
+            }
+            a {
+                font-size: 16px;
+                font-weight: normal;
+                color: $dark;
+                opacity: 0.87;
+            }
+        }
+    }
+
+    .wpknb-category {
+        h3.wpknb-cat-title {
+            margin-bottom: 15px;
+            a {
+                color: $dark;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+        .wpknb-inner {
+            padding: 0 15px;
+            margin-bottom: 30px;
+
+            .wpknb-lists {
+                padding: 0;
+                    li {
+                        margin-bottom: 5px;
+                        position: relative;
+                        padding-left: 30px;
+                        a {
+                            color: rgba(0, 0, 0, 0.54);
+                        }
+                        .knb-icon {
+                            position: absolute;
+                            left: 0;
+                            &:before {
+                                @extend .material_font_extend;
+                                content: "question_answer";
+                                margin: -2.5px 0 0 0;
+
+                            }
+                        }
+                    }
+            }
+        }
+
+        .wpknb-full-category-count {
+            position: relative;
+            a {
+                color: rgba(0, 0, 0, 0.54);
+                padding-left: 30px;
+                &:before {
+                    @extend .material_font_extend;
+                    content: "import_contacts";
+                    position: absolute;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,143 @@
+/*------------------------------------------------------------------
+  [5. Spacing]
+-------------------------------------------------------------------*/
+
+
+.block {display: block;}
+.inline-block {display: inline-block;}
+.display-table {display: table;}
+.display-table-cell {display: table-cell; vertical-align: middle;}
+
+/*Paddings*/
+.padding-5  {padding: 5px;}
+.padding-10 {padding: 10px;}
+.padding-15 {padding: 15px;}
+.padding-20 {padding: 20px;}
+.padding-25 {padding: 25px;}
+.padding-30 {padding: 30px;}
+.padding-35 {padding: 35px;}
+.padding-40 {padding: 40px;}
+.padding-45 {padding: 45px;}
+.padding-50 {padding: 50px;}
+.padding-55 {padding: 55px;}
+.padding-60 {padding: 60px;}
+.padding-65 {padding: 65px;}
+.padding-70 {padding: 70px;}
+.padding-75 {padding: 75px;}
+.padding-80 {padding: 80px;}
+.padding-85 {padding: 85px;}
+.padding-90 {padding: 90px;}
+.padding-95 {padding: 95px;}
+.padding-100 {padding: 100px;}
+
+.pd-top-5 {padding-top: 5px}
+.pd-top-10 {padding-top: 10px}
+.pd-top-15 {padding-top: 15px}
+.pd-top-20 {padding-top: 20px}
+.pd-top-25 {padding-top: 25px}
+.pd-top-30 {padding-top: 30px}
+.pd-top-35 {padding-top: 35px}
+.pd-top-40 {padding-top: 40px}
+
+.pd-bottom-5 {padding-bottom: 5px}
+.pd-bottom-10 {padding-bottom: 10px}
+.pd-bottom-15 {padding-bottom: 15px}
+.pd-bottom-20 {padding-bottom: 20px}
+.pd-bottom-25 {padding-bottom: 25px}
+.pd-bottom-30 {padding-bottom: 30px}
+.pd-bottom-35 {padding-bottom: 35px}
+.pd-bottom-40 {padding-bottom: 40px}
+
+.pd-left-5 {padding-left: 5px}
+.pd-left-10 {padding-left: 10px}
+.pd-left-15 {padding-left: 15px}
+.pd-left-20 {padding-left: 20px}
+.pd-left-25 {padding-left: 25px}
+.pd-left-30 {padding-left: 30px}
+.pd-left-35 {padding-left: 35px}
+.pd-left-40 {padding-left: 40px}
+
+.pd-right-5 {padding-right: 5px}
+.pd-right-10 {padding-right: 10px}
+.pd-right-15 {padding-right: 15px}
+.pd-right-20 {padding-right: 20px}
+.pd-right-25 {padding-right: 25px}
+.pd-right-30 {padding-right: 30px}
+.pd-right-35 {padding-right: 35px}
+.pd-right-40 {padding-right: 40px}
+
+.no-pd {padding: 0;}
+.no-pd-top {padding-top: 0;}
+.no-pd-left {padding-left: 0;}
+.no-pd-right {padding-right: 0;}
+.no-pd-bottom {padding-bottom: 0;}
+
+/*Margins*/
+.no-mg {margin: 0;}
+.no-mg-top {margin-top: 0;}
+.no-mg-left {margin-left: 0;}
+.no-mg-right {margin-right: 0;}
+.no-mg-bottom {margin-bottom: 0;}
+
+.margin-5  {margin: 5px;}
+.margin-10 {margin: 10px;}
+.margin-15 {margin: 15px;}
+.margin-20 {margin: 20px;}
+.margin-25 {margin: 25px;}
+.margin-30 {margin: 30px;}
+.margin-35 {margin: 35px;}
+.margin-40 {margin: 40px;}
+.margin-45 {margin: 45px;}
+.margin-50 {margin: 50px;}
+.margin-55 {margin: 55px;}
+.margin-60 {margin: 60px;}
+.margin-65 {margin: 65px;}
+.margin-70 {margin: 70px;}
+.margin-75 {margin: 75px;}
+.margin-80 {margin: 80px;}
+.margin-85 {margin: 85px;}
+.margin-90 {margin: 90px;}
+.margin-95 {margin: 95px;}
+.margin-100 {margin: 100px;}
+
+.mg-left-5  {margin-left: 5px;}
+.mg-left-10 {margin-left: 10px;}
+.mg-left-15 {margin-left: 15px;}
+.mg-left-20 {margin-left: 20px;}
+.mg-left-25 {margin-left: 25px;}
+.mg-left-30 {margin-left: 30px;}
+.mg-left-35 {margin-left: 35px;}
+
+.mg-right-5  {margin-right: 5px;}
+.mg-right-10 {margin-right: 10px;}
+.mg-right-15 {margin-right: 15px;}
+.mg-right-20 {margin-right: 20px;}
+.mg-right-25 {margin-right: 25px;}
+.mg-right-30 {margin-right: 30px;}
+.mg-right-35 {margin-right: 35px;}
+
+.mg-top-5  {margin-top: 5px;}
+.mg-top-10 {margin-top: 10px;}
+.mg-top-15 {margin-top: 15px;}
+.mg-top-20 {margin-top: 20px;}
+.mg-top-25 {margin-top: 25px;}
+.mg-top-30 {margin-top: 30px;}
+.mg-top-35 {margin-top: 35px;}
+
+.mg-bottom-5  {margin-bottom: 5px;}
+.mg-bottom-10 {margin-bottom: 10px;}
+.mg-bottom-15 {margin-bottom: 15px;}
+.mg-bottom-20 {margin-bottom: 20px;}
+.mg-bottom-25 {margin-bottom: 25px;}
+.mg-bottom-30 {margin-bottom: 30px;}
+.mg-bottom-35 {margin-bottom: 35px;}
+
+.no-mg-top {margin-top: 0px;}
+.no-mg-left {margin-left: 0px;}
+.no-mg-right {margin-right: 0px;}
+.no-mg-bottom {margin-bottom: 0px;}
+
+.top-5 {
+	position: relative;
+	top: 5px;
+}

@@ -1,0 +1,55 @@
+.page-template-starter {
+
+	.container.site-content {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	#page {
+		background: $light;
+	}
+}
+
+.thrive-layout-1_column {
+	#content {
+		.limiter {
+			@media(max-width: 992px) {
+				max-width: 100%;
+			}
+		}
+	}
+
+	#thrive_nav_wrap {
+		#site-logo {
+			@media(max-width: 992px) {
+				padding-left: 10px;
+			}
+			@media(max-width: 768px) {
+				padding-left: 0;
+			}
+		}
+	}
+	#content-left-col,
+	#content-right-col {
+		@media(max-width: 992px) {
+			padding: 0 30px;
+		}
+		@media(max-width: 768px) {
+			padding: 0;
+		}
+	}
+
+	&.bp-user {
+		.container-fluid {
+			.limiter {
+				> .col-md-12 {
+					@media(max-width: 992px) {
+						padding: 0 30px;
+					}
+					@media(max-width: 768px) {
+						padding: 0;
+					}
+				}
+			}
+		}
+	}
+}

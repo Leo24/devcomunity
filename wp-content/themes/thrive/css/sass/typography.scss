@@ -1,0 +1,287 @@
+/**
+ * Material Icon Fonts.
+ */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url('fonts/MaterialIcons-Regular.woff2') format('woff2'),
+       url('fonts/MaterialIcons-Regular.woff') format('woff'),
+       url('fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/**
+ * -------------------
+ */
+html {
+	font-size: 14px;
+
+}
+body {
+	@include tMeasure(16);
+	font-family:  'RobotoDraft', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	margin-bottom: 0;
+}
+
+
+h1, .h1 {
+	@include tMeasure(38);
+
+	&.entry-title {
+		font-size: 29px;
+		line-height: 120%;
+		margin-top: 8px;
+		font-weight: bold;
+	}
+}
+
+article h1.entry-title {
+    font-size: 25px;
+    line-height: 1.3;
+    margin-top: 10px;
+    font-weight: normal;
+    color: #607D8B;
+}
+
+h2, .h2 {
+	@include tMeasure(32);
+}
+
+h3, .h3 {
+	@include tMeasure(25);
+}
+
+h4, .h4 {
+	@include tMeasure(22);
+}
+
+h5, .h5 {
+	@include tMeasure(19);
+}
+
+h6, .h6 {
+	@include tMeasure(17);
+}
+
+p {
+	@include tMeasure(16);
+}
+
+h1, h2, h3, h4, h5, h6
+.h1, .h2, .h3, .h4, .h5, .h6 {
+/*	line-height: 120%;*/
+
+	@media (max-width: 768px) {
+		line-height: 120%;
+		font-weight: normal;
+	}
+
+	margin-top: 0;
+	font-weight: 600;
+
+	&.light {
+		font-weight: normal;
+	}
+
+}
+
+/*Lists*/
+menu,
+ul, ol {
+	padding-left: 0;
+}
+
+ol {
+	padding-left: 20px;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	padding-left: 2.8em;
+}
+
+
+ul li,
+ol li {
+	list-style: none;
+	  line-height: 1.4em;
+	  margin-bottom: 10px;
+}
+
+dir,
+menu {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 1.5em;
+
+	li {
+		list-style: lower-alpha;
+	}
+}
+
+ol li {
+	list-style: decimal;
+}
+
+.content-area {
+	ul {
+		padding-left: 2.8em;
+		margin-bottom: 1.5em;
+		li {
+			list-style: circle;
+		}
+	}
+	ol {
+		padding-left: 2.8em;
+		margin-bottom: 1.5em;
+	}
+
+
+}
+
+table {
+	@include card(1);
+	td{
+		padding: 5px;
+		background: $light;
+		color: $dark_secondary_icon;
+	}
+	th {
+		background: $light;
+		color: $dark_secondary_icon;
+	}
+}
+
+pre,
+blockquote {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+
+	font-size: 1.2em;
+  	padding: 1.5em 2em;
+  	margin: 1.5em 0;
+  	border: 1px solid $dark_borders;
+  	color: $dark_secondary_icon;
+  	font-weight: 400;
+  	font-family: palatino, sans-serif;
+  	font-style: italic;
+
+}
+
+blockquote {
+	&:before {
+		@include material_font('format_quote');
+		float: right;
+		font-size: 48px;
+		color: $dark_secondary_icon
+	}
+}
+pre {
+	font-size: 0.75em;
+	font-style: normal;
+	font-family: consolas, sans-serif;
+	background: $dark;
+	color: $light_secondary;
+}
+
+table {
+	tr {
+		border: 1px solid $dark_borders;
+	}
+	td {
+		padding: 5px;
+		&#next {
+			text-align: right;
+		}
+	}
+	th{
+		padding: 5px;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+#content{
+
+	figure {
+		margin-bottom: 1.5em;
+	}
+
+	table {
+
+		border: 1px solid $dark_borders;
+		border-bottom: 0;
+		@include card(1);
+		width: 100%;
+		margin: 1.5em 0;
+
+		tr {
+			background: $light;
+			border-bottom: 1px solid $dark_borders;
+
+				&:hover {
+					background: $dark_borders;
+				}
+		}
+
+		td {
+			@include tMeasure(14);
+			padding: 10px 20px;
+			color: $dark_text;
+		}
+
+		th {
+			padding: 5px 5px;
+			@include tMeasure(12);
+			color: $dark_secondary_icon;
+		}
+	}
+}
+
+.type-strong {font-weight: 700;}
+.type-light {font-weight: 300;}
+.type-normal {font-weight: 400;}
+
+
+.comments-title {
+	line-height: 120%;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}

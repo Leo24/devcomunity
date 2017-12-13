@@ -1,0 +1,4359 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-19 19:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: ../thrive/comments.php:30
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../thrive/comments.php:46 ../thrive/comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#: ../thrive/comments.php:49 ../thrive/comments.php:71
+msgid "Older Comments"
+msgstr ""
+
+#: ../thrive/comments.php:50 ../thrive/comments.php:72
+msgid "Newer Comments"
+msgstr ""
+
+#: ../thrive/comments.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: ../thrive/searchform.php:4
+msgid "Search for:"
+msgstr ""
+
+#: ../thrive/searchform.php:9
+msgid "To search, type and hit enter"
+msgstr ""
+
+#: ../thrive/searchform.php:12 ../thrive/header.php:129
+#: ../thrive/thrive/user-navigation/user-navigation.php:55
+msgid "Search"
+msgstr ""
+
+#: ../thrive/archive.php:37 ../thrive/inc/template-tags.php:211
+#: ../thrive/thrive/widgets/widgets.php:70
+msgid "Archives"
+msgstr ""
+
+#: ../thrive/functions.php:122
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../thrive/functions.php:235 ../thrive/functions.php:238
+msgid "Social Connect "
+msgstr ""
+
+#: ../thrive/functions.php:241
+msgid "Thrive Social Connect "
+msgstr ""
+
+#: ../thrive/search.php:25
+msgid "Search Results"
+msgstr ""
+
+#: ../thrive/404.php:15
+msgid "404 - Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../thrive/404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../thrive/header.php:70 ../thrive/header.php:88
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: ../thrive/header.php:104
+msgid "Skip to content"
+msgstr ""
+
+#: ../thrive/header.php:135
+msgid "Show Menu"
+msgstr ""
+
+#: ../thrive/footer.php:57 ../thrive/thrive/footer/customizer/footer.php:93
+msgid "&copy; [Your Website Name Here] 2015. All Rights Reserved."
+msgstr ""
+
+#: ../thrive/inc/wp-login-css.php:73
+msgid "Go back to main page"
+msgstr ""
+
+#: ../thrive/inc/wp-login-css.php:85
+msgid "Lost Password?"
+msgstr ""
+
+#: ../thrive/inc/thrive-nav.php:46 ../thrive/inc/thrive-nav.php:56
+msgid "Site Logo"
+msgstr ""
+
+#: ../thrive/inc/thrive-nav.php:47 ../thrive/inc/thrive-nav.php:57
+msgid "Site Mobile Logo"
+msgstr ""
+
+#: ../thrive/inc/thrive-nav.php:103
+msgid "Create or Assign a 'Primary' Menu"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:89
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:94
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:99
+msgid "Last updated"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#: ../thrive/inc/template-tags.php:121 ../thrive/inc/template-tags.php:127
+msgid ", "
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:123
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:129
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:139 ../thrive/template-parts/content.php:26
+#: ../thrive/template-parts/content-single.php:28
+msgid "Comments"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:148
+msgid "Manage"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:173
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:175
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:177
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:179
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:179
+msgid "Y"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:181
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:181
+msgid "F Y"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:183
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:183
+msgid "F j, Y"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:186
+msgid "Asides"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:188
+msgid "Galleries"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:190
+msgid "Images"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:192
+msgid "Videos"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:194
+msgid "Quotes"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:196
+#: ../thrive/thrive/widgets/customizer/widgets.php:87
+#: ../thrive/thrive/footer/customizer/widgets.php:88
+#: ../thrive/thrive/footer/customizer/footer.php:66
+msgid "Links"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:198
+msgid "Statuses"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:200
+msgid "Audio"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:202
+msgid "Chats"
+msgstr ""
+
+#: ../thrive/inc/template-tags.php:205
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. 1: Taxonomy singular name, 2: Current taxonomy term
+#: ../thrive/inc/template-tags.php:209
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../thrive/inc/extras.php:61
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../thrive/inc/extras.php:153
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../thrive/inc/extras.php:159
+#, php-format
+msgid "<span class=\"type-strong fn\">%s</span>"
+msgstr ""
+
+#: ../thrive/inc/extras.php:164
+msgid "(Edit)"
+msgstr ""
+
+#. 1: date, 2: time
+#: ../thrive/inc/extras.php:169
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../thrive/inc/extras.php:199
+msgid "Category"
+msgstr ""
+
+#: ../thrive/inc/extras.php:204
+msgid "Tag"
+msgstr ""
+
+#: ../thrive/inc/extras.php:210
+msgid "Author"
+msgstr ""
+
+#: ../thrive/inc/extras.php:224
+msgid "Archive"
+msgstr ""
+
+#: ../thrive/inc/extras.php:242
+msgid "Files"
+msgstr ""
+
+#: ../thrive/inc/extras.php:255
+msgid "BuddyPress"
+msgstr ""
+
+#: ../thrive/inc/extras.php:256
+#, php-format
+msgid ""
+"%s is not currently installed or activated. Thrive recommends that you "
+"install and activate %s plugin. Thank you :)"
+msgstr ""
+
+#: ../thrive/inc/extras.php:310
+msgid "Chat"
+msgstr ""
+
+#: ../thrive/inc/extras.php:338
+msgid "Media Updates"
+msgstr ""
+
+#: ../thrive/inc/extras.php:422 ../thrive/inc/extras.php:423
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:49
+msgid "Settings"
+msgstr ""
+
+#. Name of the template
+msgid "Blank"
+msgstr ""
+
+#. Name of the template
+msgid "Starter"
+msgstr ""
+
+#. Name of the template
+msgid "Canvas"
+msgstr ""
+
+#. Name of the template
+#: ../thrive/thrive/widgets/widgets.php:80
+msgid "Dashboard"
+msgstr ""
+
+#: ../thrive/learndash/course_list_template.php:34
+msgid "See Course"
+msgstr ""
+
+#: ../thrive/learndash/course_list_template.php:90
+msgid "By"
+msgstr ""
+
+#: ../thrive/one-click-demo-import/one-click-demo-import.php:15
+msgid ""
+"After you import this demo, you will have to create your own members and "
+"groups because their data should be unique."
+msgstr ""
+
+#: ../thrive/one-click-demo-import/one-click-demo-import.php:31
+#: ../thrive/one-click-demo-import/one-click-demo-import.php:47
+msgid ""
+"For this import, please make sure that you have installed and activated all "
+"the recommended plugins. Also, you will have to setup the slider separately."
+msgstr ""
+
+#: ../thrive/template-parts/sidebar-content.php:31
+#: ../thrive/template-parts/sidebar-content.php:40
+msgid "View Profile"
+msgstr ""
+
+#: ../thrive/template-parts/sidebar-content.php:47
+msgid "Logout"
+msgstr ""
+
+#: ../thrive/template-parts/sidebar-content.php:48
+#: ../thrive/thrive/user-navigation/user-navigation.php:249
+msgid "Sign Out"
+msgstr ""
+
+#: ../thrive/template-parts/sidebar-content.php:82
+msgid "New 'Secondary' Menu"
+msgstr ""
+
+#: ../thrive/template-parts/sidebar-content.php:105
+msgid "Welcome! Please sign-in to your account. Thank you!"
+msgstr ""
+
+#: ../thrive/template-parts/sidebar-content.php:115
+msgid "Login"
+msgstr ""
+
+#: ../thrive/template-parts/content-none.php:14
+msgid "Ops! Nothing Found"
+msgstr ""
+
+#: ../thrive/template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../thrive/template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../thrive/template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: Name of current post
+#: ../thrive/template-parts/content.php:76
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../thrive/template-parts/content.php:83
+#: ../thrive/template-parts/content-page.php:20
+#: ../thrive/template-parts/content-single.php:64
+msgid "Pages:"
+msgstr ""
+
+#: ../thrive/template-parts/content-page.php:27
+msgid "Edit"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:12
+msgid "Edit Album : "
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:16
+#: ../thrive/rtmedia/media/media-single-edit.php:16
+msgid "Details"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:18
+msgid "Manage Media"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:32
+#: ../thrive/rtmedia/media/media-single-edit.php:26
+msgid "Title : "
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:37
+#: ../thrive/rtmedia/media/media-single-edit.php:32
+msgid "Description: "
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:47
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:94
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:133
+#: ../thrive/buddypress/members/single/settings/general.php:40
+#: ../thrive/buddypress/members/single/settings/notifications.php:28
+#: ../thrive/buddypress/members/single/profile/edit.php:91
+#: ../thrive/buddypress/groups/single/admin/edit-details.php:52
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:148
+#: ../thrive/buddypress/groups/single/forum/edit.php:86
+#: ../thrive/buddypress/groups/single/forum/edit.php:116
+msgid "Save Changes"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:48
+#: ../thrive/rtmedia/media/media-single-edit.php:47
+msgid "Back"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:62
+msgid "Select All Visible"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:63
+msgid "Move Selected media to another album."
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:63
+msgid "Move"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:65
+msgid "Delete Selected media from the album."
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:65
+#: ../thrive/buddypress/activity/comment.php:52
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:132
+#: ../thrive/buddypress/members/single/messages/single.php:35
+msgid "Delete"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:70
+msgid "Move selected media to the album : "
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:72
+msgid "Move Selected"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:94
+msgid "Prev"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:103
+msgid "Next"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:106
+msgid "The album is empty."
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-single-edit.php:116
+msgid "Sorry !! You can not edit this album."
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-single-edit.php:8
+msgid "Edit Media"
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-single-edit.php:46
+#: ../thrive/buddypress/members/single/settings/capabilities.php:23
+msgid "Save"
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-single-edit.php:54
+msgid "Sorry !! You do not have rights to edit this media"
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-single-edit.php:61
+#: ../thrive/rtmedia/media/album-gallery.php:66
+#: ../thrive/rtmedia/media/media-single.php:146
+msgid "Sorry !! There's no media found for the request !!"
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-gallery.php:9
+#: ../thrive/rtmedia/media/media-gallery.php:25
+msgid "Media Gallery"
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-gallery.php:65
+#: ../thrive/rtmedia/media/album-gallery.php:57
+#: ../thrive/buddypress/activity/activity-loop.php:27
+msgid "Load More"
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-gallery.php:73
+msgid "Oops !! There's no media found for the request !!"
+msgstr ""
+
+#: ../thrive/rtmedia/media/album-gallery.php:14
+msgid "Album List"
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-single.php:35
+msgid "under"
+msgstr ""
+
+#: ../thrive/rtmedia/media/media-single.php:82
+#: ../thrive/rtmedia/media/media-single.php:122
+msgid "Comment"
+msgstr ""
+
+#: ../thrive/inc/option-tree/ot-loader.php:21
+msgid ""
+"OptionTree is installed as a plugin and also embedded in your current theme. "
+"Please deactivate the plugin to load the theme dependent version of "
+"OptionTree, and remove this warning."
+msgstr ""
+
+#: ../thrive/inc/option-tree/ot-loader.php:787
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:398
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:170
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:770
+msgid "Send to OptionTree"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars.php:41
+#: ../thrive/thrive/sidebars/sidebars.php:42
+#: ../thrive/thrive/sidebars/sidebars-screen.php:14
+msgid "Sidebars"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:29
+msgid "There was an error while adding your sidebar. Sidebar already exists."
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:30
+msgid "Invalid sidebar name. Only alphanumeric characters are allowed."
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:31
+msgid "There was an error while adding sidebar. Sidebar name is required."
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:45
+msgid "Sidebar has been added."
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:56
+#: ../thrive/thrive/sidebars/sidebars-screen.php:86
+#: ../thrive/buddypress/members/single/profile/profile-wp.php:30
+msgid "Name"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:57
+#: ../thrive/thrive/sidebars/sidebars-screen.php:87
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:43
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:428
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:478
+msgid "Description"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:92
+msgid "No Custom Sidebars Yet."
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:98
+msgid "Add New Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:100
+msgid ""
+"Use this form to create a new sidebar for the theme (in case you need it!). "
+"After you have successfully added a sidebar, you will be able to assign "
+"inside a post or page."
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:127
+msgid "Name: *"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:129
+msgid "Sidebar name (must be unique)"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:132
+msgid "Description: (optional)"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:135
+msgid ""
+"Text description of what/where the sidebar is. Shown on widget management "
+"screen."
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:143
+msgid "Update Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-screen.php:146
+msgid "Add Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-meta.php:101
+#: ../thrive/thrive/sidebars/sidebars-meta.php:111
+#: ../thrive/thrive/sidebars/sidebars-meta.php:124
+#: ../thrive/thrive/sidebars/sidebars-meta.php:134
+#: ../thrive/thrive/sidebars/sidebars-meta.php:149
+#: ../thrive/thrive/sidebars/sidebars-meta.php:165
+msgid "Appearance"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-meta.php:229
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-meta.php:245
+#: ../thrive/thrive/sidebars/sidebars-meta.php:291
+msgid "No Sidebars Available"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-meta.php:262
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-meta.php:296
+msgid "Page Layout"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-meta.php:307
+msgid "Content / Sidebar Right"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-meta.php:308
+msgid "Sidebar Left / Content"
+msgstr ""
+
+#: ../thrive/thrive/sidebars/sidebars-meta.php:309
+msgid "Full Content / No Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/sidenav/customizer.php:10
+msgid "Side Navigation"
+msgstr ""
+
+#: ../thrive/thrive/sidenav/customizer.php:11
+msgid ""
+"Side Navigation are useful for retaining user \tpermalink links. Side "
+"Navigation (SideNav) is only available for 2 columns layout."
+msgstr ""
+
+#: ../thrive/thrive/sidenav/customizer.php:32
+msgid "Public 'Sidenav Widgets'"
+msgstr ""
+
+#: ../thrive/thrive/sidenav/customizer.php:34
+msgid "Check to make the left sidebar widgets accesible to public."
+msgstr ""
+
+#: ../thrive/thrive/sidenav/customizer.php:51
+msgid "Log Out Message"
+msgstr ""
+
+#: ../thrive/thrive/sidenav/customizer.php:54
+msgid ""
+"Use the Textarea below to write your side navigation message when the user "
+"is logged out."
+msgstr ""
+
+#: ../thrive/thrive/widgets/widgets.php:40
+msgid "Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/widgets/widgets.php:50
+msgid "BP Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/widgets/widgets.php:60
+msgid "Sidenav Sidebar"
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:10
+msgid "General Colors"
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:11
+msgid "Select the desired general color combination for your website."
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:27
+msgid "Dark Side Menu"
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:29
+msgid "This option applies for 2 columns layout side menu background color"
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:42
+msgid "Primary Colors"
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:45
+msgid ""
+"Select a primary color for your website. This settings will be automatically "
+"overwritten if you change the colors inside individual components, for "
+"example, \"Branding\", \"Menu\", etc. "
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:58
+msgid "Primary Colors Shade"
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:61
+msgid ""
+"Select a shade for your primary color. This settings will be automatically "
+"overwritten if you change the colors inside individual components, for "
+"example, \"Branding\", \"Menu\", etc. "
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:75
+msgid "Secondary Colors"
+msgstr ""
+
+#: ../thrive/thrive/colors/customizer.php:78
+msgid ""
+"Select a secondary color. This settings will be automatically overwritten if "
+"you change the colors inside individual components, for example, "
+"\"Branding\", \"Menu\", etc. "
+msgstr ""
+
+#: ../thrive/thrive/footer/footer.php:55 ../thrive/thrive/footer/footer.php:70
+msgid "Footer"
+msgstr ""
+
+#: ../thrive/thrive/layouts/customizer.php:3
+msgid "General Layout"
+msgstr ""
+
+#: ../thrive/thrive/layouts/customizer.php:4
+msgid "Select the desired layout for your website."
+msgstr ""
+
+#: ../thrive/thrive/layouts/customizer.php:20
+msgid "Select Layout:"
+msgstr ""
+
+#: ../thrive/thrive/layouts/customizer.php:39
+msgid "Direction:"
+msgstr ""
+
+#: ../thrive/thrive/user-define-css/customizer.php:10
+msgid "Custom CSS"
+msgstr ""
+
+#: ../thrive/thrive/user-define-css/customizer.php:24
+msgid "Custom Theme CSS"
+msgstr ""
+
+#: ../thrive/thrive/register/customizer.php:10
+msgid "Register Page"
+msgstr ""
+
+#: ../thrive/thrive/register/customizer.php:11
+msgid ""
+"Use this section to customize your register page. After saving, log-out and "
+"visit your register page to see the changes. Make sure to disable the "
+"registration option inside the site settings."
+msgstr ""
+
+#: ../thrive/thrive/register/customizer.php:27
+msgid "Disable Page Header"
+msgstr ""
+
+#: ../thrive/thrive/register/customizer.php:29
+msgid "Check to disable site header in the register page."
+msgstr ""
+
+#: ../thrive/thrive/register/customizer.php:43
+msgid "Disable Page Footer"
+msgstr ""
+
+#: ../thrive/thrive/register/customizer.php:45
+msgid "Check to disable site footer in the register page."
+msgstr ""
+
+#: ../thrive/thrive/register/customizer.php:59
+msgid "Enable Site Logo"
+msgstr ""
+
+#: ../thrive/thrive/register/customizer.php:61
+msgid ""
+"Check to enable site logo in the register form. Useful if you want to hide "
+"the site header."
+msgstr ""
+
+#: ../thrive/thrive/typography/typography.php:37
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:377
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:754
+msgid "Typography"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:18
+msgid "Sign-in to your account"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:19
+msgid "Sign-in"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:22
+msgid "Create account to get started"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:23
+msgid "Register"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:63
+msgid "See Notifications"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:99
+msgid "See All Notifications"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:137
+msgid "Show Unread Messages"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:155
+msgid "Messages"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:161
+#, php-format
+msgid "%s &raquo; Read message "
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:183
+#: ../thrive/thrive/user-navigation/user-navigation.php:184
+msgid "See All Messages"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:230
+msgid "Edit 'Top Right Bar' Menu"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:275
+#: ../thrive/thrive/theme-widgets/featured-member.php:83
+msgid "Profile"
+msgstr ""
+
+#: ../thrive/thrive/user-navigation/user-navigation.php:285
+msgid "Docs"
+msgstr ""
+
+#. Base ID
+#: ../thrive/thrive/theme-widgets/featured-group.php:13
+msgid "Thrive: Featured Group"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:14
+msgid "Use this widget to feature a group."
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:39
+msgid "Unable to fetch groups. Is BuddyPress installed or activated?"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:46
+msgid ""
+"I can't seem to find a group with that group name. Please check your group "
+"name input."
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:79
+msgid "Visit Group Profile"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:94
+msgid "Activities"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:99
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:240
+msgid "Members"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:118
+msgid "Featured Group"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:123
+#: ../thrive/thrive/theme-widgets/featured-member.php:117
+#: ../thrive/thrive/theme-widgets/members-birthday.php:207
+#: ../thrive/buddypress/forums/index.php:159
+#: ../thrive/buddypress/groups/single/forum.php:100
+#: ../thrive/buddypress/groups/single/forum/edit.php:68
+msgid "Title:"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:128
+#: ../thrive/thrive/theme-widgets/featured-member.php:122
+msgid "You can use this field to enter the widget title."
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:134
+msgid "Groups Name:"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-group.php:139
+msgid "Enter the name of the group that you want to be featured."
+msgstr ""
+
+#. Base ID
+#: ../thrive/thrive/theme-widgets/featured-member.php:14
+msgid "Thrive: Featured Member"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-member.php:15
+msgid "Use this widget to feature a member."
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-member.php:42
+msgid ""
+"I can't seem to find a user with that username. Please check your username "
+"input."
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-member.php:62
+msgid "Visit Member Profile"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-member.php:88
+msgid "Activity"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-member.php:93
+msgid "Friends"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-member.php:112
+msgid "Featured Member"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-member.php:128
+msgid "Username:"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/featured-member.php:133
+msgid "Enter the username of the member that you want to be featured."
+msgstr ""
+
+#. Base ID
+#: ../thrive/thrive/theme-widgets/members-birthday.php:14
+msgid "Thrive: Birthday Widget"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:15
+msgid "Celebrate your members' birthday with Thrive Birthday Widget."
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:45
+msgid ""
+"I can't find \"Date of Birth\" profile data. Have you added \"Date of "
+"Birth\" user field already?"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:116
+msgid "Visit Profile"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:131
+msgid " Happy%20Birthday!"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:136
+msgid "Happy Birthday!"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:137
+msgid "Greet"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:156
+msgid "There are no upcoming birthday celebrations"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:202
+msgid "Birthdays"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:211
+msgid "Show Birthdays:"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:214
+msgid "This Year"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:215
+msgid "This Month"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:216
+msgid "This Week"
+msgstr ""
+
+#: ../thrive/thrive/theme-widgets/members-birthday.php:228
+msgid "Hide if no birthdays:"
+msgstr ""
+
+#: ../thrive/thrive/menu/menu.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: ../thrive/thrive/menu/menu.php:39
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../thrive/thrive/menu/menu.php:40
+msgid "Top Right Bar"
+msgstr ""
+
+#: ../thrive/thrive/menu/menu.php:68
+msgid "Branding & Menu"
+msgstr ""
+
+#: ../thrive/buddypress/blogs/blogs-loop.php:125
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: ../thrive/buddypress/blogs/create.php:31
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#: ../thrive/buddypress/blogs/index.php:47
+#, php-format
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/blogs/index.php:51
+#, php-format
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/blogs/index.php:81
+#: ../thrive/buddypress/members/index.php:79
+#: ../thrive/buddypress/forums/index.php:77
+#: ../thrive/buddypress/groups/index.php:74
+#: ../thrive/buddypress/members/single/forums.php:18
+#: ../thrive/buddypress/members/single/blogs.php:19
+#: ../thrive/buddypress/members/single/friends.php:20
+#: ../thrive/buddypress/members/single/groups.php:20
+#: ../thrive/buddypress/groups/single/forum.php:44
+msgid "Order By:"
+msgstr ""
+
+#: ../thrive/buddypress/blogs/index.php:83
+#: ../thrive/buddypress/members/index.php:81
+#: ../thrive/buddypress/forums/index.php:79
+#: ../thrive/buddypress/groups/index.php:77
+#: ../thrive/buddypress/members/single/forums.php:20
+#: ../thrive/buddypress/members/single/blogs.php:21
+#: ../thrive/buddypress/members/single/friends.php:22
+#: ../thrive/buddypress/members/single/groups.php:22
+#: ../thrive/buddypress/groups/single/forum.php:46
+msgid "Last Active"
+msgstr ""
+
+#: ../thrive/buddypress/blogs/index.php:84
+#: ../thrive/buddypress/members/single/blogs.php:22
+msgid "Newest"
+msgstr ""
+
+#: ../thrive/buddypress/blogs/index.php:85
+#: ../thrive/buddypress/members/index.php:85
+#: ../thrive/buddypress/groups/index.php:80
+#: ../thrive/buddypress/members/single/blogs.php:23
+#: ../thrive/buddypress/members/single/friends.php:24
+#: ../thrive/buddypress/members/single/groups.php:25
+msgid "Alphabetical"
+msgstr ""
+
+#: ../thrive/buddypress/members/members-loop.php:170
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: ../thrive/buddypress/members/index.php:49
+#: ../thrive/buddypress/activity/index.php:47
+#, php-format
+msgid "All Members <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/members/index.php:52
+#: ../thrive/buddypress/activity/index.php:64
+#, php-format
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/members/index.php:82
+#: ../thrive/buddypress/members/single/friends.php:23
+msgid "Newest Registered"
+msgstr ""
+
+#: ../thrive/buddypress/members/activate.php:31
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: ../thrive/buddypress/members/activate.php:33
+#, php-format
+msgid ""
+"Your account was activated successfully! You can now <a href=\"%s\">log "
+"in</a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: ../thrive/buddypress/members/activate.php:38
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: ../thrive/buddypress/members/activate.php:42
+msgid "Activation Key:"
+msgstr ""
+
+#: ../thrive/buddypress/members/activate.php:46
+msgid "Activate"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:30
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:49
+msgid ""
+"Registering for this site is easy. Just fill in the fields below, and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:66
+msgid "Account Details"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:69
+msgid "Username"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:69
+#: ../thrive/buddypress/members/register.php:83
+#: ../thrive/buddypress/members/register.php:96
+#: ../thrive/buddypress/members/register.php:111
+#: ../thrive/buddypress/members/register.php:263
+#: ../thrive/buddypress/members/register.php:279
+msgid "(required)"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:83
+msgid "Email Address"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:96
+msgid "Choose a Password"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:111
+msgid "Confirm Password"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:158
+msgid "Profile Details"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:180
+#: ../thrive/buddypress/members/register.php:195
+#: ../thrive/buddypress/members/single/profile/edit.php:54
+#: ../thrive/buddypress/members/single/profile/edit.php:68
+#, php-format
+msgid ""
+"This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:180
+msgctxt "Change profile field visibility level"
+msgid "Change"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:185
+#: ../thrive/buddypress/members/single/profile/edit.php:59
+msgid "Who can see this field?"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:190
+#: ../thrive/buddypress/members/single/profile/edit.php:64
+msgid "Close"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:257
+msgid "Blog Details"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:259
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:263
+msgid "Blog URL"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:279
+msgid "Site Title"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:290
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:300
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:143
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:505
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:557
+msgid "Yes"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:301
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:138
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:510
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:562
+msgid "No"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:337
+msgid "Complete Sign Up"
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:369
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: ../thrive/buddypress/members/register.php:371
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+
+#: ../thrive/buddypress/activity/post-form.php:35
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: ../thrive/buddypress/activity/post-form.php:37
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#: ../thrive/buddypress/activity/post-form.php:50
+msgid "Post Update"
+msgstr ""
+
+#: ../thrive/buddypress/activity/post-form.php:60
+#: ../thrive/buddypress/members/single/profile/profile-wp.php:23
+msgid "My Profile"
+msgstr ""
+
+#: ../thrive/buddypress/activity/entry.php:65
+#: ../thrive/buddypress/activity/entry.php:65
+msgid "View Conversation"
+msgstr ""
+
+#: ../thrive/buddypress/activity/entry.php:73
+#, php-format
+msgid "Comment <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/activity/entry.php:81
+msgid "Mark as Favorite"
+msgstr ""
+
+#: ../thrive/buddypress/activity/entry.php:81
+msgid "Favorite"
+msgstr ""
+
+#: ../thrive/buddypress/activity/entry.php:85
+#: ../thrive/buddypress/activity/entry.php:85
+msgid "Remove Favorite"
+msgstr ""
+
+#: ../thrive/buddypress/activity/entry.php:139
+msgid "Post"
+msgstr ""
+
+#: ../thrive/buddypress/activity/entry.php:139
+#: ../thrive/buddypress/forums/index.php:196
+msgid "Cancel"
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:47
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:64
+msgid "The activity of my friends only."
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:84
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:87
+#: ../thrive/buddypress/groups/index.php:46
+#, php-format
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:107
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:107
+#, php-format
+msgid "My Favorites <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:122
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:123
+msgid "Mentions"
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:127
+#, php-format
+msgctxt "Number of new activity mentions"
+msgid "newt_bell(oid)"
+msgid_plural "%s new"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../thrive/buddypress/activity/index.php:154
+#: ../thrive/buddypress/groups/single/activity.php:3
+msgid "RSS Feed"
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:154
+#: ../thrive/buddypress/groups/single/activity.php:3
+msgid "RSS"
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:166
+#: ../thrive/buddypress/members/single/activity.php:18
+#: ../thrive/buddypress/groups/single/activity.php:15
+msgid "Show:"
+msgstr ""
+
+#: ../thrive/buddypress/activity/index.php:168
+#: ../thrive/buddypress/members/single/activity.php:20
+#: ../thrive/buddypress/groups/single/activity.php:17
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: ../thrive/buddypress/activity/comment.php:35
+#, php-format
+msgid ""
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr ""
+
+#: ../thrive/buddypress/activity/comment.php:46
+#: ../thrive/buddypress/groups/single/forum/edit.php:17
+msgid "Reply"
+msgstr ""
+
+#: ../thrive/buddypress/activity/activity-loop.php:41
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:43
+#, php-format
+msgid "All Topics <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:47
+#, php-format
+msgid "My Topics <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:80
+#: ../thrive/buddypress/members/single/forums.php:21
+#: ../thrive/buddypress/groups/single/forum.php:47
+msgid "Most Posts"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:81
+#: ../thrive/buddypress/members/single/forums.php:22
+#: ../thrive/buddypress/groups/single/forum.php:48
+msgid "Unreplied"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:152
+msgid "Create New Topic:"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:162
+#: ../thrive/buddypress/groups/single/forum.php:103
+#: ../thrive/buddypress/groups/single/forum/edit.php:71
+msgid "Content:"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:165
+#: ../thrive/buddypress/groups/single/forum.php:106
+#: ../thrive/buddypress/groups/single/forum/edit.php:74
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:168
+msgid "Post In Group Forum:"
+msgstr ""
+
+#. no option picked in select box
+#: ../thrive/buddypress/forums/index.php:171
+msgid "----"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:195
+#: ../thrive/buddypress/groups/single/forum.php:119
+msgid "Post Topic"
+msgstr ""
+
+#: ../thrive/buddypress/forums/index.php:212
+#, php-format
+msgid ""
+"You are not a member of any groups so you \n"
+"\t\t\t\t\t\t\t\t don't have any group forums you can post in. To start "
+"posting, \n"
+"\t\t\t\t\t\t\t\t first find a group that matches the topic subject you'd "
+"like to start. \n"
+"\t\t\t\t\t\t\t\t If this group does not exist, why not <a href='%s'>create a "
+"new group</a>? \n"
+"\t\t\t\t\t\t\t\t Once you have joined or created the group you can post your "
+"topic in that \n"
+"\t\t\t\t\t\t\t\t group's forum."
+msgstr ""
+
+#: ../thrive/buddypress/forums/forums-loop.php:53
+msgid "Topic"
+msgstr ""
+
+#: ../thrive/buddypress/forums/forums-loop.php:54
+msgid "Posts"
+msgstr ""
+
+#: ../thrive/buddypress/forums/forums-loop.php:55
+msgid "Freshness"
+msgstr ""
+
+#: ../thrive/buddypress/forums/forums-loop.php:75
+#: ../thrive/buddypress/groups/single/forum/topic.php:123
+msgid "Permanent link to this post"
+msgstr ""
+
+#. "started by [poster] in [forum]"
+#: ../thrive/buddypress/forums/forums-loop.php:82
+#, php-format
+msgid "Started by %1$s"
+msgstr ""
+
+#. "started by [poster] in [forum]"
+#: ../thrive/buddypress/forums/forums-loop.php:93
+#, php-format
+msgid "in %1$s"
+msgstr ""
+
+#: ../thrive/buddypress/forums/forums-loop.php:164
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#: ../thrive/buddypress/groups/groups-loop.php:77
+#, php-format
+msgid "Active %s"
+msgstr ""
+
+#: ../thrive/buddypress/groups/groups-loop.php:147
+msgid "There were no groups found."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:50
+msgid "Group Details"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:62
+#: ../thrive/buddypress/groups/single/admin/edit-details.php:22
+msgid "Group Name (required)"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:67
+#: ../thrive/buddypress/groups/single/admin/edit-details.php:25
+msgid "Group Description (required)"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:88
+msgid "Group Settings"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:101
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:38
+msgid "Privacy Options"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:104
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:44
+msgid "This is a public group"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:106
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:46
+msgid "Any site member can join this group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:107
+#: ../thrive/buddypress/groups/create.php:118
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:47
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:57
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:108
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:48
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:114
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:54
+msgid "This is a private group"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:117
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:56
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:119
+#: ../thrive/buddypress/groups/create.php:130
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:58
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:68
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:125
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:64
+msgid "This is a hidden group"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:128
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:66
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:129
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:67
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:143
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:84
+msgid "Group Types"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:145
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:86
+msgid "Select the types this group should be a part of."
+msgstr ""
+
+#. Group type description shown when creating a group.
+#: ../thrive/buddypress/groups/create.php:153
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:94
+#, php-format
+msgid "&ndash; %s"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:169
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:112
+msgid "Group Invitations"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:171
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:114
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:176
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:120
+msgid "All group members"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:181
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:125
+msgid "Group admins and mods only"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:186
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:130
+msgid "Group admins only"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:194
+msgid "Group Forums"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:198
+msgid "Should this group have a forum?"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:201
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:27
+msgid "Enable discussion forum"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:205
+#, php-format
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a "
+"href=\"%s\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:227
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:11
+msgid "Group Avatar"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:247
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:15
+msgid ""
+"Upload an image to use as a profile photo for this group. The image will be "
+"shown on the main group page, and in search results."
+msgstr ""
+
+#. accessibility text
+#: ../thrive/buddypress/groups/create.php:250
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:20
+msgid "Select an image"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:253
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:25
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:23
+msgid "Upload Image"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:257
+msgid ""
+"To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:272
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:274
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:51
+msgid "Profile photo to crop"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:277
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:54
+msgid "Profile photo preview"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:280
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:46
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:57
+msgid "Crop Image"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:307
+msgid "Group Invites"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:335
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:353
+#: ../thrive/buddypress/groups/single/invites-loop.php:67
+msgid "Remove Invite"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:370
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:415
+msgid "Back to Previous Step"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:422
+msgid "Next Step"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:429
+msgid "Create Group and Continue"
+msgstr ""
+
+#: ../thrive/buddypress/groups/create.php:436
+msgid "Finish"
+msgstr ""
+
+#: ../thrive/buddypress/groups/index.php:43
+#, php-format
+msgid "All Groups <span>%s</span>"
+msgstr ""
+
+#: ../thrive/buddypress/groups/index.php:78
+#: ../thrive/buddypress/members/single/groups.php:23
+msgid "Most Members"
+msgstr ""
+
+#: ../thrive/buddypress/groups/index.php:79
+#: ../thrive/buddypress/members/single/groups.php:24
+msgid "Newly Created"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:29
+msgid "Label"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:30
+msgid ""
+"The Label field should be a short but descriptive block of text 100 "
+"characters or less with no HTML."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:32
+msgid "ID"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:33
+msgid ""
+"The ID field is a unique alphanumeric key used to differentiate each theme "
+"option (underscores are acceptable). Also, the plugin will change all text "
+"you write in this field to lowercase and replace spaces and special "
+"characters with an underscore automatically."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:35
+msgid "Type"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:36
+msgid ""
+"You are required to choose one of the supported option types when creating a "
+"new option. Here is a list of the available option types. For more "
+"information about each type click the <code>Option Types</code> tab to the "
+"left."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:44
+msgid ""
+"Enter a detailed description for the users to read on the Theme Options page,"
+" HTML is allowed. This is also where you enter content for both the "
+"Textblock & Textblock Titled option types."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:46
+msgid "Choices"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:47
+msgid ""
+"Click the \"Add Choice\" button to add an item to the choices array. This "
+"will only affect the following option types: Checkbox, Radio, Select & "
+"Select Image."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:50
+msgid ""
+"Click the \"Add Setting\" button found inside a newly created setting to add "
+"an item to the settings array. This will only affect the List Item type."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:52
+msgid "Standard"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:53
+msgid ""
+"Setting the standard value for your option only works for some option types. "
+"Those types are one that have a single string value saved to them and not an "
+"array of values."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:55
+msgid "Rows"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:56
+msgid ""
+"Enter a numeric value for the number of rows in your textarea. This will "
+"only affect the following option types: CSS, Textarea, & Textarea Simple."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:58
+msgid "Post Type"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:59
+msgid ""
+"Add a comma separated list of post type like <code>post,page</code>. This "
+"will only affect the following option types: Custom Post Type Checkbox, & "
+"Custom Post Type Select. Below are the default post types available with "
+"WordPress and that are also compatible with OptionTree. You can also add "
+"your own custom <code>post_type</code>. At this time <code>any</code> does "
+"not seem to return results properly and is something I plan on looking into."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:67
+msgid "Taxonomy"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:68
+msgid ""
+"Add a comma separated list of any registered taxonomy like <code>category,"
+"post_tag</code>. This will only affect the following option types: Taxonomy "
+"Checkbox, & Taxonomy Select."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:70
+msgid "Min, Max, & Step"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:71
+msgid ""
+"Add a comma separated list of options in the following format <code>0,100,"
+"1</code> (slide from <code>0-100</code> in intervals of <code>1</code>). The "
+"three values represent the minimum, maximum, and step options and will only "
+"affect the Numeric Slider option type."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:73
+msgid "CSS Class"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:74
+msgid "Add and optional class to any option type."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:76
+msgid "Condition"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:77
+#, php-format
+msgid ""
+"Add a comma separated list (no spaces) of conditions in which the field will "
+"be visible, leave this setting empty to always show the field. In these "
+"examples, %s is a placeholder for your condition, which can be in the form "
+"of %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:79
+msgid "Operator"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:80
+#, php-format
+msgid ""
+"Choose the logical operator to compute the result of the conditions. Your "
+"options are %s and %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:110
+#: ../thrive/thrive/widgets/customizer/widgets.php:51
+#: ../thrive/thrive/footer/customizer/widgets.php:70
+#: ../thrive/thrive/footer/customizer/footer.php:48
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:48
+msgid "Background"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:111
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:49
+#, php-format
+msgid ""
+"The Background option type is for adding background styles to your theme "
+"either dynamically via the CSS option type below or manually with %s. The "
+"Background option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %s to remove unwanted fields from "
+"all Background options or an individual one. You can also filter %s. These "
+"filters allow you to fine tune the select lists for your specific needs."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:111
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:378
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:49
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:755
+msgid "and"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:113
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:63
+msgid "Border"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:114
+#, php-format
+msgid ""
+"The Border option type is used to set width, unit, style, and color values. "
+"The text input excepts a numerical value and the unit select lets you choose "
+"the unit of measurement to add to that value. Currently the default units "
+"are %s, %s, %s, and %s. However, you can change them with the %s filter. The "
+"style select lets you choose the border style. The default styles are %s, %s,"
+" %s, %s, %s, %s, %s, and %s. However, you can change them with the %s filter."
+" The colorpicker saves a hexadecimal color code."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:116
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:78
+msgid "Box Shadow"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:117
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:79
+#, php-format
+msgid ""
+"The Box Shadow option type is used to set %s, %s, %s, %s, %s, and %s values."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:119
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:93
+msgid "Category Checkbox"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:120
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:94
+msgid ""
+"The Category Checkbox option type displays a list of category IDs. It allows "
+"the user to check multiple category IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:122
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:108
+msgid "Category Select"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:123
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:109
+msgid ""
+"The Category Select option type displays a list of category IDs. It allows "
+"the user to select only one category ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:125
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:123
+msgid "Checkbox"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:126
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:124
+msgid ""
+"The Checkbox option type displays a group of choices. It allows the user to "
+"check multiple choices and will return that value as an array for use in a "
+"custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:128
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:150
+msgid "Colorpicker"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:129
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:151
+msgid ""
+"The Colorpicker option type saves a hexadecimal color code for use in CSS. "
+"Use it to modify the color of something in your theme."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:131
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:165
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:166
+msgid "Colorpicker Opacity"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:132
+#, php-format
+msgid ""
+"The Colorpicker Opacity option type saves a hexadecimal color code with an "
+"opacity value from %s to %s in increments of %s. Though the value is saved "
+"as hexadecimal, if used within the CSS option type the color and opacity "
+"values will be converted into a valid RGBA CSS value."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:134
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:181
+msgid "CSS"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:135
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:182
+#, php-format
+msgid ""
+"The CSS option type is a textarea that when used properly can add dynamic "
+"CSS to your theme from within OptionTree. Unfortunately, due server "
+"limitations you will need to create a file named %s at the root level of "
+"your theme and change permissions using %s so the server can write to the "
+"file. I have had the most success setting this single file to %s but feel "
+"free to play around with permissions until everything is working. A good "
+"starting point is %s. When the server can save to the file, CSS will "
+"automatically be updated when you save your Theme Options."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:137
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:182
+#, php-format
+msgid ""
+"This example assumes you have an option with the ID of %1$s. Which means "
+"this option will automatically insert the value of %1$s into the %2$s when "
+"the Theme Options are saved."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:139
+msgid "Input"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:145
+msgid "Output"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:153
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:198
+msgid "Custom Post Type Checkbox"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:154
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:199
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It allows the user to "
+"check multiple post IDs for use in a custom function or loop. Requires at "
+"least one valid %1$s in the %1$s field."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:156
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:213
+msgid "Custom Post Type Select"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:157
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:214
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It will return a single "
+"post ID for use in a custom function or loop. Requires at least one valid "
+"%1$s in the %1$s field."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:159
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:228
+msgid "Date Picker"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:160
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:229
+msgid ""
+"The Date Picker option type is tied to a standard form input field which "
+"displays a calendar pop-up that allow the user to pick any date when focus "
+"is given to the input field. The returned value is a date formatted string."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:162
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:243
+msgid "Date Time Picker"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:163
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:244
+msgid ""
+"The Date Time Picker option type is tied to a standard form input field "
+"which displays a calendar pop-up that allow the user to pick any date and "
+"time when focus is given to the input field. The returned value is a date "
+"and time formatted string."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:165
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:258
+msgid "Dimension"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:166
+#, php-format
+msgid ""
+"The Dimension option type is used to set width and height values. The text "
+"inputs except numerical values and the select lets you choose the unit of "
+"measurement to add to that value. Currently the default units are %s, %s, %s,"
+" and %s. However, you can change them with the %s filter."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:168
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:50
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:273
+msgid "Gallery"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:169
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:274
+msgid ""
+"The Gallery option type saves a comma separated list of image attachment IDs."
+" You will need to create a front-end function to display the images in your "
+"theme."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:171
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:303
+msgid "Google Fonts"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:172
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:304
+#, php-format
+msgid ""
+"The Google Fonts option type will dynamically enqueue any number of Google "
+"Web Fonts into the document %1$s. As well, once the option has been saved "
+"each font family will automatically be inserted into the %2$s array for the "
+"Typography option type. You can further modify the font stack by using the "
+"%3$s filter, which is passed the %4$s, %5$s, and %6$s parameters. The %6$s "
+"parameter is being passed from %7$s, so it will be the ID of a Typography "
+"option type. This will allow you to add additional web safe fonts to "
+"individual font families on an as-need basis."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:174
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:324
+msgid "JavaScript"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:175
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:325
+#, php-format
+msgid ""
+"The JavaScript option type is a textarea that uses the %s code editor to "
+"highlight your JavaScript and display errors as you type."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:177
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:339
+msgid "Link Color"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:178
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:340
+msgid "The Link Color option type is used to set all link color states."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:180
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:354
+msgid "List Item"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:181
+msgid ""
+"The List Item option type replaced the Slider option type and allows for a "
+"great deal of customization. You can add settings to the List Item and those "
+"settings will be displayed to the user when they add a new List Item. "
+"Typical use is for creating sliding content or blocks of code for custom "
+"layouts."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:183
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:385
+msgid "Measurement"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:184
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:386
+#, php-format
+msgid ""
+"The Measurement option type is a mix of input and select fields. The text "
+"input excepts a value and the select lets you choose the unit of measurement "
+"to add to that value. Currently the default units are %s, %s, %s, and %s. "
+"However, you can change them with the %s filter."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:186
+#, php-format
+msgid ""
+"Example filter to add new units to the Measurement option type. Added to %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:199
+msgid ""
+"Example filter to completely change the units in the Measurement option type."
+" Added to <code>functions.php</code>."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:214
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:400
+msgid "Numeric Slider"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:215
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:401
+msgid ""
+"The Numeric Slider option type displays a jQuery UI slider. It will return a "
+"single numerical value for use in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:217
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:415
+msgid "On/Off"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:218
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:416
+#, php-format
+msgid ""
+"The On/Off option type displays a simple switch that can be used to turn "
+"things on or off. The saved return value is either %s or %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:220
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:430
+msgid "Page Checkbox"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:221
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:431
+msgid ""
+"The Page Checkbox option type displays a list of page IDs. It allows the "
+"user to check multiple page IDs for use in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:223
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:445
+msgid "Page Select"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:224
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:446
+msgid ""
+"The Page Select option type displays a list of page IDs. It will return a "
+"single page ID for use in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:226
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:460
+msgid "Post Checkbox"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:227
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:461
+msgid ""
+"The Post Checkbox option type displays a list of post IDs. It allows the "
+"user to check multiple post IDs for use in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:229
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:475
+msgid "Post Select"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:230
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:476
+msgid ""
+"The Post Select option type displays a list of post IDs. It will return a "
+"single post ID for use in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:232
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:490
+msgid "Radio"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:233
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:491
+msgid ""
+"The Radio option type displays a group of choices. It allows the user to "
+"choose one and will return that value as a string for use in a custom "
+"function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:235
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:522
+msgid "Radio Image"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:236
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:523
+#, php-format
+msgid ""
+"the Radio Images option type is primarily used for layouts. However, you can "
+"filter the image list using %s. As well, you can add your own custom images "
+"using the choices array."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:238
+msgid ""
+"This example executes the <code>ot_radio_images</code> filter on layout "
+"images attached to the <code>my_radio_images</code> field. Added to <code>"
+"functions.php</code>."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:262
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:537
+msgid "Select"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:263
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:538
+msgid ""
+"The Select option type is used to list anything you want that would be "
+"chosen from a select list."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:265
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:574
+msgid "Sidebar Select"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:266
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:575
+#, php-format
+msgid ""
+"This option type makes it possible for users to select a WordPress "
+"registered sidebar to use on a specific area. By using the two provided "
+"filters, %s, and %s we can be selective about which sidebars are available "
+"on a specific content area."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:267
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:575
+#, php-format
+msgid ""
+"For example, if we create a WordPress theme that provides the ability to "
+"change the Blog Sidebar and we don't want to have the footer sidebars "
+"available on this area, we can unset those sidebars either manually or by "
+"using a regular expression if we have a common name like %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:269
+msgid "Slider"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:270
+msgid ""
+"The Slider option type is technically deprecated. Use the List Item option "
+"type instead, as it's infinitely more customizable. Typical use is for "
+"creating sliding image content."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:272
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:589
+msgid "Social Links"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:273
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:590
+#, php-format
+msgid ""
+"The Social Links option type utilizes a drag & drop interface to create a "
+"list of social links. There are a few filters that make extending this "
+"option type easy. You can set the %s filter to %s and turn off loading "
+"default values. Use the %s filter to change the default values that are "
+"loaded. To filter the settings array use the %s filter."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:275
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:604
+msgid "Spacing"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:276
+#, php-format
+msgid ""
+"The Spacing option type is used to set spacing values such as padding or "
+"margin in the form of top, right, bottom, and left. The text inputs except "
+"numerical values and the select lets you choose the unit of measurement to "
+"add to that value. Currently the default units are %s, %s, %s, and %s. "
+"However, you can change them with the %s filter."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:278
+msgid "Tab"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:279
+msgid ""
+"The Tab option type will break a section or metabox into tabbed content."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:281
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:619
+msgid "Tag Checkbox"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:282
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:620
+msgid ""
+"The Tag Checkbox option type displays a list of tag IDs. It allows the user "
+"to check multiple tag IDs and will return that value as an array for use in "
+"a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:284
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:634
+msgid "Tag Select"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:285
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:635
+msgid ""
+"The Tag Select option type displays a list of tag IDs. It allows the user to "
+"select only one tag ID and will return that value for use in a custom "
+"function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:287
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:649
+msgid "Taxonomy Checkbox"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:288
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:650
+msgid ""
+"The Taxonomy Checkbox option type displays a list of taxonomy IDs. It allows "
+"the user to check multiple taxonomy IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:290
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:664
+msgid "Taxonomy Select"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:291
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:665
+msgid ""
+"The Taxonomy Select option type displays a list of taxonomy IDs. It allows "
+"the user to select only one taxonomy ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:293
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:62
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:679
+msgid "Text"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:294
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:680
+msgid ""
+"The Text option type is used to save string values. For example, any "
+"optional or required text that is of reasonably short character length."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:296
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:68
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:694
+msgid "Textarea"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:297
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:695
+#, php-format
+msgid ""
+"The Textarea option type is a large string value used for custom code or "
+"text in the theme and has a WYSIWYG editor that can be filtered to change "
+"the how it is displayed. For example, you can filter %s, %s, %s, and %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:299
+msgid ""
+"Example filters to alter the Textarea option type. Added to <code>functions."
+"php</code>."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:301
+msgid ""
+"This example keeps WordPress from executing the <code>wpautop</code> filter "
+"on the line breaks. The default is <code>true</code> which means it wraps "
+"line breaks with an HTML <code>p</code> tag."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:314
+msgid ""
+"This example keeps WordPress from executing the <code>media_buttons</code> "
+"filter on the textarea WYSIWYG. The default is <code>true</code> which means "
+"show the buttons."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:327
+msgid ""
+"This example keeps WordPress from executing the <code>tinymce</code> filter "
+"on the textarea WYSIWYG. The default is <code>true</code> which means show "
+"the tinymce."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:340
+msgid ""
+"This example alters the <code>quicktags</code> filter on the textarea "
+"WYSIWYG. The default is <code>array( 'buttons' => 'strong,em,link,block,del,"
+"ins,img,ul,ol,li,code,spell,close' )</code> which means show those quicktags."
+" It also means you can filter in your own custom quicktags."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:355
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:709
+msgid "Textarea Simple"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:356
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:710
+msgid ""
+"The Textarea Simple option type is a large string value used for custom code "
+"or text in the theme. The Textarea Simple does not have a WYSIWYG editor."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:358
+#, php-format
+msgid ""
+"This example tells WordPress to execute the %s filter on the line breaks. "
+"The default is %s which means it does not wraps line breaks with an HTML %s "
+"tag. Added to %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:371
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:724
+msgid "Textblock"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:372
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:725
+msgid ""
+"The Textblock option type is used only on the Theme Option page. It will "
+"allow you to create & display HTML, but has no title above the text block. "
+"You can then use the Textblock to add a more detailed set of instruction on "
+"how the options are used in your theme. You would never use this in your "
+"themes template files as it does not save a value."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:374
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:739
+msgid "Textblock Titled"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:375
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:740
+msgid ""
+"The Textblock Titled option type is used only on the Theme Option page. It "
+"will allow you to create & display HTML, and has a title above the text "
+"block. You can then use the Textblock Titled to add a more detailed set of "
+"instruction on how the options are used in your theme. You would never use "
+"this in your themes template files as it does not save a value."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:378
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:755
+#, php-format
+msgid ""
+"The Typography option type is for adding typography styles to your theme "
+"either dynamically via the CSS option type above or manually with %s. The "
+"Typography option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %s to remove unwanted fields from "
+"all Background options or an individual one. You can also filter %s. These "
+"filters allow you to fine tune the select lists for your specific needs."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:380
+msgid ""
+"This example would filter <code>ot_recognized_font_families</code> to build "
+"your own font stack. Added to <code>functions.php</code>."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:397
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:769
+msgid "Upload"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:398
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:770
+#, php-format
+msgid ""
+"The Upload option type is used to upload any WordPress supported media. "
+"After uploading, users are required to press the \"%s\" button in order to "
+"populate the input with the URI of that media. There is one caveat of this "
+"feature. If you import the theme options and have uploaded media on one site "
+"the old URI will not reflect the URI of your new site. You will have to re-"
+"upload or %s any media to your new server and change the URIs if necessary."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:430
+msgid ""
+"This function returns a value from the \"option_tree\" array of saved values "
+"or the default value supplied. The returned value would be mixed. Meaning it "
+"could be a string, integer, boolean, or array."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:432
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:482
+msgid "Usage"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:436
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:486
+msgid "Parameters"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:440
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:444
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:490
+msgid "string"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:440
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:490
+msgid "required"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:440
+msgid "Enter the options unique identifier."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:440
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:490
+msgid "Default:"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:440
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:444
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:490
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:494
+msgid "None"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:444
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:494
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:498
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:502
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:506
+msgid "optional"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:444
+msgid ""
+"Enter a default return value. This is just incase the request returns null."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:444
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:494
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:498
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:502
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:506
+msgid "Default"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:474
+msgid ""
+"This function has been deprecated. That means it has been replaced by a new "
+"function or is no longer supported, and may be removed from future versions. "
+"All code that uses this function should be converted to use its replacement."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:476
+msgid "Use"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:476
+msgid "instead"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:480
+msgid ""
+"This function returns, or echos if asked, a value from the \"option_tree\" "
+"array of saved values."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:490
+msgid "Enter a unique Option Key to get a returned value or array."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:494
+msgid "array"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:494
+msgid "Used to cut down on database queries in template files."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:498
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:502
+msgid "boolean"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:498
+msgid "Echo the output."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:502
+msgid "Used to indicate the $item_id is an array of values."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:506
+msgid "integer"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:506
+msgid ""
+"Numeric offset key for the $item_id array, -1 will return all values (an "
+"array starts at 0)."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:534
+msgid ""
+"If you're using the plugin version of OptionTree it is highly recommended to "
+"include a <code>function_exists</code> check in your code, as described in "
+"the examples below. If you've integrated OptionTree directly into your "
+"themes root directory, you will <strong>not</strong> need to wrap your code "
+"with <code>function_exists</code>, as you're guaranteed to have the <code>"
+"ot_get_option()</code> function available."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:536
+msgid "String Examples"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:538
+msgid "Returns the value of <code>test_input</code>."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:544
+msgid ""
+"Returns the value of <code>test_input</code>, but also has a default value "
+"if it returns empty."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:550
+msgid "Array Examples"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:552
+msgid ""
+"Assigns the value of <code>navigation_ids</code> to the variable <code>"
+"$ids</code>. It then echos an unordered list of links (navigation) using "
+"<code>wp_list_pages()</code>."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:572
+msgid ""
+"The next two examples demonstrate how to use the <strong>Measurement</strong>"
+" option type. The Measurement option type is an array with two key/value "
+"pairs. The first is the value of measurement and the second is the unit of "
+"measurement."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:598
+msgid "This example displays a very basic slider loop."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:643
+msgid "It's Super Simple"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:645
+msgid ""
+"Layouts make your theme awesome! With theme options data that you can "
+"save/import/export you can package themes with different color variations, "
+"or make it easy to do A/B testing on text and so much more. Basically, you "
+"save a snapshot of your data as a layout."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:647
+msgid ""
+"Once you have created all your different layouts, or theme variations, you "
+"can save them to a separate text file for repackaging with your theme. "
+"Alternatively, you could just make different variations for yourself and "
+"change your theme with the click of a button, all without deleting your "
+"previous options data."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:649
+msgid ""
+" Adding a layout is ridiculously easy, follow these steps and you'll be on "
+"your way to having a WordPress super theme."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:651
+msgid "For Developers"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:653
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:682
+msgid "Creating a Layout"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:655
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:662
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:668
+msgid "Go to the <code>OptionTre->Settings->Layouts</code> tab."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:656
+msgid ""
+"Enter a name for your layout in the text field and hit \"Save Layouts\", "
+"you've created your first layout."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:657
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:686
+msgid "Adding a new layout is as easy as repeating the steps above."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:660
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:689
+msgid "Activating a Layout"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:663
+msgid "Click on the activate layout button in the actions list."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:666
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:695
+msgid "Deleting a Layout"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:669
+msgid "Click on the delete layout button in the actions list."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:672
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:700
+msgid "Edit Layout Data"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:674
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:684
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:691
+msgid "Go to the <code>Appearance->Theme Options</code> page."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:675
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:703
+msgid ""
+"Modify and save your theme options and the layout will be updated "
+"automatically."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:676
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:704
+msgid ""
+"Saving theme options data will update the currently active layout, so before "
+"you start saving make sure you want to modify the current layout."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:677
+msgid ""
+"If you want to edit a new layout, first create it then save your theme "
+"options."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:680
+msgid "End-Users Mode"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:685
+msgid ""
+"Enter a name for your layout in the text field and hit \"New Layout\", "
+"you've created your first layout."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:692
+msgid ""
+"Choose a layout from the select list and click the \"Activate Layout\" "
+"button."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:697
+msgid "End-Users mode does not allow deleting layouts."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:702
+msgid "Go to the <code>Appearance->Theme Options</code> tab."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:733
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:815
+msgid "How-to-guide"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:735
+msgid ""
+"There are a few simple steps you need to take in order to use OptionTree's "
+"built in Meta Box API. In the code below I'll show you a basic demo of how "
+"to create your very own custom meta box using any number of the option types "
+"you have at your disposal. If you would like to see some demo code, there is "
+"a directory named <code>theme-mode</code> inside the <code>assets</code> "
+"directory that contains a file named <code>demo-meta-boxes.php</code> you "
+"can reference."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:737
+msgid ""
+"It's important to note that Meta Boxes do not support WYSIWYG editors at "
+"this time and if you set one of your options to Textarea it will "
+"automatically revert to a Textarea Simple until a valid solution is found. "
+"WordPress released this statement regarding the wp_editor() function:"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:739
+msgid ""
+"Once instantiated, the WYSIWYG editor cannot be moved around in the DOM. "
+"What this means in practical terms, is that you cannot put it in meta-boxes "
+"that can be dragged and placed elsewhere on the page."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:741
+msgid "Create and include your custom meta boxes file."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:743
+msgid ""
+"Create a file and name it anything you want, maybe <code>meta-boxes."
+"php</code>."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:744
+msgid ""
+"As well, you'll probably want to create a directory named <code>"
+"includes</code> to put your <code>meta-boxes.php</code> into which will help "
+"keep you file structure nice and tidy."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:745
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:845
+msgid "Add the following code to your <code>functions.php</code>."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:755
+msgid ""
+"Add a variation of the following code to your <code>meta-boxes.php</code>. "
+"You'll obviously need to fill it in with all your custom array values. It's "
+"important to note here that we use the <code>admin_init</code> filter "
+"because if you were to call the <code>ot_register_meta_box</code> function "
+"before OptionTree was loaded the sky would fall on your head."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:817
+msgid ""
+"There are a few simple steps you need to take in order to use OptionTree as "
+"a theme included module. In the code below I'll show you a basic demo of how "
+"to include the entire plugin as a module, which will allow you to have the "
+"most up-to-date version of OptionTree without ever needing to hack the core "
+"of the plugin. If you would like to see some demo code, there is a directory "
+"named <code>theme-mode</code> inside the <code>assets</code> directory that "
+"contains a file named <code>demo-theme-options.php</code> you can reference."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:819
+msgid "Step 1: Include the plugin & turn on theme mode."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:821
+#, php-format
+msgid "Download the latest version of %s and unarchive the %s directory."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:821
+msgid "OptionTree"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:822
+#, php-format
+msgid ""
+"Put the %s directory in the root of your theme. For example, the server path "
+"would be %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:823
+#, php-format
+msgid "Add the following code to the beginning of your %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:837
+#, php-format
+msgid ""
+"For a list of all the OptionTree UI display filters refer to the %s file "
+"found in the %s directory of this plugin. This file is the starting point "
+"for developing themes with Theme Mode."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:839
+msgid ""
+"You now have OptionTree built into your theme and anytime an update is "
+"available replace the old version with the new one."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:841
+msgid "Step 2: Create Theme Options without using the UI Builder."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:843
+msgid ""
+"Create a file and name it anything you want, maybe <code>theme-options."
+"php</code>, or use the built in file export to create it for you. Remember, "
+"you should always check the file for errors before including it in your "
+"theme."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:844
+msgid ""
+"As well, you'll probably want to create a directory named <code>"
+"includes</code> to put your <code>theme-options.php</code> into which will "
+"help keep you file structure nice and tidy."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:855
+msgid ""
+"Add a variation of the following code to your <code>theme-options.php</code>."
+" You'll obviously need to fill it in with all your custom array values for "
+"contextual help (optional), sections (required), and settings (required)."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-docs-page.php:858
+msgid ""
+"The code below is a boilerplate to get your started. For a full list of the "
+"available option types click the \"Option Types\" tab above. Also a quick "
+"note, you don't need to put OptionTree in theme mode to manually create "
+"options but you will want to hide the docs and settings as each time you "
+"load the admin area the settings be written over with the code below if "
+"they've changed in any way. However, this ensures your settings do not get "
+"tampered with by the end-user."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-settings-api.php:364
+#: ../thrive/inc/option-tree/includes/ot-settings-api.php:364
+msgid "Reset Options"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-settings-api.php:610
+#: ../thrive/inc/option-tree/includes/ot-meta-box-api.php:231
+msgid "Title"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:84
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:84
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:101
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:130
+msgid "OptionTree Cleanup"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:101
+#, php-format
+msgid ""
+"OptionTree has outdated data that should be removed. Please go to %s for "
+"more information."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:136
+msgid "Multiple Media Posts"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:138
+#, php-format
+msgid ""
+"There are currently %s OptionTree media posts in your database. At some "
+"point in the past, a version of OptionTree added multiple %s media post "
+"objects cluttering up your %s table. There is no associated risk or harm "
+"that these posts have caused other than to add size to your overall database."
+" Thankfully, there is a way to remove all these orphaned media posts and get "
+"your database cleaned up."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:140
+#, php-format
+msgid ""
+"By clicking the button below, OptionTree will delete %s records and "
+"consolidate them into one single OptionTree media post for uploading "
+"attachments to. Additionally, the attachments will have their parent ID "
+"updated to the correct media post."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:142
+msgid ""
+"This could take a while to fully process depending on how many records you "
+"have in your database, so please be patient and wait for the script to "
+"finish."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:144
+#, php-format
+msgid ""
+"%s Your server is running in safe mode. Which means this page will "
+"automatically reload after deleting %s posts, you can filter this number "
+"using %s if your server is having trouble processing that many at one time."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:146
+msgid "Consolidate Posts"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:174
+msgid "Reloading..."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:210
+msgid "Clean up script has completed, the page will now reload..."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:230
+msgid "Outdated Table"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:232
+#, php-format
+msgid ""
+"If you have upgraded from an old 1.x version of OptionTree at some point, "
+"you have an extra %s table in your database that can be removed. It's not "
+"hurting anything, but does not need to be there. If you want to remove it. "
+"Click the button below."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:234
+msgid "Drop Table"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:238
+#, php-format
+msgid "Deleting the outdated and unused %s table..."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:244
+#, php-format
+msgid "The %s table has been successfully deleted. The page will now reload..."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-cleanup-api.php:256
+#, php-format
+msgid "Something went wrong. The %s table was not deleted."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:35
+msgid "Warning!"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:36
+#, php-format
+msgid ""
+"Go to the %s page if you want to save data, this page is for adding settings."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:37
+#, php-format
+msgid ""
+"If you're unsure or not completely positive that you should be editing these "
+"settings, you should read the %s first."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:38
+msgid ""
+"Things could break or be improperly displayed to the end-user if you do one "
+"of the following:"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:39
+msgid ""
+"Give two sections the same ID, give two settings the same ID, give two "
+"contextual help content areas the same ID, don't create any settings, or "
+"have a section at the end of the settings list."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:40
+msgid ""
+"You can create as many settings as your project requires and use them how "
+"you see fit. When you add a setting here, it will be available on the Theme "
+"Options page for use in your theme. To separate your settings into sections, "
+"click the \"Add Section\" button, fill in the input fields, and a new "
+"navigation menu item will be created."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:41
+msgid ""
+"All of the settings can be sorted and rearranged to your liking with Drag & "
+"Drop. Don't worry about the order in which you create your settings, you can "
+"always reorder them."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:92
+msgid "Add Section"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:93
+msgid "Add Setting"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:99
+msgid "Contextual Help"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:103
+msgid "Contextual Help Sidebar"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:103
+msgid ""
+"If you decide to add contextual help to the Theme Option page, enter the "
+"optional \"Sidebar\" HTML here. This would be an extremely useful place to "
+"add links to your themes documentation or support forum. Only after you've "
+"added some content below will this display to the user."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:132
+msgid "Add Contextual Help Content"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:168
+msgid ""
+"This import method has been deprecated. That means it has been replaced by a "
+"new method and is no longer supported, and may be removed from future "
+"versions. All themes that use this import method should be converted to use "
+"its replacement below."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:170
+#, php-format
+msgid ""
+"If you were given a Theme Options XML file with a premium or free theme, "
+"locate it on your hard drive and upload that file by clicking the upload "
+"button. A popup window will appear, upload the XML file and click \"%s\". "
+"The file URL should be in the upload input, if it is click \"Import XML\"."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:173
+msgid "Import XML"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:189
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:189
+msgid "Add XML"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:226
+msgid ""
+"To import your Settings copy and paste what appears to be a random string of "
+"alpha numeric characters into this textarea and press the \"Import "
+"Settings\" button."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:229
+msgid "Import Settings"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:271
+msgid ""
+"Only after you've imported the Settings should you try and update your Theme "
+"Options."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:273
+msgid ""
+"To import your Theme Options copy and paste what appears to be a random "
+"string of alpha numeric characters into this textarea and press the \"Import "
+"Theme Options\" button."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:276
+msgid "Import Theme Options"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:318
+msgid ""
+"Only after you've imported the Settings should you try and update your "
+"Layouts."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:320
+msgid ""
+"To import your Layouts copy and paste what appears to be a random string of "
+"alpha numeric characters into this textarea and press the \"Import Layouts\" "
+"button. Keep in mind that when you import your layouts, the active layout's "
+"saved data will write over the current data set for your Theme Options."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:323
+msgid "Import Layouts"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:366
+#, php-format
+msgid ""
+"Export your Settings into a fully functional %s file. If you want to add "
+"your own custom %s text domain to the file, enter it into the text field "
+"before exporting. For more information on how to use this file read the "
+"documentation on %s. Remember, you should always check the file for errors "
+"before including it in your theme."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:366
+msgid "Theme Mode"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:375
+msgid "Export Settings File"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:405
+msgid ""
+"Export your Settings by highlighting this text and doing a copy/paste into a "
+"blank .txt file. Then save the file for importing into another install of "
+"WordPress later. Alternatively, you could just paste it into the <code>"
+"OptionTree->Settings->Import</code> <strong>Settings</strong> textarea on "
+"another web site."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:441
+msgid ""
+"Export your Theme Options data by highlighting this text and doing a "
+"copy/paste into a blank .txt file. Then save the file for importing into "
+"another install of WordPress later. Alternatively, you could just paste it "
+"into the <code>OptionTree->Settings->Import</code> <strong>Theme "
+"Options</strong> textarea on another web site."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:477
+msgid ""
+"Export your Layouts by highlighting this text and doing a copy/paste into a "
+"blank .txt file. Then save the file for importing into another install of "
+"WordPress later. Alternatively, you could just paste it into the <code>"
+"OptionTree->Settings->Import</code> <strong>Layouts</strong> textarea on "
+"another web site."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:519
+msgid ""
+"To add a new layout enter a unique lower case alphanumeric string (dashes "
+"allowed) in the text field and click \"Save Layouts\"."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:520
+msgid ""
+"As well, you can activate, remove, and drag & drop the order; all situations "
+"require you to click \"Save Layouts\" for the changes to be applied."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:521
+msgid ""
+"When you create a new layout it will become active and any changes made to "
+"the Theme Options will be applied to it. If you switch back to a different "
+"layout immediately after creating a new layout that new layout will have a "
+"snapshot of the current Theme Options data attached to it."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:522
+msgid ""
+"Visit <code>OptionTree->Documentation->Layouts Overview</code> to see a more "
+"in-depth description of what layouts are and how to use them."
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions-settings-page.php:559
+msgid "Save Layouts"
+msgstr ""
+
+#: ../thrive/inc/option-tree/includes/ot-functions.php:388
+msgid "Theme Options"
+msgstr ""
+
+#: ../thrive/thrive/widgets/customizer/widgets.php:11
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: ../thrive/thrive/widgets/customizer/widgets.php:12
+msgid "You can change the appearance of your sidebar widgets here"
+msgstr ""
+
+#: ../thrive/thrive/widgets/customizer/widgets.php:28
+msgid "Widgets Outline"
+msgstr ""
+
+#: ../thrive/thrive/widgets/customizer/widgets.php:32
+msgid "Shadowed"
+msgstr ""
+
+#: ../thrive/thrive/widgets/customizer/widgets.php:33
+msgid "Solid Border"
+msgstr ""
+
+#: ../thrive/thrive/widgets/customizer/widgets.php:34
+msgid "No Outline"
+msgstr ""
+
+#: ../thrive/thrive/widgets/customizer/widgets.php:69
+#: ../thrive/thrive/footer/customizer/widgets.php:52
+msgid "Color"
+msgstr ""
+
+#: ../thrive/thrive/widgets/customizer/widgets.php:105
+msgid "Links Hover"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/widgets.php:10
+msgid "Widgets"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/widgets.php:12
+msgid ""
+"Configure the widgets that are shown in the footer section of your website"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/widgets.php:28
+msgid "Columns"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/widgets.php:32
+msgid "1 Column"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/widgets.php:33
+msgid "2 Columns"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/widgets.php:34
+msgid "3 Columns"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/widgets.php:35
+msgid "4 Columns"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/widgets.php:106
+#: ../thrive/thrive/footer/customizer/footer.php:84
+msgid "Links Hover State"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/footer.php:11
+msgid "Copyright"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/footer.php:13
+msgid ""
+"This section handles the all default settings for your footer. Choose the "
+"best colors that suites your company and personality."
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/footer.php:30
+#: ../thrive/thrive/menu/customizer/mobile-menu.php:39
+#: ../thrive/thrive/menu/customizer/menu.php:22
+#: ../thrive/thrive/menu/customizer/sub-menu.php:22
+msgid "Default State"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/footer.php:107
+msgid "Copyright Text"
+msgstr ""
+
+#: ../thrive/thrive/footer/customizer/footer.php:110
+msgid ""
+"Enter the copyright text that can be found in your site's footer. You can "
+"also add html tags."
+msgstr ""
+
+#: ../thrive/thrive/typography/customizer/options.php:27
+msgid "Fonts"
+msgstr ""
+
+#: ../thrive/thrive/typography/customizer/options.php:29
+msgid ""
+"Select desired font combination for your website.\n"
+"                        Hundreds of fonts are available to choose from."
+msgstr ""
+
+#: ../thrive/thrive/typography/customizer/options.php:55
+msgid "Headings Font"
+msgstr ""
+
+#: ../thrive/thrive/typography/customizer/options.php:57
+msgid "Select the desired font to be applied in the headings of the theme."
+msgstr ""
+
+#: ../thrive/thrive/typography/customizer/options.php:88
+msgid "Body Font"
+msgstr ""
+
+#: ../thrive/thrive/typography/customizer/options.php:90
+msgid "Use this option to select a general font for the content of the theme."
+msgstr ""
+
+#: ../thrive/thrive/typography/customizer/options.php:120
+msgid "Font Point"
+msgstr ""
+
+#: ../thrive/thrive/typography/customizer/options.php:121
+msgid ""
+"Controls the overall size of the text. Minimum recommended input is \"12\" "
+"and the maximum recommended input is \"22\". Set the value to \"14\" in "
+"order to reset the size."
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/mobile-menu.php:5
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/mobile-menu.php:7
+msgid ""
+"This section handles the all default settings for your website mobile menu. "
+"Choose the best colors that suites your company and personality."
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/mobile-menu.php:23
+msgid "Button Color"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/mobile-menu.php:54
+#: ../thrive/thrive/menu/customizer/sub-menu.php:37
+msgid "Hover & Active State"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/mobile-menu.php:69
+msgid "Hover & Active Background"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/mobile-menu.php:84
+msgid "Mobile Background"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/menu.php:5
+msgid "Menu"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/menu.php:7
+msgid ""
+"This section handles the all default settings for your website menu. Choose "
+"the best colors that suites your company and personality."
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/menu.php:38
+msgid "Active & Hover State"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/menu.php:58
+msgid "Top Right Menu"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/menu.php:60
+msgid ""
+"Choose which kind of menu you would like to display in the top right bar."
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/menu.php:62
+msgid ""
+"Automatically fetch BuddyPress generated profile menu for me. (BuddyPress "
+"plugin required)"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/menu.php:63
+msgid "I would like to use the theme \"Top Right Bar\" menu."
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/sub-menu.php:5
+msgid "Sub Menu"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/sub-menu.php:7
+msgid ""
+"This section handles the all default settings for your website submenu menu. "
+"Choose the best colors that suites your company and personality."
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/sub-menu.php:54
+msgid "Hover & Active State Background"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/branding.php:12
+msgid "Branding"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/branding.php:14
+msgid ""
+"This section handles the all default settings for your Branding. Change it "
+"to your preference."
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/branding.php:32
+msgid "Branding Height"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/branding.php:33
+msgid "Use the slider below to adjust the height of the the Header Section."
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/branding.php:53
+msgid "Logo Background"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/branding.php:69
+msgid "Menu Background"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/branding.php:89
+msgid "Upload a logo"
+msgstr ""
+
+#: ../thrive/thrive/menu/customizer/branding.php:110
+msgid "Mobile Logo"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/members.php:120
+msgid "No members were found."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin.php:10
+msgid "Group secondary navigation"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/cover-image-header.php:62
+#: ../thrive/buddypress/groups/single/group-header.php:40
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/cover-image-header.php:73
+msgid "Group Admins"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/cover-image-header.php:93
+msgid "Group Mods"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/send-invites.php:22
+msgid "Send Invites"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/send-invites.php:37
+msgid "Group invitations can only be extended to friends."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/send-invites.php:38
+msgid ""
+"Once you've made some friendships, you'll be able to invite those members to "
+"this group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/send-invites.php:46
+msgid "All of your friends already belong to this group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum.php:24
+msgid "New Topic"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum.php:32
+#: ../thrive/buddypress/groups/single/forum/edit.php:23
+#: ../thrive/buddypress/groups/single/forum/topic.php:24
+msgid "Forum Directory"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum.php:94
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum.php:98
+msgid "Post a New Topic:"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/requests-loop.php:46
+#: ../thrive/buddypress/groups/single/requests-loop.php:46
+#: ../thrive/buddypress/members/single/friends/requests.php:52
+#: ../thrive/buddypress/members/single/groups/invites.php:40
+msgid "Accept"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/requests-loop.php:48
+#: ../thrive/buddypress/groups/single/requests-loop.php:48
+#: ../thrive/buddypress/members/single/friends/requests.php:53
+#: ../thrive/buddypress/members/single/groups/invites.php:41
+msgid "Reject"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/requests-loop.php:86
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/request-membership.php:15
+#, php-format
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/request-membership.php:21
+msgid "Comments (optional)"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/request-membership.php:33
+msgid "Send Request"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/invites-loop.php:105
+msgid "Select friends to invite."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:23
+msgid "Demo Meta Box"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:30
+msgid "Conditions"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:35
+msgid "Show Gallery"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:38
+#, php-format
+msgid "Shows the Gallery when set to %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:45
+msgid "Congratulations, you created a gallery!"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:53
+#, php-format
+msgid "This is a Gallery option type. It displays when %s."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:57
+msgid "More Options"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:65
+msgid "This is a demo Text field."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-meta-boxes.php:71
+msgid "This is a demo Textarea field."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:33
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:42
+msgid "Option Types"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:34
+msgid "Help content goes here!"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:37
+msgid "Sidebar content goes here!"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:64
+msgid ""
+"The Border option type is used to set width, unit, style, and color values."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:167
+#, php-format
+msgid ""
+"The Colorpicker Opacity option type saves an rgba color value for use in CSS."
+" To add opacity to other colorpickers add the %s class to the %s array."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:259
+msgid "The Dimension option type is used to set width and height values."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:288
+msgid "Gallery Shortcode"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:289
+#, php-format
+msgid ""
+"The Gallery option type can also be saved as a shortcode by adding %s to the "
+"class attribute. Using the Gallery option type in this manner will result in "
+"a better user experience as you're able to save the link, column, and order "
+"settings."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:355
+msgid ""
+"The List Item option type allows for a great deal of customization. You can "
+"add settings to the List Item and those settings will be displayed to the "
+"user when they add a new List Item. Typical use is for creating sliding "
+"content or blocks of code for custom layouts."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:369
+msgid "Content"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:515
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:567
+msgid "Maybe"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:552
+msgid "-- Choose One --"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:605
+msgid ""
+"The Spacing option type is used to set spacing values such as padding or "
+"margin in the form of top, right, bottom, and left."
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:784
+msgid "Upload Attachment ID"
+msgstr ""
+
+#: ../thrive/inc/option-tree/assets/theme-mode/demo-theme-options.php:785
+#, php-format
+msgid ""
+"The Upload option type can also be saved as an attachment ID by adding %s to "
+"the class attribute."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/general.php:10
+msgid ""
+"Current Password <span>(required to update email or change current password)"
+"</span>"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/general.php:11
+msgid "Password Lost and Found"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/general.php:11
+msgid "Lost your password?"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/general.php:15
+msgid "Account Email"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/general.php:19
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/general.php:21
+msgid "New Password"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/general.php:27
+msgid "Repeat New Password"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/profile.php:22
+msgid "Visibility"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/profile.php:56
+msgid "Save Settings"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/capabilities.php:19
+msgid "This user is a spammer."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/delete-account.php:10
+msgid ""
+"Deleting your account will delete all of the content you have created. It "
+"will be completely irrecoverable."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/delete-account.php:14
+msgid ""
+"Deleting this account will delete all of the content it has created. It will "
+"be completely irrecoverable."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/delete-account.php:33
+msgid "I understand the consequences."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/delete-account.php:37
+msgid "Delete Account"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/settings/notifications.php:7
+msgid "Send an email notice when:"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/notifications/feedback-no-notifications.php:7
+msgid "You have no unread notifications."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/notifications/feedback-no-notifications.php:11
+msgid "This member has no unread notifications."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/notifications/feedback-no-notifications.php:19
+msgid "You have no notifications."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/notifications/feedback-no-notifications.php:23
+msgid "This member has no notifications."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/notifications/notifications-loop.php:7
+msgid "Notification"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/notifications/notifications-loop.php:8
+msgid "Date Received"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/notifications/notifications-loop.php:9
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:70
+msgid "Actions"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/friends/requests.php:99
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/groups/invites.php:24
+#, php-format
+msgctxt "Group member count"
+msgid "%d member"
+msgid_plural "%d members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../thrive/buddypress/members/single/groups/invites.php:64
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/compose.php:12
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/compose.php:22
+msgid "This is a notice to all users."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/compose.php:25
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:52
+msgid "Subject"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/compose.php:28
+msgid "Message"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/compose.php:43
+msgid "Send Message"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/notices-loop.php:57
+msgid "Sent:"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/notices-loop.php:71
+msgid "Delete Message"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/notices-loop.php:89
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:51
+msgid "From"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:67
+msgid "Star"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:93
+msgid "To:"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:103
+msgid "View Message"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:127
+msgid "Read"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:129
+msgid "Unread"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/messages-loop.php:170
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/single.php:21
+msgid "You are alone in this conversation."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/single.php:25
+#, php-format
+msgid "Conversation between %s recipients."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/single.php:29
+#, php-format
+msgid "Conversation between %s and you."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/single.php:35
+msgid "Delete Conversation"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/single.php:139
+msgid "Send a Reply"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/messages/single.php:172
+msgid "Send Reply"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:1
+msgid "Change Profile Photo"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:14
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. If "
+"there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
+"account email we will use that, or you can upload an image from your "
+"computer."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:21
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:30
+msgid ""
+"If you'd like to delete your current profile photo but not upload a new one, "
+"please use the delete profile photo button."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:31
+msgid "Delete Profile Photo"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:31
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:38
+msgid "Crop Your New Profile Photo"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:40
+msgid "Profile Photo to crop"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:43
+msgid "Profile Photo preview"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-avatar.php:70
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. To "
+"change your profile photo, please create an account with <a href=\"http:"
+"//gravatar.com\">Gravatar</a> using the same email address as you used to "
+"register with this site."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-cover-image.php:11
+msgid "Change Cover Image"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/change-cover-image.php:22
+msgid "Your Cover Image will be used to customize the header of your profile."
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/edit.php:20
+#, php-format
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/edit.php:54
+msgid "Change"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/profile-wp.php:23
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/profile-wp.php:39
+msgid "About Me"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/profile-wp.php:48
+msgid "Website"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/profile-wp.php:57
+msgid "Jabber"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/profile-wp.php:66
+msgid "AOL Messenger"
+msgstr ""
+
+#: ../thrive/buddypress/members/single/profile/profile-wp.php:75
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:29
+msgid ""
+"If you'd like to remove the existing group profile photo but not upload a "
+"new one, please use the delete group profile photo button."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:31
+msgid "Delete Group Profile Photo"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/group-avatar.php:49
+msgid "Crop Profile Photo"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:11
+msgid "Manage Members"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:25
+msgid "Administrators"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:52
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:155
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:266
+#, php-format
+msgid "Profile picture of %s"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:83
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:193
+msgid "Demote to Member"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:122
+msgid "No group administrators were found."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:129
+msgid "Moderators"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:185
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:330
+msgid "Promote to Admin"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:233
+msgid "No group moderators were found."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:275
+msgid "(banned)"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:304
+msgid "Unban this member"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:304
+msgid "Remove Ban"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:314
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:322
+msgid "Promote to Mod"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:340
+msgid "Remove from group"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/manage-members.php:379
+msgid "No group members were found."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/group-cover-image.php:11
+msgid "Cover Image"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/group-cover-image.php:22
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/membership-requests.php:11
+msgid "Manage Membership Requests"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/edit-details.php:20
+msgid "Manage Group Details"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/edit-details.php:39
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/delete-group.php:11
+#: ../thrive/buddypress/groups/single/admin/delete-group.php:38
+msgid "Delete Group"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/delete-group.php:23
+msgid ""
+"WARNING: Deleting this group will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/delete-group.php:26
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/admin/group-settings.php:20
+msgid "Manage Group Settings"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/edit.php:32
+msgid "Edit:"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/edit.php:129
+msgid "This topic does not exist."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/topic.php:16
+msgid "New Reply"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/topic.php:39
+msgid "Topic tags:"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/topic.php:102
+#, php-format
+msgid "%1$s said %2$s:"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/topic.php:154
+msgid "There are no posts for this topic."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/topic.php:169
+msgid "You will auto join this group when you reply to this topic."
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/topic.php:181
+msgid "Add a reply:"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/topic.php:186
+msgid "Post Reply"
+msgstr ""
+
+#: ../thrive/buddypress/groups/single/forum/topic.php:204
+msgid "This topic is closed, replies are no longer accepted."
+msgstr ""
+
+#. Name of the theme
+msgid "Thrive Child"
+msgstr ""
+
+#. Description of the theme
+msgid "Child Theme for Thrive WordPress Theme"
+msgstr ""
+
+#. URI of the theme
+msgid ""
+"http://themeforest.net/item/thrive-intranet-wordpress-community-"
+"theme/12275020"
+msgstr ""
+
+#. Author of the theme
+msgid "Dunhakdis"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/dunhakdis"
+msgstr ""

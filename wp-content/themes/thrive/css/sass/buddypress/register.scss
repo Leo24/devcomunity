@@ -1,0 +1,331 @@
+// Register
+.register-section {
+
+	h4 {
+		margin-bottom: 35px;
+	}
+
+	.error {
+		color: $red;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.field-visibility-settings-toggle,
+	.field-visibility-settings-notoggle {
+	}
+
+	#pass-strength-result {
+		display: block;
+		font-size: 12px;
+
+		&.short {
+			color: $red_700;
+		}
+		&.bad {
+			color: $red;
+		}
+		&.good {
+			color: $yellow;
+		}
+		&.strong {
+			@extend .bg-secondary;
+			color: $light_secondary;
+		}
+	}
+
+	.editfield .description {
+		opacity: 0.54;
+		font-size: 13px;
+	}
+
+	/**
+	 * Prevent Input fields from hovering
+	 */
+	 textarea, input[type=text], input[type=email], input[type=number],
+	 input[type=url], input[type=password], input[type=search], input[name=s] {
+		 margin-bottom: 0;
+			&:focus {
+			 	line-height: 37.5px;
+			}
+	 }
+	 select {
+		 border-bottom-width: 1px;
+     margin-bottom: 0;
+     width: 100%;
+     padding-bottom: 5px;
+		 background: transparent;
+	 }
+
+	 select[multiple] , select[size] {
+		 margin-top: 10px;
+		 option {
+			 padding: 5px 5px;
+		 }
+	 }
+	 .datebox {
+		 select {
+			 width: auto;
+		 }
+	 }
+	/**
+	 * Xprofile Fields error
+	 */
+	&#profile-details-section {
+		.thrive-register-fields-xprofile {
+			background: #F7F7F7;
+	    padding: 20px;
+	    border-top: 1px solid #ECECEC;
+			&:after {
+				position: absolute;
+				bottom: -22px;
+				left: 0;
+				display: block;
+				width: 100%;
+				height: 35px;
+				content: ' ';
+				background: linear-gradient(#f7f7f7 0%,transparent 0%),linear-gradient(135deg,#ffffff 33.33%,transparent 33.33%) 0 0,#ffffff linear-gradient(45deg,#ffffff 33.33%,#f7f7f7 33.33%) 0 0;
+				background: -webkit-linear-gradient(#f7f7f7 0%,transparent 0%),-webkit-linear-gradient(135deg,#ffffff 33.33%,transparent 33.33%) 0 0,#ffffff -webkit-linear-gradient(45deg,#ffffff 33.33%,#f7f7f7 33.33%) 0 0;
+				background: -o-linear-gradient(#f7f7f7 0%,transparent 0%),-o-linear-gradient(135deg,#ffffff 33.33%,transparent 33.33%) 0 0,#ffffff -o-linear-gradient(45deg,#ffffff 33.33%,#f7f7f7 33.33%) 0 0;
+				background: -moz-linear-gradient(#f7f7f7 0%,transparent 0%),-moz-linear-gradient(135deg,#ffffff 33.33%,transparent 33.33%) 0 0,#ffffff -moz-linear-gradient(45deg,#ffffff 33.33%,#f7f7f7 33.33%) 0 0;
+				background-repeat: repeat-x;
+				background-size: 0 100%,9px 27px,9px 27px;
+
+				background: transparent\0; /* IE 9 */
+			}
+			label {
+				top: 30px;
+			}
+		}
+		.thrive-register-fields-xprofile {
+			&:hover {
+				cursor: text;
+			}
+			.error {
+				position: absolute;
+		    top: 20px;
+		    right: 0;
+		    padding: 10px 15px;
+		    background: $red;
+		    color: #fff;
+		    margin: 0;
+				z-index: 20;
+			}
+
+			.error {
+				background: $red;
+				border: 1px solid $red;
+			}
+
+			.error:after, .error:before {
+				right: 100%;
+				top: 50%;
+				border: solid transparent;
+				content: " ";
+				height: 0;
+				width: 0;
+				position: absolute;
+				pointer-events: none;
+			}
+
+			.error:after {
+				border-color: rgba(213, 0, 0, 0);
+				border-right-color: $red;
+				border-width: 5px;
+				margin-top: -5px;
+			}
+			.error:before {
+				border-color: rgba(245, 0, 0, 0);
+				border-right-color: $red;
+				border-width: 6px;
+				margin-top: -6px;
+			}
+		}
+	}
+
+}
+
+
+/**
+ * Registration Styles
+ */
+ #minimal-registration-container {
+
+	 max-width: 768px;
+	 margin: 35px auto;
+	 border: 1px solid #eee;
+	 padding: 35px;
+	 background: #fff;
+	 @include card(1);
+	 position: relative;
+
+	 	@media ( max-width: 768px ) {
+			margin: 35px 15px;
+		}
+
+		.field-visibility-settings-toggle,
+		.field-visibility-settings-notoggle {
+			margin-top: 10px;
+		}
+
+		.current-visibility-level {
+			display: inline-block;
+	    border-bottom: 1px solid #9e9e9e;
+		}
+
+		.thrive-register-fields-xprofile {
+
+			position: relative;
+			margin-bottom: 25px;
+
+			label {
+				position: absolute;
+				cursor: text;
+				font-weight: 300;
+				top: 10px;
+				transition: all 0.15s ease-in-out;
+				-webkit-transition: all 0.15s ease-in-out;
+				-moz-transition: all 0.15s ease-in-out;
+				margin: 0;
+			}
+
+			&.active {
+				label {
+					font-size: 12px;
+					transform: translateY(-20px);
+				}
+			}
+
+			.field-visibility-settings {
+				fieldset {
+					ul {
+						padding: 0;
+						padding-left: 0;
+					}
+				}
+				label {
+					position: static;
+				}
+			}
+
+			&.field_type_textarea,
+			&.field_type_multiselectbox,
+			&.field_type_selectbox {
+				> label {
+					position: static;
+					font-size: 12px;
+				}
+			}
+
+			&.field_type_checkbox,
+			&.field_type_radio {
+				.checkbox,
+				.radio {
+					margin: 0;
+					label:first-child {
+						font-size: 12px;
+						margin-bottom: 10px;
+					}
+				}
+				.radio {
+
+					label:first-child {
+						font-size: 14px;
+						margin-bottom: 0;
+					}
+
+					> label:first-child {
+						margin-bottom: 10px;
+						font-size: 12px;
+					}
+
+				}
+				label {
+					position: static;
+				}
+			}
+			&.field_type_multiselectbox {
+				.error {
+					top:10px;
+				}
+			}
+			&.field_type_textarea {
+				.error {
+					top:10px;
+				}
+			}
+			&.field_type_datebox {
+				.error {
+					top: 30px;
+				}
+				.datebox {
+					> label {
+						position: static;
+						font-size: 12px;
+					}
+
+				}
+
+				label.bp-screen-reader-text{
+					display: none;
+				}
+			}
+		}
+
+	 #thrive-social-connect {
+
+		 	position: absolute;
+			right: 35px;
+			top: 25px;
+
+			&.non-logo {
+				position: static;
+				margin-bottom: 35px;
+			}
+
+			@media ( max-width: 768px ) {
+				position: static;
+				margin-bottom: 35px;
+			}
+
+			.social-connect {
+				background: #3B5998;
+				box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.12),0px 2px 8px 0px rgba(0,0,0,0.24);
+				font-size: 16px;
+				color: #FFF;
+				line-height: 16px;
+				height: 56px;
+				width: 56px;
+				text-align: center;
+				text-indent: -9999px;
+				margin-right: 15px;
+				border-radius: 50%;
+				background-image: url('images/facebook.png');
+				padding-top: 17.5px;
+				background-repeat: no-repeat;
+				background-position: center;
+				border: 0 none;
+				background-size: 16px;
+
+				&:hover {
+						box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+						transform: translateY(-5px);
+				}
+			}
+
+			.social-connect.gp {
+	    	background: #DC4E41;
+	    	margin-right: 0;
+	    	background-image: url('images/google-plus.png');
+	    	background-repeat: no-repeat;
+	    	background-position: center;
+	    	background-size: 16px;
+
+			}
+	 }
+ }
+
+#thrive-registration-logo {
+	margin: -35px -36px 25px -36px;
+	padding: 30px 25px;
+}

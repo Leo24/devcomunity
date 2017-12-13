@@ -1,0 +1,266 @@
+body.admin-bar.thrive-layout-2_columns  {
+	#sidebar-wrapper #page-sidebar-toggle {
+		@media ( min-width: 992px ) {
+			bottom: 32px;
+		}
+
+		@media(max-width: 992px) {
+	        bottom: 32px;
+		}
+
+		@media ( max-width: 768px ) {
+			bottom: 46px;
+		}
+	}
+}
+
+body.thrive-layout-2_columns.logged-out {
+	#user-content-widget-sidenav {
+		#page-sidebar-widgets {
+			.sidebar-widgets {
+				&:last-of-type {
+					@media ( max-width: 768px ) {
+				    	margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+body.thrive-layout-2_columns {
+
+	#start-template-content {
+		@media(max-width: 768px) {
+			padding: 15px;
+		}
+	}
+
+	.limiter {
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	#user-content-widget-sidenav {
+		height: 550px;
+		padding-bottom: 150px;
+
+		#page-sidebar-widgets {
+			.sidebar-widgets {
+				margin: 0;
+
+				&:last-of-type {
+					@media ( max-width: 768px ) {
+				    	margin-bottom: 18px;
+					}
+				}
+
+				&.buddypress ul#friends-list li,
+				&.buddypress ul#groups-list li,
+				&.buddypress ul#members-list li {
+					border-bottom: none;
+				}
+			}
+		}
+	} //#logged-in-sidenav
+
+	.thrive-container > .container-fluid {
+		padding: 0;
+	}
+
+	a#toggle-add {
+
+		position: absolute;
+		bottom: 0;
+		padding: 5px 10px;
+		color: $light;
+		@extend .bg-primary-700;
+		position: fixed;
+	    z-index: 2000;
+	    bottom: 0;
+
+	    -webkit-transition: all 0.5s ease;
+	   	-moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+
+	      -webkit-animation-delay: 0.65s; /* Chrome, Safari, Opera */
+   		 animation-delay: 0.65s;
+
+	   	@media ( min-width: 768px ) {
+	   	 	opacity: 0;
+	    	left: 0;
+	   	}
+	}
+
+	#menu-site-search {
+
+		color: $light;
+
+		#s {
+			margin-bottom: -6px;
+			margin-top: -4px;
+			&::-webkit-input-placeholder { color: $light; }
+			&::-moz-placeholder { color: $light; } /* firefox 19+ */
+			&:-ms-input-placeholder { color: $light; } /* ie */
+			&input:-moz-placeholder { color: $light; }
+		}
+		#searchsubmit {
+			display: none;
+		}
+	}
+
+	#thrive-global-wrapper{
+
+		padding-left: 0;
+
+		-webkit-transition: padding-left 0.5s ease;
+	   	-moz-transition: padding-left 0.5s ease;
+	    -o-transition: padding-left 0.5s ease;
+	    transition: padding-left 0.5s ease;
+
+	    &.toggled {
+
+	    	a#toggle-add {
+	    		opacity: 1;
+	    		left: auto;
+	    		@media( max-width: 768px ) {
+	    			opacity: 0;
+	    		}
+	    	}
+
+	    	@media( min-width: 768px ) {
+	    		padding-left: 0;
+	    		#sidebar-wrapper {
+	    			width: 0;
+	    		}
+	    	}
+
+	 	    @media( max-width: 768px ) {
+
+		    	#sidebar-wrapper {
+	     		   width: 250px;
+		 	    }
+
+		 	    #page-container {
+		 	    	-webkit-transform: translate(250px);
+		 	    	-moz-transform: translate(250px);
+		 	    	transform: translate(250px);
+		 	    }
+		 	}
+	    }
+	}
+
+	@media (min-width: 768px) {
+		#thrive-global-wrapper {
+	    	padding-left: 20%;
+		}
+	}
+
+	#sidebar-wrapper {
+		z-index: 1000;
+	    position: fixed;
+	    left: 20%;
+	    width: 0;
+	    height: 100%;
+	    margin-left: -20%;
+	    overflow: hidden;
+
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+
+		@media (min-width: 768px) {
+		    width: 20%;
+		}
+
+		#page-sidenav  {
+			width: 100%;
+			position: absolute;
+		}
+
+		#page-sidebar-toggle {
+
+	    	width: 100%;
+	    	position: absolute;
+	    	display: block;
+
+	    	bottom: 0;
+
+	    	#toggle-container {
+	    		position: relative;
+	    	}
+
+	    	a#toggle-remove {
+	    		display: block;
+	    		padding: 10px 20px;
+	    		width: 100%;
+	    		@extend .bg-primary;
+	    		color: #fff;
+
+	    		span.span-toggle {
+	    			margin: -10px -20px -10px 0;
+				    display: block;
+				    float: right;
+				    padding: 5px 10px;
+				    @extend .bg-primary-700;
+	    		}
+	    	}
+
+		}
+	}
+
+	#page-container {
+		position: relative;
+		 -webkit-transition: top 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+	#thrive-site-container {
+		width: 100%;
+		position: relative;
+	}
+
+	#thrive_nav #thrive_nav_wrap .site-navigation-menu {
+		float: left;
+	}
+
+}
+
+// Fixing @1200 media bug
+@media(max-width: 1200px) {
+    body.thrive-layout-2_columns #thrive-global-wrapper {
+        padding-left: 25%;
+    }
+
+    body.thrive-layout-2_columns #sidebar-wrapper {
+        width: 25%;
+    }
+}
+
+// Fixing @992 media bug
+@media(max-width: 992px) {
+    body.thrive-layout-2_columns #thrive-global-wrapper {
+        padding-left: 30%;
+    }
+
+    body.thrive-layout-2_columns #sidebar-wrapper {
+        width: 30%;
+    }
+}
+
+// Fixing @768 media bug (ticket/798761)
+@media (max-width: 768px) {
+	body.thrive-layout-2_columns #thrive-global-wrapper #sidebar-wrapper {
+		width: 0;
+	}
+	body.thrive-layout-2_columns #thrive-global-wrapper a#toggle-add {
+		opacity: 1;
+		left: auto;
+	}
+	body.thrive-layout-2_columns #thrive-global-wrapper {
+		padding-left: 0;
+	}
+}

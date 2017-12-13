@@ -1,0 +1,15 @@
+/*
+Theme Name: Thrive Child
+Theme URI: http://themeforest.net/item/thrive-intranet-wordpress-community-theme/12275020
+Description: Child Theme for Thrive WordPress Theme
+Author: Dunhakdis
+Author URI: http://themeforest.net/user/dunhakdis
+Template: thrive
+Version: 1.0.0
+*/
+
+@import url('../thrive/style.css');
+
+.gears-bp-members-list img {
+    display: none!important;
+}

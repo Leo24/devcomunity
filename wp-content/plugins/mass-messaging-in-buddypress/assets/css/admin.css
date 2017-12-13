@@ -1,0 +1,16 @@
+#mass_messaging_in_buddypress_settings form table .ordering .handle {
+    cursor: move
+}
+
+#mass_messaging_in_buddypress_settings form table .ordering.ui-sortable-placeholder {
+    visibility: visible !important;
+    background: white;
+    border: 1px dashed #808080
+}
+
+#mass_messaging_in_buddypress_settings form table.transition tbody tr {
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out
+}

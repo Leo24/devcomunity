@@ -1,0 +1,2879 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Thrive English Default\n"
+"POT-Creation-Date: 2017-02-01 18:18+0800\n"
+"PO-Revision-Date: 2017-02-01 18:32+0800\n"
+"Last-Translator: \n"
+"Language-Team: Dunhakdis Software Creatives <info@dunhakdis.com>\n"
+"Language: en_BS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr_e;_n;_x;_ex;_nx;"
+"esc_attr__;esc_attr_x;esc_html_x;_n_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/option-tree\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: 404.php:15
+msgid "404 - Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: archive.php:38 inc/template-tags.php:211 thrive/widgets/widgets.php:70
+msgid "Archives"
+msgstr ""
+
+#: buddypress/activity/activity-loop.php:27 rtmedia/media/album-gallery.php:56
+#: rtmedia/media/media-gallery.php:65
+msgid "Load More"
+msgstr ""
+
+#: buddypress/activity/activity-loop.php:41
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: buddypress/activity/comment.php:35
+#, php-format
+msgid ""
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr ""
+
+#: buddypress/activity/comment.php:46
+#: buddypress/groups/single/forum/edit.php:17
+msgid "Reply"
+msgstr ""
+
+#: buddypress/activity/comment.php:52
+#: buddypress/members/single/messages/messages-loop.php:132
+#: buddypress/members/single/messages/single.php:35
+#: rtmedia/media/album-single-edit.php:65
+msgid "Delete"
+msgstr ""
+
+#: buddypress/activity/entry.php:65
+msgid "View Conversation"
+msgstr ""
+
+#: buddypress/activity/entry.php:73
+#, php-format
+msgid "Comment <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/entry.php:81
+msgid "Mark as Favorite"
+msgstr ""
+
+#: buddypress/activity/entry.php:81
+msgid "Favorite"
+msgstr ""
+
+#: buddypress/activity/entry.php:85
+msgid "Remove Favorite"
+msgstr ""
+
+#: buddypress/activity/entry.php:139
+msgid "Post"
+msgstr ""
+
+#: buddypress/activity/entry.php:139 buddypress/forums/index.php:196
+msgid "Cancel"
+msgstr ""
+
+#: buddypress/activity/index.php:47
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: buddypress/activity/index.php:47 buddypress/members/index.php:49
+#, php-format
+msgid "All Members <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:64
+msgid "The activity of my friends only."
+msgstr ""
+
+#: buddypress/activity/index.php:64 buddypress/members/index.php:52
+#, php-format
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:83
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: buddypress/activity/index.php:83 buddypress/groups/index.php:46
+#, php-format
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:100
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: buddypress/activity/index.php:100
+#, php-format
+msgid "My Favorites <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:115
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: buddypress/activity/index.php:115
+msgid "Mentions"
+msgstr ""
+
+#: buddypress/activity/index.php:115
+#, php-format
+msgid "%s new"
+msgstr ""
+
+#: buddypress/activity/index.php:134 buddypress/groups/single/activity.php:3
+msgid "RSS Feed"
+msgstr ""
+
+#: buddypress/activity/index.php:134 buddypress/groups/single/activity.php:3
+msgid "RSS"
+msgstr ""
+
+#: buddypress/activity/index.php:146 buddypress/groups/single/activity.php:15
+#: buddypress/members/single/activity.php:18
+msgid "Show:"
+msgstr ""
+
+#: buddypress/activity/index.php:148 buddypress/groups/single/activity.php:17
+#: buddypress/members/single/activity.php:20
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: buddypress/activity/post-form.php:35
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: buddypress/activity/post-form.php:37
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#: buddypress/activity/post-form.php:50
+msgid "Post Update"
+msgstr ""
+
+#: buddypress/activity/post-form.php:60
+#: buddypress/members/single/profile/profile-wp.php:23
+msgid "My Profile"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:16
+msgid "Your browser does not support this feature."
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:23
+msgid "Capture"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:24
+#: buddypress/members/single/settings/capabilities.php:23
+#: rtmedia/media/media-single-edit.php:46
+msgid "Save"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/crop.php:22
+#: buddypress/groups/create.php:280
+#: buddypress/groups/single/admin/group-avatar.php:57
+#: buddypress/members/single/profile/change-avatar.php:46
+msgid "Crop Image"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:37
+#: buddypress/members/single/profile/change-avatar.php:30
+msgid ""
+"If you'd like to delete your current profile photo but not upload a new one, "
+"please use the delete profile photo button."
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:38
+#: buddypress/members/single/profile/change-avatar.php:31
+msgid "Delete Profile Photo"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:38
+#: buddypress/members/single/profile/change-avatar.php:31
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:40
+#: buddypress/groups/single/admin/group-avatar.php:29
+msgid ""
+"If you'd like to remove the existing group profile photo but not upload a "
+"new one, please use the delete group profile photo button."
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:41
+#: buddypress/groups/single/admin/group-avatar.php:31
+msgid "Delete Group Profile Photo"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:15
+msgid "The web browser on your device cannot be used to upload files."
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:17
+msgid "Upload Limit Exceeded"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:22
+msgid "Drop your file here"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:23
+msgid "or"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:24
+msgid "Select your File"
+msgstr ""
+
+#: buddypress/blogs/blogs-loop.php:125
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: buddypress/blogs/create.php:31
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#: buddypress/blogs/index.php:47
+#, php-format
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#: buddypress/blogs/index.php:51
+#, php-format
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: buddypress/blogs/index.php:81 buddypress/forums/index.php:77
+#: buddypress/groups/index.php:74 buddypress/groups/single/forum.php:44
+#: buddypress/members/index.php:79 buddypress/members/single/blogs.php:19
+#: buddypress/members/single/forums.php:18
+#: buddypress/members/single/friends.php:20
+#: buddypress/members/single/groups.php:20
+msgid "Order By:"
+msgstr ""
+
+#: buddypress/blogs/index.php:83 buddypress/forums/index.php:79
+#: buddypress/groups/index.php:77 buddypress/groups/single/forum.php:46
+#: buddypress/members/index.php:81 buddypress/members/single/blogs.php:21
+#: buddypress/members/single/forums.php:20
+#: buddypress/members/single/friends.php:22
+#: buddypress/members/single/groups.php:22
+msgid "Last Active"
+msgstr ""
+
+#: buddypress/blogs/index.php:84 buddypress/members/single/blogs.php:22
+msgid "Newest"
+msgstr ""
+
+#: buddypress/blogs/index.php:85 buddypress/groups/index.php:80
+#: buddypress/members/index.php:85 buddypress/members/single/blogs.php:23
+#: buddypress/members/single/friends.php:24
+#: buddypress/members/single/groups.php:25
+msgid "Alphabetical"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:53
+msgid "Topic"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:54
+msgid "Posts"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:55
+msgid "Freshness"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:75
+#: buddypress/groups/single/forum/topic.php:123
+msgid "Permanent link to this post"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:82
+#, php-format
+msgid "Started by %1$s"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:93
+#, php-format
+msgid "in %1$s"
+msgstr ""
+
+#: buddypress/forums/forums-loop.php:164
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#: buddypress/forums/index.php:43
+#, php-format
+msgid "All Topics <span>%s</span>"
+msgstr ""
+
+#: buddypress/forums/index.php:47
+#, php-format
+msgid "My Topics <span>%s</span>"
+msgstr ""
+
+#: buddypress/forums/index.php:80 buddypress/groups/single/forum.php:47
+#: buddypress/members/single/forums.php:21
+msgid "Most Posts"
+msgstr ""
+
+#: buddypress/forums/index.php:81 buddypress/groups/single/forum.php:48
+#: buddypress/members/single/forums.php:22
+msgid "Unreplied"
+msgstr ""
+
+#: buddypress/forums/index.php:152
+msgid "Create New Topic:"
+msgstr ""
+
+#: buddypress/forums/index.php:159 buddypress/groups/single/forum.php:100
+#: buddypress/groups/single/forum/edit.php:68
+#: thrive/theme-widgets/featured-group.php:123
+#: thrive/theme-widgets/featured-member.php:117
+#: thrive/theme-widgets/members-birthday.php:236
+msgid "Title:"
+msgstr ""
+
+#: buddypress/forums/index.php:162 buddypress/groups/single/forum.php:103
+#: buddypress/groups/single/forum/edit.php:71
+msgid "Content:"
+msgstr ""
+
+#: buddypress/forums/index.php:165 buddypress/groups/single/forum.php:106
+#: buddypress/groups/single/forum/edit.php:74
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: buddypress/forums/index.php:168
+msgid "Post In Group Forum:"
+msgstr ""
+
+#: buddypress/forums/index.php:171
+msgid "----"
+msgstr ""
+
+#: buddypress/forums/index.php:195 buddypress/groups/single/forum.php:119
+msgid "Post Topic"
+msgstr ""
+
+#: buddypress/forums/index.php:212
+#, php-format
+msgid ""
+"You are not a member of any groups so you \n"
+"\t\t\t\t\t\t\t\t don't have any group forums you can post in. To start "
+"posting, \n"
+"\t\t\t\t\t\t\t\t first find a group that matches the topic subject you'd "
+"like to start. \n"
+"\t\t\t\t\t\t\t\t If this group does not exist, why not <a href='%s'>create a "
+"new group</a>? \n"
+"\t\t\t\t\t\t\t\t Once you have joined or created the group you can post your "
+"topic in that \n"
+"\t\t\t\t\t\t\t\t group's forum."
+msgstr ""
+
+#: buddypress/groups/create.php:50
+msgid "Group Details"
+msgstr ""
+
+#: buddypress/groups/create.php:62
+#: buddypress/groups/single/admin/edit-details.php:22
+msgid "Group Name (required)"
+msgstr ""
+
+#: buddypress/groups/create.php:67
+#: buddypress/groups/single/admin/edit-details.php:25
+msgid "Group Description (required)"
+msgstr ""
+
+#: buddypress/groups/create.php:88
+msgid "Group Settings"
+msgstr ""
+
+#: buddypress/groups/create.php:101
+#: buddypress/groups/single/admin/group-settings.php:38
+msgid "Privacy Options"
+msgstr ""
+
+#: buddypress/groups/create.php:104
+#: buddypress/groups/single/admin/group-settings.php:44
+msgid "This is a public group"
+msgstr ""
+
+#: buddypress/groups/create.php:106
+#: buddypress/groups/single/admin/group-settings.php:46
+msgid "Any site member can join this group."
+msgstr ""
+
+#: buddypress/groups/create.php:107 buddypress/groups/create.php:118
+#: buddypress/groups/single/admin/group-settings.php:47
+#: buddypress/groups/single/admin/group-settings.php:57
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:108
+#: buddypress/groups/single/admin/group-settings.php:48
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: buddypress/groups/create.php:114
+#: buddypress/groups/single/admin/group-settings.php:54
+msgid "This is a private group"
+msgstr ""
+
+#: buddypress/groups/create.php:117
+#: buddypress/groups/single/admin/group-settings.php:56
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:119 buddypress/groups/create.php:130
+#: buddypress/groups/single/admin/group-settings.php:58
+#: buddypress/groups/single/admin/group-settings.php:68
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: buddypress/groups/create.php:125
+#: buddypress/groups/single/admin/group-settings.php:64
+msgid "This is a hidden group"
+msgstr ""
+
+#: buddypress/groups/create.php:128
+#: buddypress/groups/single/admin/group-settings.php:66
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:129
+#: buddypress/groups/single/admin/group-settings.php:67
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: buddypress/groups/create.php:143
+#: buddypress/groups/single/admin/group-settings.php:84
+msgid "Group Types"
+msgstr ""
+
+#: buddypress/groups/create.php:145
+#: buddypress/groups/single/admin/group-settings.php:86
+msgid "Select the types this group should be a part of."
+msgstr ""
+
+#: buddypress/groups/create.php:153
+#: buddypress/groups/single/admin/group-settings.php:94
+#, php-format
+msgid "&ndash; %s"
+msgstr ""
+
+#: buddypress/groups/create.php:169
+#: buddypress/groups/single/admin/group-settings.php:112
+msgid "Group Invitations"
+msgstr ""
+
+#: buddypress/groups/create.php:171
+#: buddypress/groups/single/admin/group-settings.php:114
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: buddypress/groups/create.php:176
+#: buddypress/groups/single/admin/group-settings.php:120
+msgid "All group members"
+msgstr ""
+
+#: buddypress/groups/create.php:181
+#: buddypress/groups/single/admin/group-settings.php:125
+msgid "Group admins and mods only"
+msgstr ""
+
+#: buddypress/groups/create.php:186
+#: buddypress/groups/single/admin/group-settings.php:130
+msgid "Group admins only"
+msgstr ""
+
+#: buddypress/groups/create.php:194
+msgid "Group Forums"
+msgstr ""
+
+#: buddypress/groups/create.php:198
+msgid "Should this group have a forum?"
+msgstr ""
+
+#: buddypress/groups/create.php:201
+#: buddypress/groups/single/admin/group-settings.php:27
+msgid "Enable discussion forum"
+msgstr ""
+
+#: buddypress/groups/create.php:205
+#, php-format
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
+"\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: buddypress/groups/create.php:227
+#: buddypress/groups/single/admin/group-avatar.php:11
+msgid "Group Avatar"
+msgstr ""
+
+#: buddypress/groups/create.php:247
+#: buddypress/groups/single/admin/group-avatar.php:15
+msgid ""
+"Upload an image to use as a profile photo for this group. The image will be "
+"shown on the main group page, and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:250
+#: buddypress/groups/single/admin/group-avatar.php:20
+msgid "Select an image"
+msgstr ""
+
+#: buddypress/groups/create.php:253
+#: buddypress/groups/single/admin/group-avatar.php:23
+#: buddypress/members/single/profile/change-avatar.php:25
+msgid "Upload Image"
+msgstr ""
+
+#: buddypress/groups/create.php:257
+msgid ""
+"To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: buddypress/groups/create.php:272
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#: buddypress/groups/create.php:274
+#: buddypress/groups/single/admin/group-avatar.php:51
+msgid "Profile photo to crop"
+msgstr ""
+
+#: buddypress/groups/create.php:277
+#: buddypress/groups/single/admin/group-avatar.php:54
+msgid "Profile photo preview"
+msgstr ""
+
+#: buddypress/groups/create.php:307
+msgid "Group Invites"
+msgstr ""
+
+#: buddypress/groups/create.php:335
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: buddypress/groups/create.php:353
+#: buddypress/groups/single/invites-loop.php:67
+msgid "Remove Invite"
+msgstr ""
+
+#: buddypress/groups/create.php:370
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: buddypress/groups/create.php:415
+msgid "Back to Previous Step"
+msgstr ""
+
+#: buddypress/groups/create.php:422
+msgid "Next Step"
+msgstr ""
+
+#: buddypress/groups/create.php:429
+msgid "Create Group and Continue"
+msgstr ""
+
+#: buddypress/groups/create.php:436
+msgid "Finish"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:77
+#, php-format
+msgid "Active %s"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:147
+msgid "There were no groups found."
+msgstr ""
+
+#: buddypress/groups/index.php:43
+#, php-format
+msgid "All Groups <span>%s</span>"
+msgstr ""
+
+#: buddypress/groups/index.php:78 buddypress/members/single/groups.php:23
+msgid "Most Members"
+msgstr ""
+
+#: buddypress/groups/index.php:79 buddypress/members/single/groups.php:24
+msgid "Newly Created"
+msgstr ""
+
+#: buddypress/groups/single/admin.php:10
+msgid "Group secondary navigation"
+msgstr ""
+
+#: buddypress/groups/single/admin/delete-group.php:11
+#: buddypress/groups/single/admin/delete-group.php:38
+msgid "Delete Group"
+msgstr ""
+
+#: buddypress/groups/single/admin/delete-group.php:23
+msgid ""
+"WARNING: Deleting this group will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: buddypress/groups/single/admin/delete-group.php:26
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:20
+msgid "Manage Group Details"
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:39
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:52
+#: buddypress/groups/single/admin/group-settings.php:148
+#: buddypress/groups/single/forum/edit.php:86
+#: buddypress/groups/single/forum/edit.php:116
+#: buddypress/members/single/profile/edit.php:91
+#: buddypress/members/single/settings/general.php:40
+#: buddypress/members/single/settings/notifications.php:28
+#: rtmedia/media/album-single-edit.php:47
+msgid "Save Changes"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:49
+msgid "Crop Profile Photo"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-cover-image.php:11
+msgid "Cover Image"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-cover-image.php:22
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:20
+msgid "Manage Group Settings"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:11
+msgid "Manage Members"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:25
+msgid "Administrators"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:52
+#: buddypress/groups/single/admin/manage-members.php:155
+#: buddypress/groups/single/admin/manage-members.php:266
+#, php-format
+msgid "Profile picture of %s"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:83
+#: buddypress/groups/single/admin/manage-members.php:193
+msgid "Demote to Member"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:122
+msgid "No group administrators were found."
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:129
+msgid "Moderators"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:185
+#: buddypress/groups/single/admin/manage-members.php:330
+msgid "Promote to Admin"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:233
+msgid "No group moderators were found."
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:240
+#: thrive/theme-widgets/featured-group.php:99
+msgid "Members"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:275
+msgid "(banned)"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:304
+msgid "Unban this member"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:304
+msgid "Remove Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:314
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:322
+msgid "Promote to Mod"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:340
+msgid "Remove from group"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:379
+msgid "No group members were found."
+msgstr ""
+
+#: buddypress/groups/single/admin/membership-requests.php:11
+msgid "Manage Membership Requests"
+msgstr ""
+
+#: buddypress/groups/single/cover-image-header.php:62
+#: buddypress/groups/single/group-header.php:40
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: buddypress/groups/single/cover-image-header.php:73
+msgid "Group Admins"
+msgstr ""
+
+#: buddypress/groups/single/cover-image-header.php:93
+msgid "Group Mods"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:24
+msgid "New Topic"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:32
+#: buddypress/groups/single/forum/edit.php:23
+#: buddypress/groups/single/forum/topic.php:24
+msgid "Forum Directory"
+msgstr ""
+
+#: buddypress/groups/single/forum.php:94
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#: buddypress/groups/single/forum.php:98
+msgid "Post a New Topic:"
+msgstr ""
+
+#: buddypress/groups/single/forum/edit.php:32
+msgid "Edit:"
+msgstr ""
+
+#: buddypress/groups/single/forum/edit.php:129
+msgid "This topic does not exist."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:16
+msgid "New Reply"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:39
+msgid "Topic tags:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:102
+#, php-format
+msgid "%1$s said %2$s:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:154
+msgid "There are no posts for this topic."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:169
+msgid "You will auto join this group when you reply to this topic."
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:181
+msgid "Add a reply:"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:186
+msgid "Post Reply"
+msgstr ""
+
+#: buddypress/groups/single/forum/topic.php:204
+msgid "This topic is closed, replies are no longer accepted."
+msgstr ""
+
+#: buddypress/groups/single/invites-loop.php:105
+msgid "Select friends to invite."
+msgstr ""
+
+#: buddypress/groups/single/members.php:120
+msgid "No members were found."
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:15
+#, php-format
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:21
+msgid "Comments (optional)"
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:33
+msgid "Send Request"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:46
+#: buddypress/members/single/friends/requests.php:52
+#: buddypress/members/single/groups/invites.php:40
+msgid "Accept"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:48
+#: buddypress/members/single/friends/requests.php:53
+#: buddypress/members/single/groups/invites.php:41
+msgid "Reject"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:86
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:22
+msgid "Send Invites"
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:37
+msgid "Group invitations can only be extended to friends."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:38
+msgid ""
+"Once you've made some friendships, you'll be able to invite those members to "
+"this group."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:46
+msgid "All of your friends already belong to this group."
+msgstr ""
+
+#: buddypress/members/activate.php:31
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: buddypress/members/activate.php:33
+#, php-format
+msgid ""
+"Your account was activated successfully! You can now <a href=\"%s\">log in</"
+"a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: buddypress/members/activate.php:38
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: buddypress/members/activate.php:42
+msgid "Activation Key:"
+msgstr ""
+
+#: buddypress/members/activate.php:46
+#: thrive/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: buddypress/members/index.php:82 buddypress/members/single/friends.php:23
+msgid "Newest Registered"
+msgstr ""
+
+#: buddypress/members/members-loop.php:170
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: buddypress/members/register.php:30
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: buddypress/members/register.php:49
+msgid ""
+"Registering for this site is easy. Just fill in the fields below, and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: buddypress/members/register.php:66
+msgid "Account Details"
+msgstr ""
+
+#: buddypress/members/register.php:69
+msgid "Username"
+msgstr ""
+
+#: buddypress/members/register.php:69 buddypress/members/register.php:83
+#: buddypress/members/register.php:96 buddypress/members/register.php:111
+#: buddypress/members/register.php:263 buddypress/members/register.php:279
+msgid "(required)"
+msgstr ""
+
+#: buddypress/members/register.php:83
+msgid "Email Address"
+msgstr ""
+
+#: buddypress/members/register.php:96
+msgid "Choose a Password"
+msgstr ""
+
+#: buddypress/members/register.php:111
+msgid "Confirm Password"
+msgstr ""
+
+#: buddypress/members/register.php:158
+msgid "Profile Details"
+msgstr ""
+
+#: buddypress/members/register.php:180 buddypress/members/register.php:195
+#: buddypress/members/single/profile/edit.php:54
+#: buddypress/members/single/profile/edit.php:68
+#, php-format
+msgid ""
+"This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr ""
+
+#: buddypress/members/register.php:180
+#: buddypress/members/single/profile/edit.php:54
+msgid "Change"
+msgstr ""
+
+#: buddypress/members/register.php:185
+#: buddypress/members/single/profile/edit.php:59
+msgid "Who can see this field?"
+msgstr ""
+
+#: buddypress/members/register.php:190
+#: buddypress/members/single/profile/edit.php:64
+msgid "Close"
+msgstr ""
+
+#: buddypress/members/register.php:257
+msgid "Blog Details"
+msgstr ""
+
+#: buddypress/members/register.php:259
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: buddypress/members/register.php:263
+msgid "Blog URL"
+msgstr ""
+
+#: buddypress/members/register.php:279
+msgid "Site Title"
+msgstr ""
+
+#: buddypress/members/register.php:290
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+
+#: buddypress/members/register.php:300
+msgid "Yes"
+msgstr ""
+
+#: buddypress/members/register.php:301
+msgid "No"
+msgstr ""
+
+#: buddypress/members/register.php:337
+msgid "Complete Sign Up"
+msgstr ""
+
+#: buddypress/members/register.php:369
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: buddypress/members/register.php:371
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:99
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:24
+#, php-format
+msgid "%d member"
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:64
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:12
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:22
+msgid "This is a notice to all users."
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:25
+#: buddypress/members/single/messages/messages-loop.php:52
+msgid "Subject"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:28
+msgid "Message"
+msgstr ""
+
+#: buddypress/members/single/messages/compose.php:43
+msgid "Send Message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:51
+msgid "From"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:67
+msgid "Star"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:70
+#: buddypress/members/single/notifications/notifications-loop.php:9
+msgid "Actions"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:93
+msgid "To:"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:103
+msgid "View Message"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:127
+msgid "Read"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:129
+msgid "Unread"
+msgstr ""
+
+#: buddypress/members/single/messages/messages-loop.php:170
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:57
+msgid "Sent:"
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:71
+msgid "Delete Message"
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:89
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:21
+msgid "You are alone in this conversation."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:25
+#, php-format
+msgid "Conversation between %s recipients."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:29
+#, php-format
+msgid "Conversation between %s and you."
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:35
+msgid "Delete Conversation"
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:139
+msgid "Send a Reply"
+msgstr ""
+
+#: buddypress/members/single/messages/single.php:172
+msgid "Send Reply"
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:7
+msgid "You have no unread notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:11
+msgid "This member has no unread notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:19
+msgid "You have no notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/feedback-no-notifications.php:23
+msgid "This member has no notifications."
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:7
+msgid "Notification"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:8
+msgid "Date Received"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:1
+msgid "Change Profile Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:14
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. If "
+"there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
+"account email we will use that, or you can upload an image from your "
+"computer."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:21
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:38
+msgid "Crop Your New Profile Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:40
+msgid "Profile Photo to crop"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:43
+msgid "Profile Photo preview"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:70
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. To "
+"change your profile photo, please create an account with <a href=\"http://"
+"gravatar.com\">Gravatar</a> using the same email address as you used to "
+"register with this site."
+msgstr ""
+
+#: buddypress/members/single/profile/change-cover-image.php:11
+msgid "Change Cover Image"
+msgstr ""
+
+#: buddypress/members/single/profile/change-cover-image.php:22
+msgid "Your Cover Image will be used to customize the header of your profile."
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:20
+#, php-format
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:23
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:30
+#: thrive/sidebars/sidebars-screen.php:56
+#: thrive/sidebars/sidebars-screen.php:86
+msgid "Name"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:39
+msgid "About Me"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:48
+msgid "Website"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:57
+msgid "Jabber"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:66
+msgid "AOL Messenger"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:75
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: buddypress/members/single/settings/capabilities.php:19
+msgid "This user is a spammer."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:10
+msgid ""
+"Deleting your account will delete all of the content you have created. It "
+"will be completely irrecoverable."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:14
+msgid ""
+"Deleting this account will delete all of the content it has created. It will "
+"be completely irrecoverable."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:33
+msgid "I understand the consequences."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:37
+msgid "Delete Account"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:10
+msgid ""
+"Current Password <span>(required to update email or change current "
+"password)</span>"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:11
+msgid "Password Lost and Found"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:11
+msgid "Lost your password?"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:15
+msgid "Account Email"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:19
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:21
+msgid "New Password"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:27
+msgid "Repeat New Password"
+msgstr ""
+
+#: buddypress/members/single/settings/notifications.php:7
+msgid "Send an email notice when:"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:22
+msgid "Visibility"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:56
+msgid "Save Settings"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:38 comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41 comments.php:63
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:64
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:57 thrive/footer/customizer/footer.php:93
+msgid "&copy; [Your Website Name Here] 2015. All Rights Reserved."
+msgstr ""
+
+#: functions.php:115
+msgid "on"
+msgstr ""
+
+#: functions.php:228 functions.php:231
+msgid "Social Connect "
+msgstr ""
+
+#: functions.php:234
+msgid "Thrive Social Connect "
+msgstr ""
+
+#: header.php:71 header.php:89
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: header.php:105
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:130 searchform.php:12
+#: thrive/user-navigation/user-navigation.php:55
+msgid "Search"
+msgstr ""
+
+#: header.php:136
+msgid "Show Menu"
+msgstr ""
+
+#: inc/extras.php:61
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:153
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/extras.php:159
+#, php-format
+msgid "<span class=\"type-strong fn\">%s</span>"
+msgstr ""
+
+#: inc/extras.php:164
+msgid "(Edit)"
+msgstr ""
+
+#: inc/extras.php:169
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/extras.php:201
+msgid "Category"
+msgstr ""
+
+#: inc/extras.php:206
+msgid "Tag"
+msgstr ""
+
+#: inc/extras.php:212
+msgid "Author"
+msgstr ""
+
+#: inc/extras.php:226
+msgid "Archive"
+msgstr ""
+
+#: inc/extras.php:244
+msgid "Files"
+msgstr ""
+
+#: inc/extras.php:257
+msgid "BuddyPress"
+msgstr ""
+
+#: inc/extras.php:258
+#, php-format
+msgid ""
+"%s is not currently installed or activated. Thrive recommends that you "
+"install and activate %s plugin. Thank you :)"
+msgstr ""
+
+#: inc/extras.php:305
+msgid "Chat"
+msgstr ""
+
+#: inc/extras.php:333
+msgid "Media Updates"
+msgstr ""
+
+#: inc/extras.php:417 inc/extras.php:418
+msgid "Settings"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:89
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:94
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgid "Last updated"
+msgstr ""
+
+#: inc/template-tags.php:121 inc/template-tags.php:127
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:123
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:129
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:139 template-parts/content-single.php:28
+#: template-parts/content.php:26
+msgid "Comments"
+msgstr ""
+
+#: inc/template-tags.php:148
+msgid "Manage"
+msgstr ""
+
+#: inc/template-tags.php:173
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:175
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:177
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:179
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:179
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:181
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:181
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:183
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:183
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:186
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:188
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:190
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:192
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:194
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:196 thrive/footer/customizer/footer.php:66
+#: thrive/footer/customizer/widgets.php:88
+#: thrive/widgets/customizer/widgets.php:87
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:198
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:200
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:202
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:205
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/template-tags.php:209
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/thrive-nav.php:46 inc/thrive-nav.php:56
+msgid "Site Logo"
+msgstr ""
+
+#: inc/thrive-nav.php:47 inc/thrive-nav.php:57
+msgid "Site Mobile Logo"
+msgstr ""
+
+#: inc/thrive-nav.php:103
+msgid "Create or Assign a 'Primary' Menu"
+msgstr ""
+
+#: learndash/course_list_template.php:34
+msgid "See Course"
+msgstr ""
+
+#: learndash/course_list_template.php:90
+msgid "By"
+msgstr ""
+
+#: one-click-demo-import/one-click-demo-import.php:15
+msgid ""
+"After you import this demo, you will have to create your own members and "
+"groups because their data should be unique."
+msgstr ""
+
+#: one-click-demo-import/one-click-demo-import.php:31
+#: one-click-demo-import/one-click-demo-import.php:47
+msgid ""
+"For this import, please make sure that you have installed and activated all "
+"the recommended plugins. Also, you will have to setup the slider separately."
+msgstr ""
+
+#: rtmedia/media/album-gallery.php:14
+msgid "Album List"
+msgstr ""
+
+#: rtmedia/media/album-gallery.php:64 rtmedia/media/media-single-edit.php:61
+#: rtmedia/media/media-single.php:146
+msgid "Sorry !! There's no media found for the request !!"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:12
+msgid "Edit Album : "
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:16
+#: rtmedia/media/media-single-edit.php:16
+msgid "Details"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:18
+msgid "Manage Media"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:32
+#: rtmedia/media/media-single-edit.php:26
+msgid "Title : "
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:37
+#: rtmedia/media/media-single-edit.php:32
+msgid "Description: "
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:48
+#: rtmedia/media/media-single-edit.php:47
+msgid "Back"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:62
+msgid "Select All Visible"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:63
+msgid "Move Selected media to another album."
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:63
+msgid "Move"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:65
+msgid "Delete Selected media from the album."
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:70
+msgid "Move selected media to the album : "
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:72
+msgid "Move Selected"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:94
+msgid "Prev"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:103
+msgid "Next"
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:106
+msgid "The album is empty."
+msgstr ""
+
+#: rtmedia/media/album-single-edit.php:116
+msgid "Sorry !! You can not edit this album."
+msgstr ""
+
+#: rtmedia/media/media-gallery.php:9 rtmedia/media/media-gallery.php:25
+msgid "Media Gallery"
+msgstr ""
+
+#: rtmedia/media/media-gallery.php:73
+msgid "Oops !! There's no media found for the request !!"
+msgstr ""
+
+#: rtmedia/media/media-single-edit.php:8
+msgid "Edit Media"
+msgstr ""
+
+#: rtmedia/media/media-single-edit.php:54
+msgid "Sorry !! You do not have rights to edit this media"
+msgstr ""
+
+#: rtmedia/media/media-single.php:35
+msgid "under"
+msgstr ""
+
+#: rtmedia/media/media-single.php:82 rtmedia/media/media-single.php:122
+msgid "Comment"
+msgstr ""
+
+#: search.php:25
+msgid "Search Results"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:9
+msgid "To search, type and hit enter"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Ops! Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:20 template-parts/content-single.php:64
+#: template-parts/content.php:83
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:27
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content.php:76
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/sidebar-content.php:31 template-parts/sidebar-content.php:40
+msgid "View Profile"
+msgstr ""
+
+#: template-parts/sidebar-content.php:47
+msgid "Logout"
+msgstr ""
+
+#: template-parts/sidebar-content.php:48
+#: thrive/user-navigation/user-navigation.php:249
+msgid "Sign Out"
+msgstr ""
+
+#: template-parts/sidebar-content.php:82
+msgid "New 'Secondary' Menu"
+msgstr ""
+
+#: template-parts/sidebar-content.php:105
+msgid "Welcome! Please sign-in to your account. Thank you!"
+msgstr ""
+
+#: template-parts/sidebar-content.php:115
+msgid "Login"
+msgstr ""
+
+#: thrive/colors/customizer.php:10
+msgid "General Colors"
+msgstr ""
+
+#: thrive/colors/customizer.php:11
+msgid "Select the desired general color combination for your website."
+msgstr ""
+
+#: thrive/colors/customizer.php:27
+msgid "Dark Side Menu"
+msgstr ""
+
+#: thrive/colors/customizer.php:29
+msgid "This option applies for 2 columns layout side menu background color"
+msgstr ""
+
+#: thrive/colors/customizer.php:42
+msgid "Primary Colors"
+msgstr ""
+
+#: thrive/colors/customizer.php:45
+msgid ""
+"Select a primary color for your website. This settings will be automatically "
+"overwritten if you change the colors inside individual components, for "
+"example, \"Branding\", \"Menu\", etc. "
+msgstr ""
+
+#: thrive/colors/customizer.php:58
+msgid "Primary Colors Shade"
+msgstr ""
+
+#: thrive/colors/customizer.php:61
+msgid ""
+"Select a shade for your primary color. This settings will be automatically "
+"overwritten if you change the colors inside individual components, for "
+"example, \"Branding\", \"Menu\", etc. "
+msgstr ""
+
+#: thrive/colors/customizer.php:75
+msgid "Secondary Colors"
+msgstr ""
+
+#: thrive/colors/customizer.php:78
+msgid ""
+"Select a secondary color. This settings will be automatically overwritten if "
+"you change the colors inside individual components, for example, \"Branding"
+"\", \"Menu\", etc. "
+msgstr ""
+
+#: thrive/footer/customizer/footer.php:11
+msgid "Copyright"
+msgstr ""
+
+#: thrive/footer/customizer/footer.php:13
+msgid ""
+"This section handles the all default settings for your footer. Choose the "
+"best colors that suites your company and personality."
+msgstr ""
+
+#: thrive/footer/customizer/footer.php:30 thrive/menu/customizer/menu.php:22
+#: thrive/menu/customizer/mobile-menu.php:39
+#: thrive/menu/customizer/sub-menu.php:22
+msgid "Default State"
+msgstr ""
+
+#: thrive/footer/customizer/footer.php:48
+#: thrive/footer/customizer/widgets.php:70
+#: thrive/widgets/customizer/widgets.php:51
+msgid "Background"
+msgstr ""
+
+#: thrive/footer/customizer/footer.php:84
+#: thrive/footer/customizer/widgets.php:106
+msgid "Links Hover State"
+msgstr ""
+
+#: thrive/footer/customizer/footer.php:107
+msgid "Copyright Text"
+msgstr ""
+
+#: thrive/footer/customizer/footer.php:110
+msgid ""
+"Enter the copyright text that can be found in your site's footer. You can "
+"also add html tags."
+msgstr ""
+
+#: thrive/footer/customizer/widgets.php:10
+msgid "Widgets"
+msgstr ""
+
+#: thrive/footer/customizer/widgets.php:12
+msgid ""
+"Configure the widgets that are shown in the footer section of your website"
+msgstr ""
+
+#: thrive/footer/customizer/widgets.php:28
+msgid "Columns"
+msgstr ""
+
+#: thrive/footer/customizer/widgets.php:32
+msgid "1 Column"
+msgstr ""
+
+#: thrive/footer/customizer/widgets.php:33
+msgid "2 Columns"
+msgstr ""
+
+#: thrive/footer/customizer/widgets.php:34
+msgid "3 Columns"
+msgstr ""
+
+#: thrive/footer/customizer/widgets.php:35
+msgid "4 Columns"
+msgstr ""
+
+#: thrive/footer/customizer/widgets.php:52
+#: thrive/widgets/customizer/widgets.php:69
+msgid "Color"
+msgstr ""
+
+#: thrive/footer/footer.php:55 thrive/footer/footer.php:70
+msgid "Footer"
+msgstr ""
+
+#: thrive/layouts/customizer.php:3
+msgid "General Layout"
+msgstr ""
+
+#: thrive/layouts/customizer.php:4
+msgid "Select the desired layout for your website."
+msgstr ""
+
+#: thrive/layouts/customizer.php:20
+msgid "Select Layout:"
+msgstr ""
+
+#: thrive/layouts/customizer.php:39
+msgid "Direction:"
+msgstr ""
+
+#: thrive/menu/customizer/branding.php:12
+msgid "Branding"
+msgstr ""
+
+#: thrive/menu/customizer/branding.php:14
+msgid ""
+"This section handles the all default settings for your Branding. Change it "
+"to your preference."
+msgstr ""
+
+#: thrive/menu/customizer/branding.php:32
+msgid "Branding Height"
+msgstr ""
+
+#: thrive/menu/customizer/branding.php:33
+msgid "Use the slider below to adjust the height of the the Header Section."
+msgstr ""
+
+#: thrive/menu/customizer/branding.php:53
+msgid "Logo Background"
+msgstr ""
+
+#: thrive/menu/customizer/branding.php:69
+msgid "Menu Background"
+msgstr ""
+
+#: thrive/menu/customizer/branding.php:89
+msgid "Upload a logo"
+msgstr ""
+
+#: thrive/menu/customizer/branding.php:110
+msgid "Mobile Logo"
+msgstr ""
+
+#: thrive/menu/customizer/menu.php:5
+msgid "Menu"
+msgstr ""
+
+#: thrive/menu/customizer/menu.php:7
+msgid ""
+"This section handles the all default settings for your website menu. Choose "
+"the best colors that suites your company and personality."
+msgstr ""
+
+#: thrive/menu/customizer/menu.php:38
+msgid "Active & Hover State"
+msgstr ""
+
+#: thrive/menu/customizer/menu.php:58
+msgid "Top Right Menu"
+msgstr ""
+
+#: thrive/menu/customizer/menu.php:60
+msgid ""
+"Choose which kind of menu you would like to display in the top right bar."
+msgstr ""
+
+#: thrive/menu/customizer/menu.php:62
+msgid ""
+"Automatically fetch BuddyPress generated profile menu for me. (BuddyPress "
+"plugin required)"
+msgstr ""
+
+#: thrive/menu/customizer/menu.php:63
+msgid "I would like to use the theme \"Top Right Bar\" menu."
+msgstr ""
+
+#: thrive/menu/customizer/mobile-menu.php:5
+msgid "Mobile Menu"
+msgstr ""
+
+#: thrive/menu/customizer/mobile-menu.php:7
+msgid ""
+"This section handles the all default settings for your website mobile menu. "
+"Choose the best colors that suites your company and personality."
+msgstr ""
+
+#: thrive/menu/customizer/mobile-menu.php:23
+msgid "Button Color"
+msgstr ""
+
+#: thrive/menu/customizer/mobile-menu.php:54
+#: thrive/menu/customizer/sub-menu.php:37
+msgid "Hover & Active State"
+msgstr ""
+
+#: thrive/menu/customizer/mobile-menu.php:69
+msgid "Hover & Active Background"
+msgstr ""
+
+#: thrive/menu/customizer/mobile-menu.php:84
+msgid "Mobile Background"
+msgstr ""
+
+#: thrive/menu/customizer/sub-menu.php:5
+msgid "Sub Menu"
+msgstr ""
+
+#: thrive/menu/customizer/sub-menu.php:7
+msgid ""
+"This section handles the all default settings for your website submenu menu. "
+"Choose the best colors that suites your company and personality."
+msgstr ""
+
+#: thrive/menu/customizer/sub-menu.php:54
+msgid "Hover & Active State Background"
+msgstr ""
+
+#: thrive/menu/menu.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: thrive/menu/menu.php:39
+msgid "Secondary Menu"
+msgstr ""
+
+#: thrive/menu/menu.php:40
+msgid "Top Right Bar"
+msgstr ""
+
+#: thrive/menu/menu.php:68
+msgid "Branding & Menu"
+msgstr ""
+
+#: thrive/register/customizer.php:10
+msgid "Register Page"
+msgstr ""
+
+#: thrive/register/customizer.php:11
+msgid ""
+"Use this section to customize your register page. After saving, log-out and "
+"visit your register page to see the changes. Make sure to disable the "
+"registration option inside the site settings."
+msgstr ""
+
+#: thrive/register/customizer.php:27
+msgid "Disable Page Header"
+msgstr ""
+
+#: thrive/register/customizer.php:29
+msgid "Check to disable site header in the register page."
+msgstr ""
+
+#: thrive/register/customizer.php:43
+msgid "Disable Page Footer"
+msgstr ""
+
+#: thrive/register/customizer.php:45
+msgid "Check to disable site footer in the register page."
+msgstr ""
+
+#: thrive/register/customizer.php:59
+msgid "Enable Site Logo"
+msgstr ""
+
+#: thrive/register/customizer.php:61
+msgid ""
+"Check to enable site logo in the register form. Useful if you want to hide "
+"the site header."
+msgstr ""
+
+#: thrive/sidebars/sidebars-meta.php:101 thrive/sidebars/sidebars-meta.php:111
+#: thrive/sidebars/sidebars-meta.php:124 thrive/sidebars/sidebars-meta.php:134
+#: thrive/sidebars/sidebars-meta.php:149 thrive/sidebars/sidebars-meta.php:165
+msgid "Appearance"
+msgstr ""
+
+#: thrive/sidebars/sidebars-meta.php:229
+msgid "Left Sidebar"
+msgstr ""
+
+#: thrive/sidebars/sidebars-meta.php:245 thrive/sidebars/sidebars-meta.php:291
+msgid "No Sidebars Available"
+msgstr ""
+
+#: thrive/sidebars/sidebars-meta.php:262
+msgid "Right Sidebar"
+msgstr ""
+
+#: thrive/sidebars/sidebars-meta.php:296
+msgid "Page Layout"
+msgstr ""
+
+#: thrive/sidebars/sidebars-meta.php:307
+msgid "Content / Sidebar Right"
+msgstr ""
+
+#: thrive/sidebars/sidebars-meta.php:308
+msgid "Sidebar Left / Content"
+msgstr ""
+
+#: thrive/sidebars/sidebars-meta.php:309
+msgid "Full Content / No Sidebar"
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:14 thrive/sidebars/sidebars.php:41
+#: thrive/sidebars/sidebars.php:42
+msgid "Sidebars"
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:29
+msgid "There was an error while adding your sidebar. Sidebar already exists."
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:30
+msgid "Invalid sidebar name. Only alphanumeric characters are allowed."
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:31
+msgid "There was an error while adding sidebar. Sidebar name is required."
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:45
+msgid "Sidebar has been added."
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:57
+#: thrive/sidebars/sidebars-screen.php:87
+msgid "Description"
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:92
+msgid "No Custom Sidebars Yet."
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:98
+msgid "Add New Sidebar"
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:100
+msgid ""
+"Use this form to create a new sidebar for the theme (in case you need it!). "
+"After you have successfully added a sidebar, you will be able to assign "
+"inside a post or page."
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:127
+msgid "Name: *"
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:129
+msgid "Sidebar name (must be unique)"
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:132
+msgid "Description: (optional)"
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:135
+msgid ""
+"Text description of what/where the sidebar is. Shown on widget management "
+"screen."
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:143
+msgid "Update Sidebar"
+msgstr ""
+
+#: thrive/sidebars/sidebars-screen.php:146
+msgid "Add Sidebar"
+msgstr ""
+
+#: thrive/sidenav/customizer.php:10
+msgid "Side Navigation"
+msgstr ""
+
+#: thrive/sidenav/customizer.php:11
+msgid ""
+"Side Navigation are useful for retaining user \tpermalink links. Side "
+"Navigation (SideNav) is only available for 2 columns layout."
+msgstr ""
+
+#: thrive/sidenav/customizer.php:32
+msgid "Public 'Sidenav Widgets'"
+msgstr ""
+
+#: thrive/sidenav/customizer.php:34
+msgid "Check to make the left sidebar widgets accesible to public."
+msgstr ""
+
+#: thrive/sidenav/customizer.php:51
+msgid "Log Out Message"
+msgstr ""
+
+#: thrive/sidenav/customizer.php:54
+msgid ""
+"Use the Textarea below to write your side navigation message when the user "
+"is logged out."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:393
+#: thrive/tgm/class-tgm-plugin-activation.php:912
+#: thrive/tgm/class-tgm-plugin-activation.php:2618
+#: thrive/tgm/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:394
+#: thrive/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:395
+#: thrive/tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:1019
+#: thrive/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:1206
+#: thrive/tgm/class-tgm-plugin-activation.php:3033
+msgid "and"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3594
+#: thrive/tgm/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3594
+#: thrive/tgm/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: thrive/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:13
+msgid "Thrive: Featured Group"
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:14
+msgid "Use this widget to feature a group."
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:39
+msgid "Unable to fetch groups. Is BuddyPress installed or activated?"
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:46
+msgid ""
+"I can't seem to find a group with that group name. Please check your group "
+"name input."
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:79
+msgid "Visit Group Profile"
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:94
+msgid "Activities"
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:118
+msgid "Featured Group"
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:128
+#: thrive/theme-widgets/featured-member.php:122
+msgid "You can use this field to enter the widget title."
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:134
+msgid "Groups Name:"
+msgstr ""
+
+#: thrive/theme-widgets/featured-group.php:139
+msgid "Enter the name of the group that you want to be featured."
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:14
+msgid "Thrive: Featured Member"
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:15
+msgid "Use this widget to feature a member."
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:42
+msgid ""
+"I can't seem to find a user with that username. Please check your username "
+"input."
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:62
+msgid "Visit Member Profile"
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:83
+#: thrive/user-navigation/user-navigation.php:275
+msgid "Profile"
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:88
+msgid "Activity"
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:93
+msgid "Friends"
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:112
+msgid "Featured Member"
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:128
+msgid "Username:"
+msgstr ""
+
+#: thrive/theme-widgets/featured-member.php:133
+msgid "Enter the username of the member that you want to be featured."
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:14
+msgid "Thrive: Birthday Widget"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:15
+msgid "Celebrate your members' birthday with Thrive Birthday Widget."
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:45
+msgid ""
+"I can't find \"Date of Birth\" profile data. Have you added \"Date of Birth"
+"\" user field already?"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:116
+msgid "Visit Profile"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:142
+msgid " Happy%20Birthday!"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:152
+msgid "Happy Birthday!"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:153
+msgid "Greet"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:184
+msgid "There are no upcoming birthday celebrations"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:231
+msgid "Birthdays"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:240
+msgid "Show Birthdays:"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:243
+msgid "This Year"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:244
+msgid "This Month"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:245
+msgid "This Week"
+msgstr ""
+
+#: thrive/theme-widgets/members-birthday.php:256
+msgid "Hide if no birthdays:"
+msgstr ""
+
+#: thrive/typography/customizer/options.php:27
+msgid "Fonts"
+msgstr ""
+
+#: thrive/typography/customizer/options.php:29
+msgid ""
+"Select desired font combination for your website.\n"
+"                        Hundreds of fonts are available to choose from."
+msgstr ""
+
+#: thrive/typography/customizer/options.php:55
+msgid "Headings Font"
+msgstr ""
+
+#: thrive/typography/customizer/options.php:57
+msgid "Select the desired font to be applied in the headings of the theme."
+msgstr ""
+
+#: thrive/typography/customizer/options.php:88
+msgid "Body Font"
+msgstr ""
+
+#: thrive/typography/customizer/options.php:90
+msgid "Use this option to select a general font for the content of the theme."
+msgstr ""
+
+#: thrive/typography/customizer/options.php:121
+msgid "Font Point"
+msgstr ""
+
+#: thrive/typography/customizer/options.php:122
+msgid ""
+"Controls the overall size of the text. Minimum recommended input is \"12\" "
+"and the maximum recommended input is \"22\". Set the value to \"14\" in "
+"order to reset the size."
+msgstr ""
+
+#: thrive/typography/typography.php:37
+msgid "Typography"
+msgstr ""
+
+#: thrive/user-define-css/customizer.php:10
+msgid "Custom CSS"
+msgstr ""
+
+#: thrive/user-define-css/customizer.php:24
+msgid "Custom Theme CSS"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:18
+msgid "Sign-in to your account"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:19
+msgid "Sign-in"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:22
+msgid "Create account to get started"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:23
+msgid "Register"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:63
+msgid "See Notifications"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:99
+msgid "See All Notifications"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:137
+msgid "Show Unread Messages"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:155
+msgid "Messages"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:161
+#, php-format
+msgid "%s &raquo; Read message "
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:183
+#: thrive/user-navigation/user-navigation.php:184
+msgid "See All Messages"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:230
+msgid "Edit 'Top Right Bar' Menu"
+msgstr ""
+
+#: thrive/user-navigation/user-navigation.php:285
+msgid "Docs"
+msgstr ""
+
+#: thrive/widgets/customizer/widgets.php:11
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: thrive/widgets/customizer/widgets.php:12
+msgid "You can change the appearance of your sidebar widgets here"
+msgstr ""
+
+#: thrive/widgets/customizer/widgets.php:28
+msgid "Widgets Outline"
+msgstr ""
+
+#: thrive/widgets/customizer/widgets.php:32
+msgid "Shadowed"
+msgstr ""
+
+#: thrive/widgets/customizer/widgets.php:33
+msgid "Solid Border"
+msgstr ""
+
+#: thrive/widgets/customizer/widgets.php:34
+msgid "No Outline"
+msgstr ""
+
+#: thrive/widgets/customizer/widgets.php:105
+msgid "Links Hover"
+msgstr ""
+
+#: thrive/widgets/widgets.php:40
+msgid "Sidebar"
+msgstr ""
+
+#: thrive/widgets/widgets.php:50
+msgid "BP Sidebar"
+msgstr ""
+
+#: thrive/widgets/widgets.php:60
+msgid "Sidenav Sidebar"
+msgstr ""
+
+#: thrive/widgets/widgets.php:80
+msgid "Dashboard"
+msgstr ""

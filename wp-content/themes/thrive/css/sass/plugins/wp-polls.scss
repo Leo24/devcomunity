@@ -1,0 +1,39 @@
+.wp-polls-ul {
+	margin: 0;
+	li {
+		@include caption();
+
+		input[type="radio"] {
+			margin: 0;
+		    position: relative;
+		    top: -1.5px;
+		    margin-right: 10px;
+		}
+	}
+}
+.wp-polls .Buttons {
+	@extend .bg-primary;
+	color: $light;
+	border: 0;
+}
+.wp-polls .pollbar {
+  	margin: 10px 0;
+  	font-size: 5px;
+  	background: none;
+  	border: 0;
+  	line-height: 10px;
+  	height: 5px;
+  	background-color: $primary;
+  	border-radius: 10px;
+	max-width: 100%;
+}
+ body.thrive-inline #thrive_footer_widget .footer-widget {
+	 .wp-polls {
+		 strong {
+			 color: $light;
+		 }
+		 .pollbar {
+			 background-color: $light_disabled;
+		 }
+	 }
+ }

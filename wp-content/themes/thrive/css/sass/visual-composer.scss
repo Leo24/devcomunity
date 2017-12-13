@@ -1,0 +1,215 @@
+html .thrive-inline{
+	.vc_progress_bar .vc_general.vc_single_bar .vc_label,
+	.vc_progress_bar .vc_single_bar .vc_label {
+		text-shadow: none;
+	}
+}
+.thrive-inline{
+	button.vc_btn3.vc_btn3-size-md{
+	    padding-top: 9px;
+		line-height: 1em;
+	}
+
+
+	button.vc_btn3.vc_btn3-size-lg{
+	    padding-top: 9px;
+		line-height: 1em;
+	}
+
+
+	button.vc_btn3.vc_btn3-style-flat{
+	    box-shadow: none;
+	}
+
+
+	.vc_progress_bar .vc_single_bar .vc_label {
+		text-transform: uppercase;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.vc_progress_bar .vc_single_bar {
+		background: #ECEFF1;
+		box-shadow: none;
+	}
+
+
+	.vc_line-chart .vc_chart-legend {
+		width: 25%;
+	}
+	.vc_chart .vc_chart-legend span {
+	    border-radius: 50%;
+		position: absolute;
+	}
+	.vc_chart .vc_chart-legend li {
+		text-transform: capitalize;
+		max-width: 100%;
+		word-break: normal;
+		word-wrap: inherit;
+		position: relative;
+		padding-left: 25px;
+	    margin-top: 10px;
+	}
+
+
+	.sidebar-widgets ul {
+		padding-left: 0;
+	}
+	.sidebar-widgets ul li {
+		list-style: none;
+	}
+	.page .sidebar-widgets ul li {
+		font-size: 0.8em;
+	}
+	.page .sidebar-widgets ul li a img{
+		width: 20%;
+	}
+
+
+    .vc_general.vc_cta3 {
+        h2 {
+            line-height: 35px;
+        }
+    }
+
+
+    .vc_tta-container{
+		.vc_tta-style-outline{
+			.vc_tta-panel-body,
+			.vc_tta-tab>a,
+			.vc_tta-panel-heading{
+			    border-width: 1px;
+			}
+			&.vc_tta-tabs .vc_tta-panels{
+			    border-width: 1px;
+			}
+		}
+		.vc_tta-style-outline.vc_tta-shape-rounded,
+		.vc_tta-style-outline.vc_tta-shape-round {
+			.vc_tta-panels-container{
+				&:after {
+					content: "";
+					height: 32px;
+					width: 4.5%;
+					float: left;
+					border-left: 1px solid #5472D2;
+					border-bottom: 1px solid #5472D2;
+					border-bottom-left-radius: 30px;
+					position: absolute;
+				    bottom: 0px;
+					left: 1.2px;
+					@media(max-width: 992px){
+					    height: 33px;
+						width: 7%;
+						left: 1.2px;
+					}
+					@media(max-width: 768px){
+						display: none;
+					}
+				}
+				.vc_tta-panel-body{
+					&:after{
+						display: none;
+					}
+				}
+			}
+		}
+		.vc_tta-style-outline.vc_tta-shape-rounded{
+			.vc_tta-panels-container:after{
+				height: 5px;
+				left: 0.5px;
+				@media(max-width: 768px){
+					display: none;
+				}
+			}
+		}
+		.vc_tta-style-outline.vc_tta-shape-rounded,
+		.vc_tta-style-outline.vc_tta-shape-round {
+			&.vc_tta-color-blue{
+				.vc_tta-panels-container:after{
+					border-color: #5472D2;
+				}
+			}
+			&.vc_tta-color-turquoise{
+				.vc_tta-panels-container:after{
+					border-color: #00C1CF;
+				}
+			}
+			&.vc_tta-color-pink{
+				.vc_tta-panels-container:after{
+					border-color: #FE6C61;
+				}
+			}
+			&.vc_tta-color-violet{
+				.vc_tta-panels-container:after{
+					border-color: #8D6DC4;
+				}
+			}
+			&.vc_tta-color-peacoc{
+				.vc_tta-panels-container:after{
+					border-color: #4CADC9;
+				}
+			}
+			&.vc_tta-color-chino{
+				.vc_tta-panels-container:after{
+					border-color: #CEC2AB;
+				}
+			}
+			&.vc_tta-color-mulled-wine{
+				.vc_tta-panels-container:after{
+					border-color: #50485B;
+				}
+			}
+			&.vc_tta-color-vista-blue{
+				.vc_tta-panels-container:after{
+					border-color: #75D69C;
+				}
+			}
+			&.vc_tta-color-black{
+				.vc_tta-panels-container:after{
+					border-color: #2A2A2A;
+				}
+			}
+			&.vc_tta-color-grey{
+				.vc_tta-panels-container:after{
+					border-color: #EBEBEB;
+				}
+			}
+			&.vc_tta-color-orange{
+				.vc_tta-panels-container:after{
+					border-color: #F7BE68;
+				}
+			}
+			&.vc_tta-color-sky{
+				.vc_tta-panels-container:after{
+					border-color: #5AA1E3;
+				}
+			}
+			&.vc_tta-color-green{
+				.vc_tta-panels-container:after{
+					border-color: #6DAB3C;
+				}
+			}
+			&.vc_tta-color-juicy-pink{
+				.vc_tta-panels-container:after{
+					border-color: #F4524D;
+				}
+			}
+			&.vc_tta-color-sandy-brown{
+				.vc_tta-panels-container:after{
+					border-color: #F79468;
+				}
+			}
+			&.vc_tta-color-purple{
+				.vc_tta-panels-container:after{
+					border-color: #B97EBB;
+				}
+			}
+			&.vc_tta-color-white{
+				.vc_tta-panels-container:after{
+					border-color: #fff;
+				}
+			}
+
+		}
+	}
+}

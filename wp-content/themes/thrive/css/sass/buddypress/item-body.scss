@@ -1,0 +1,23 @@
+
+// Item Body
+.buddypress #item-body {
+	background: #fff;
+
+	form {
+		padding: 0;
+		box-shadow: none;
+	}
+
+	form#profile-edit-form {
+		.editfield {
+			background: #eee;
+			position: relative;
+			padding: 15px 30px;
+			margin: 15px 0;
+		}
+	}
+
+	.submit {
+		margin: 20px 0;
+	}
+}

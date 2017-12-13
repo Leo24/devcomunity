@@ -1,0 +1,122 @@
+// Activity Post Form
+.buddypress #buddypress form#whats-new-form #whats-new-options select
+{
+	border: 0 none;
+	border-bottom: 2px solid $dark_borders;
+	font-size: 14px;
+	padding: 0;
+	padding-right: 20px;
+	max-width: 150px;
+}
+
+.buddypress #buddypress form#whats-new-form textarea {
+	min-height: 50px;
+}
+
+.buddypress #item-body #whats-new-form{
+
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 30px 20px 30px;
+    
+    @media(max-width: 768px) {
+    	margin-left: -10px;
+    	margin-right: -10px;
+    	padding: 0 40px 20px 40px;
+    }
+
+	.col-sm-1.col-xs-2.no-pd-right {
+
+		@media(max-width: 768px) {
+			width: 10%;
+			padding: 0 0 0 5px;
+		}
+
+		@media(max-width: 768px) {
+		    padding: 0;
+		}
+
+		@media (max-width: 480px) {
+			width: 15%;
+		}
+
+		@media (max-width: 375px) {
+			width: 20%;
+		}
+	}
+
+	.col-sm-11.col-xs-10 {
+	    width: 90%;
+		padding: 0 0 0 10px;
+
+		@media (max-width: 480px) {
+			width: 85%;
+		}
+
+		@media (max-width: 375px) {
+			width: 80%;
+		}
+	}
+
+ 	#whats-new-avatar {
+
+		float: left;
+ 		width: 100%;
+		position: relative;
+		top: 10px;
+
+		img.avatar{
+			width: 45px;
+			max-width: none;
+			margin-left: -5px;
+
+			@media(max-width: 768px) {
+				margin-left: 0;
+			}
+
+		}
+
+	}
+
+	#whats-new-content {
+		@media (max-width: 768px) {
+			.material_icons {
+				display: none;
+			}
+		}
+		select {
+			@media (max-width: 768px) {
+				display: block;
+			}
+		}
+		#aw-whats-new-submit {
+			float: right;
+
+			@media (max-width: 768px) {
+				float: none;
+				display: inline-block;
+				clear: both;
+				margin: 0;
+				position: absolute;
+				right: 15px;
+			}
+			@media (max-width: 480px) {
+				float: right;
+				display: inline-block;
+			    clear: none;
+				margin: 0;
+			}
+		}
+	}
+
+	#whats-new-textarea textarea {
+		min-height: 50px!important; //prevent buddypress from adjusting the height of our textarea to 20px;
+	}
+
+	#whats-new-options {
+		min-height: 50px!important; //prevent rtmedia.
+		margin-bottom: 0;
+	}
+}

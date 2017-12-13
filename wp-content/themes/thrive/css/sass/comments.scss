@@ -1,0 +1,49 @@
+#comments {
+	.comment-list {
+		padding-left: 0;
+
+		img.avatar {
+			border-radius: 50%;
+		}
+
+		.reply {
+			a {
+				float: right;
+			}
+		}
+	}
+	ol {
+		padding-left: 3.8em;
+	}
+
+	@media (max-width: 992px) {
+		ol {
+			padding-left: 1.5em;
+		}
+	}
+
+	@media (max-width: 768px) {
+		ol {
+			padding-left: 1em;
+		}
+	}
+
+	li {
+		list-style: none;
+	}
+
+	.comment-text {
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.comment-content {
+		margin-bottom: 30px;
+
+		.comment-content-context {
+			padding-bottom: 30px;
+			border-bottom: 1px solid $dark_borders;
+		}
+	}
+}

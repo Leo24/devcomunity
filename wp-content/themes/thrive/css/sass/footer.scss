@@ -1,0 +1,259 @@
+html,body{
+
+}
+
+#page {
+	min-height: 100%;
+	position: relative;
+}
+
+#content {
+}
+
+/**
+ * @Footer Widgets Specification
+ * Background: $primary
+ * Foreground: $light
+ * Links: $light_secondary
+ * Links Hover: $light:underline
+ */
+#thrive_footer_widget {
+
+	color: $light;
+	@extend .bg-primary;
+	padding: 50px 0;
+
+	.widget-title {
+		color: $light;
+	}
+    .fmember-member-details {
+
+        .fmember-title {
+            h5 {
+                color: $light_secondary;
+            }
+        }
+        a {
+            color: $light_secondary;
+        }
+    }
+	.fmember-member-details .fmember-links a {
+		display: inline-block;
+	    border: 1px solid rgba(255, 255, 255, 0.3);
+	    background: transparent;
+	    margin-right: 2.5px;
+        font-size: 12px;
+        padding: 10px 0;
+        .material-icons {
+            margin-bottom: 10px;
+			color: $light_secondary;
+        }
+        &:hover{
+            text-decoration: none;
+        }
+	}
+
+	@media ( max-width: 768px ) {
+		padding: 50px 0;
+		.container-fluid {
+			padding-left: 10px;
+		    padding-right: 10px;
+		}
+	}
+
+	a {
+		color: $light_secondary;
+			&:hover {
+				color: $light;
+				text-decoration: underline;
+			}
+	}
+
+	.footer-widget {
+		margin: 0 0 35px 0;
+		vertical-align: top;
+	    display: inline-block;
+
+		@media(max-width: 768px) {
+			display: block;
+		}
+		
+	}
+
+	.footer-widgets-2-columns:nth-child(3n),
+	.footer-widgets-3-columns:nth-child(4n)
+	{
+		clear: left;
+	}
+
+	.fmember-member-details {
+		background: $light_borders;
+
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+	   			border-radius: 4px;
+
+		padding-top: 25px;
+		margin: 0;
+
+		.fmember-avatar{
+			h3.h6 {
+				color: $light;
+			}
+		}
+
+		.fmember-links a {
+			&:first-of-type {
+			    border-bottom-left-radius: 4px;
+			}
+			&:last-of-type {
+			    border-bottom-right-radius: 4px;
+			}
+		}
+
+		.fmember-links li a {
+			width: 50px;
+			background: none;
+			font-size: 12px;
+		}
+	}
+
+    .fmember-member-details  {
+        .fmember-links {
+            background: transparent;
+            border-top: 0 none;
+            border-bottom: 0 none;
+        }
+        .fmember-links {
+            margin-bottom: -25px;
+
+			@media (max-width: 768px) {
+			    margin: 0 0 -25px;
+			}
+        }
+    }
+
+	.widget_thrive_featured_member_widget,
+	.widget_thrive_featured_group_widget {
+		width: 100%;
+		margin-bottom: 25px;
+		display: inline-block;
+	}
+
+	// Thrive Featured Member Widget
+	.widget_thrive_featured_member_widget {
+	   .fmember-links {
+		   a {
+			   width: 33.33%;
+			   float: left;
+			   margin: 0;
+			   &:nth-child(2) {
+				   border-left-width: 0;
+				   border-right-width: 0;
+			   }
+		   }
+	   }
+   }
+
+	// Thrive Featured Group Widget
+	.widget_thrive_featured_group_widget {
+	   .fmember-links {
+		   a {
+			   width: 50%;
+			   float: left;
+			   margin: 0;
+			   &:first-of-type {
+				   border-right-width: 0;
+			   }
+		   }
+	   }
+   }
+
+   // Thrive Birthday Widget
+   .widget_thrive_members_birthday_widget {
+	   ul {
+		   margin: 0 0 -16px;
+
+		   @media(max-width: 768px) {
+			   margin: 0 -10px -16px;
+		   }
+
+		   @media(max-width: 480px) {
+			   margin: 0 0 -16px;
+		   }
+
+		   li {
+			   padding: 15px 0;
+			   @media(max-width: 768px) {
+				   width: 33.33%;
+				   margin: 0 -0.35%;
+				   border-bottom-width: 0;
+				   display: inline-block;
+				   vertical-align: top;
+			   }
+			   @media(max-width: 480px) {
+				   width: 100%;
+				   border-bottom-width: 1px;
+			   }
+
+			   .row {
+				   @media(max-width: 768px) {
+					   margin: 0;
+				   }
+				   .col-xs-3 {
+					   @media(max-width: 768px) {
+						   width: 100%;
+						   text-align: center;
+						   margin-bottom: 15px;
+						   padding: 0;
+					   }
+					   @media(max-width: 480px) {
+						   width: 15%;
+						   text-align: center;
+						   margin: 0 3% 0 0;
+					   }
+
+				   }
+				   .col-xs-9 {
+					   @media(max-width: 768px) {
+						   width: 100%;
+						   text-align: center;
+						   padding: 0;
+					   }
+					   @media(max-width: 480px) {
+						   width: 70%;
+						   text-align: left;
+					   }
+
+				   }
+			   }
+
+		   }
+	   }
+
+   }
+
+}
+
+/**
+ * @Footer Specification
+ * Background: $dark
+ * Foreground: $light_secondary
+ * Links: $light_secondary:underline
+ * Links Hover: $light
+ */
+#thrive_footer {
+	padding: 25px 0;
+	color: $light_secondary;
+	background-color: $dark;
+	text-align: center;
+
+	a {
+		color: $light_secondary;
+		text-decoration: underline;
+			&:hover{
+				color: $light;
+				text-decoration: none;
+			}
+	}
+}

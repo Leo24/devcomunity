@@ -1,0 +1,431 @@
+/**
+ * BuddyDrive Stylesheet for 2.0
+ *
+ * @version 1.0
+ * @package BuddyDrive
+ * @since 1.0
+ */
+ div#buddydrive-main ul#buddydrive-manage-actions {
+    padding-left: 0;
+ }
+ div#buddydrive-main ul#buddydrive-manage-actions li {
+     margin: 0 10px;
+ }
+
+div#buddydrive-main ul.subsubsub li.current,
+div#buddydrive-main ul#buddydrive-manage-actions li a,
+div#buddydrive-main ul#buddydrive-browser span.icon-privacy,
+#buddydrive-user-stats ul li .icon-privacy
+{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+ div#buddydrive-main ul#buddydrive-browser li .buddydrive-icon {
+     float: left;
+    width: 18px;
+    height: 18px;
+    display: table;
+
+ }
+  div#buddydrive-main ul#buddydrive-manage-actions li:first-child {
+      margin-left: 0;
+  }
+
+ div#buddydrive-main #buddydrive-actions-form,
+ div#buddydrive-main #buddydrive-load-more,
+ div#buddydrive-main #buddydrive-status div.buddydrive-feedback,
+ div#buddydrive-main .buddydrive-toolbar  {
+    overflow: initial;
+    font-size: inherit;
+    padding: 0;
+    border: 0 none;
+    box-shadow: none;
+    width: 100%;
+    margin: 0;
+ }
+div#buddydrive-main #buddydrive-uploader .drag-drop #drag-drop-area {
+    width: 100%;
+}
+div#buddydrive-main nav.buddydrive-toolbar select#buddydrive-filter{
+     display: block;
+     float: none;
+
+ }
+ div#buddydrive-main nav.buddydrive-toolbar #buddydrive-search-input {
+     margin-right: 0;
+     border: 1px solid #d2d2d2;
+     box-shadow: inset 0px 0px 3px -1px #c4c6c8;
+    padding: 0 10px;
+    display: block;
+    float: none;
+
+    position: relative;
+    top: 5px;
+ }
+
+ div#buddydrive-main nav.buddydrive-toolbar select#buddydrive-filter {
+     padding: 0 25px 0 0;
+    line-height: inherit;
+    height: inherit;
+    vertical-align: middle;
+    float: right;
+    margin-bottom: 15px;
+ }
+
+div#buddydrive-main ul#buddydrive-browser {
+    padding: 0;
+    margin: 0 -15px -15px;
+}
+
+@media(max-width: 768px) {
+    div#buddydrive-main ul#buddydrive-browser {
+        margin: 0 -10px -10px;
+    }
+}
+
+div#buddydrive-main ul#buddydrive-browser li {
+    padding: 20px 15px;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: none;
+}
+div#buddydrive-main ul#buddydrive-browser li:last-of-type {
+    margin-bottom: 0;
+    border-bottom-width: 0;
+}
+div#buddydrive-main ul#buddydrive-browser li .buddydrive-content {
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+div#buddydrive-main ul#buddydrive-browser li .buddydrive-content .buddydrive-actions {
+    margin: 25px 0 0 0;
+    position: relative;
+    left: -3.5px;
+}
+
+div#buddydrive-main ul#buddydrive-browser li .buddydrive-content .buddydrive-actions a {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+div#buddydrive-main ul#buddydrive-browser li .buddydrive-content .buddydrive-description p {
+    height: auto;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 13px;
+    margin: 0;
+}
+
+div#buddydrive-main ul#buddydrive-browser li.buddydrive-item .buddydrive-share-dialog {
+    margin: 15px;
+}
+
+div#buddydrive-main ul#buddydrive-browser li.buddydrive-item .buddydrive-share-dialog-close {
+    height: auto;
+    line-height: 0;
+    margin: 0;
+    text-align: center;
+    box-shadow: none;
+    display: inline-block;
+    top: 12.5px;
+}
+
+div#buddydrive-main ul#buddydrive-browser li.buddydrive-item .buddydrive-share-dialog-close .dashicons {
+    padding: 0;
+    line-height: 24px;
+}
+
+div#buddydrive-main ul#buddydrive-browser li.buddydrive-item .buddydrive-share-dialog-close:focus .dashicons {
+    box-shadow: none;
+    outline: none;
+}
+
+div#buddydrive-main .buddydrive-actions a:not(:last-child):after {
+    content: "";
+}
+
+div#buddydrive-main ul#buddydrive-browser li {
+    height: auto;
+}
+div#buddydrive-main ul#buddydrive-browser li .buddydrive-content .buddydrive-title {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+div#buddydrive-main ul#buddydrive-browser li .buddydrive-content .buddydrive-title .buddydrive-name a{
+    color: rgba(0, 0, 0, 0.74);
+}
+
+div#buddydrive-main ul#buddydrive-browser li .buddydrive-icon img {
+    margin-left: 0;
+    width: 20px;
+    position: relative;
+    top: 7.5px;
+}
+div#buddydrive-main ul#buddydrive-browser.bulk-select li {
+    cursor: pointer;
+}
+div#buddydrive-main ul#buddydrive-browser.bulk-select li:hover {
+    border: 2px solid rgba(244, 67, 54, 0.45);
+    opacity: 1;
+}
+div#buddydrive-main ul#buddydrive-browser.bulk-select li.buddydrive-item.bulk-selected + li:hover {
+    border-top-width: 0;
+}
+div#buddydrive-main ul#buddydrive-browser.bulk-select li.buddydrive-item.bulk-selected {
+    border-color: #F44336;
+}
+div#buddydrive-main ul#buddydrive-browser.bulk-select li.buddydrive-item.bulk-selected + li.buddydrive-item.bulk-selected {
+    border-top-width: 0;
+}
+
+div#buddydrive-main #buddydrive-actions-form #buddydrive-bulk-edit button {
+    margin: 0 0 10px 0;
+}
+
+div#buddydrive-main #create-folder {
+    margin-bottom: 10px;
+}
+
+div#buddydrive-main #buddydrive-folder-title {
+    margin-bottom: 10px
+}
+
+div#buddydrive-main #buddydrive-new-folder {
+    background: #eeeeee;
+    padding: 10px 15px;
+    margin: 15px 0;
+    box-shadow: 0 1.5px 1px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+#buddydrive-uploader {
+    margin: 5px auto 15px;
+    width: 100%;
+}
+
+#buddydrive-uploader .drag-drop-inside p {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+#buddydrive-uploader .drag-drop-inside p.drag-drop-buttons {
+    display: block;
+    margin-top: 15px;
+}
+
+/**
+ * Edit Files CSS
+ */
+div#buddydrive-main article#buddydrive-item-content,
+div#buddydrive-main header#buddydrive-item-header {
+    border: 0 none;
+}
+.buddydrive-item-details .buddydrive-owner {
+    width: 32px;
+    display: block;
+}
+
+div#buddydrive-main form.buddydrive-item-details {
+    padding: 1em;
+    background: #eee;
+    margin: 20px 0;
+}
+
+div#buddydrive-main form.buddydrive-item-details input[type=text],
+div#buddydrive-main form.buddydrive-item-details label,
+div#buddydrive-main form.buddydrive-item-details textarea {
+    width: 100%;
+    border: 1px solid #d2d2d2;
+    box-shadow: inset 0px 0px 3px -1px #c4c6c8;
+    padding: 0 10px;
+}
+div#buddydrive-main form.buddydrive-item-details textarea {
+    resize: vertical;
+}
+div#buddydrive-main form.buddydrive-item-details .submit input {
+    margin: 0 0 0 1em;
+}
+
+div#buddydrive-main form.buddydrive-item-details label {
+    font-weight: normal;
+    border: 0 none;
+    box-shadow: none;
+    padding: 0;
+}
+
+
+div#buddydrive-main form.buddydrive-item-details #buddydrive-autocomplete {
+    position: relative;
+    float: none;
+    z-index: 1000;
+    overflow: hidden;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+div#buddydrive-main form.buddydrive-item-details #buddydrive-autocomplete li {
+    list-style: none;
+}
+
+div#buddydrive-main form.buddydrive-item-details select#buddydrive-privacy-filter {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+div#buddydrive-main form.buddydrive-item-details select#buddydrive-privacy-filter + .buddydrive-hide + #buddydrive-object-selection {
+    margin-top: 10px;
+}
+
+div#buddydrive-main #buddydrive-object-selection {
+    padding-left: 0;
+    margin: 0 -5px;
+}
+
+div#buddydrive-main form.buddydrive-item-details #buddydrive-object-selection .buddydrive-item {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #9E9E9E;
+    background: #fff;
+    border-radius: 6px;
+    margin: 0 5px 5px 5px;
+}
+div#buddydrive-main form.buddydrive-item-details #buddydrive-object-selection .buddydrive-item span + .buddydrive-object-name {
+    position: relative;
+    top: -3.5px;
+}
+div#buddydrive-main form.buddydrive-item-details #buddydrive-object-selection .buddydrive-item span + .buddydrive-object-name + .buddydrive-object-remove {
+    top: 0;
+}
+div#buddydrive-main form.buddydrive-item-details #buddydrive-item-folder .buddydrive-parent {
+    color: inherit;
+}
+#buddydrive-remove-parent {
+    color: #F44336;
+}
+div#buddydrive-main #buddydrive-status div.buddydrive-feedback img.avatar,
+div#buddydrive-main form.buddydrive-item-details .buddydrive-item img.avatar {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+body .buddydrive-object-remove {
+    color: #F44336;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+div#buddydrive-main article#buddydrive-item-content, div#buddydrive-main header#buddydrive-item-header {
+    box-shadow: none;
+}
+
+#buddydrive-user-stats ul{
+    padding: 0;
+}
+#buddydrive-user-stats ul li {
+    list-style: none;
+}
+div#buddydrive-main ul.subsubsub {
+    width: auto;
+    display: inline-block;
+}
+div#buddydrive-main ul.subsubsub li {
+    display: inline-block;
+}
+
+div#buddydrive-main ul.subsubsub li {
+    line-height: 1;
+    margin-bottom: 0;
+}
+div#buddydrive-main ul.subsubsub li:first-of-type.current {
+    padding-left: 0;
+}
+div#buddydrive-main ul.subsubsub li:first-of-type.current:before {
+    display: none;
+}
+#buddydrive-user-stats ul {
+    margin-bottom: 0;
+}
+#buddydrive-user-stats ul li {
+    margin-bottom: 15px;
+}
+#buddydrive-user-stats ul li .icon-privacy {
+    position: relative;
+    padding-left: 20px;
+    margin-right: 25px;
+}
+#buddydrive-user-stats ul li .icon-privacy:before {
+    position: absolute;
+    top: -4.5px;
+    left: 0;
+}
+div#buddydrive-main ul#buddydrive-browser li.buddydrive-item .buddydrive-share-content p.description {
+    margin-bottom: 0;
+}
+div#buddydrive-main ul#buddydrive-browser li.buddydrive-item .buddydrive-share-url {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add the elements you wanted to have material icon here. */
+div#buddydrive-main ul.subsubsub li.current:before,
+div#buddydrive-main #buddydrive-status div.buddydrive-feedback p.info:before,
+#buddydrive-item-folder .descrition:before {
+    content: "";
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+#buddydrive-status .buddydrive-feedback .info,
+div#buddydrive-main section.buddydrive-item #buddydrive-status div.buddydrive-feedback .info,
+div#buddydrive-main form.buddydrive-item-details #buddydrive-item-folder .descrition {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    background: #039BE5;
+    clear: both;
+    padding: 10px 10px 10px 39px;
+    border-radius: 4px;
+    position: relative;
+}
+#buddydrive-status .buddydrive-feedback .info:before,
+div#buddydrive-main #buddydrive-status div.buddydrive-feedback p.info:before,
+div#buddydrive-main form.buddydrive-item-details #buddydrive-item-folder .descrition:before {
+    content: "info_outline";
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+div#buddydrive-main form.buddydrive-item-details #buddydrive-item-folder .descrition {
+    margin: 25px 0 0;
+}
+div#buddydrive-main ul.subsubsub li.current {
+    position: relative;
+    padding-left: 20px;
+}
+div#buddydrive-main ul.subsubsub li.current:before {
+    content: "keyboard_arrow_right";
+    font-size: 20px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}

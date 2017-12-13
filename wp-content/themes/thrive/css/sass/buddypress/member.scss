@@ -1,0 +1,169 @@
+.bp-user {
+
+	&.buddydrive .entry-content #buddypress {
+		.item-list-tabs#subnav {
+			float: left;
+		}
+		#item-body {
+			> h3 {
+				float: right;
+			}
+		}
+	}
+
+	&.buddydrive.my-account {
+		.entry-content #buddypress {
+			#item-body {
+				> h3 {
+					float: none;
+				}
+			}
+		}
+	}
+
+	&.buddydrive.my-account.friends {
+		.entry-content #buddypress {
+			#item-body {
+				> h3 {
+					float: right;
+				}
+			}
+		}
+	}
+
+	#item-header {
+
+		.profile-item-title {
+			margin-bottom: 10px;
+			font-weight: 300;
+		}
+
+		#item-header-avatar {
+			width: 20%;
+			margin-right: 2%;
+
+			img.avatar {
+				@include card(1);
+				padding: 0;
+
+				@media ( max-width: 768px ) {
+					max-width: 150px;
+				}
+			}
+		}
+
+		#item-header-content {
+			width: 70%;
+			.activity {
+				text-transform: uppercase;
+				font-size: 12px;
+			}
+		}
+
+		@media (max-width: 768px) {
+			#item-header-avatar {
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 25px;
+				text-align: center;
+			}
+
+			#item-header-content {
+				text-align: center;
+				width: 100%;
+			}
+		}
+
+		#latest-update {
+			margin: 20px 0;
+			a {
+				@include caption();
+				color: $light;
+				font-style: italic;
+			}
+		}
+
+		.user-nicename {
+			color: $light_secondary;
+		}
+
+
+		#item-user-detail-scope {
+			text-align: center;
+			h2.user-nicename {
+				margin-top: 15px;
+			}
+		}
+
+
+		#item-buttons {
+
+			margin: 0 0 0 -10px;
+			display: inline-block;
+
+			.generic-button {
+				float: left;
+				font-weight: bold;
+				font-size: 12px;
+				display: inline-block;
+				margin-right: 10px;
+
+				@media ( max-width: 768px ) {
+					float: none;
+				}
+					a {
+						color: $light;
+
+						&:hover {
+							@extend .secondary;
+						}
+						&:before {
+							@extend .buddypress_material_font_before;
+							content: "settings";
+						}
+						&.remove:before,
+						&.pending_friend:before {
+							content: "indeterminate_check_box";
+						}
+						&.add:before,
+						&.not_friends:before {
+							content: "person_add";
+						}
+						&.send-message:before {
+							content: "email";
+						}
+						&.mention:before {
+							content: "announcement";
+						}
+
+						&:before,
+						&.add:before,
+						&.pending_friend:before,
+						&.remove:before,
+						&.not_friends:before,
+						&.send-message:before,
+						&.mention:before {
+							position: relative;
+							top: 5px;
+							margin-right: 5px;
+							margin-left: 5px;
+						}
+					}
+			}
+		}//#item-buttons
+
+	}//#item-header
+	#docs-personal-li {
+		a:before {
+			content: "content_copy";
+		}
+	}
+	#buddydrive-personal-li  {
+		a:before {
+			content: "cloud_queue";
+		}
+		span {
+			margin-left: 5px;
+		}
+	}
+}

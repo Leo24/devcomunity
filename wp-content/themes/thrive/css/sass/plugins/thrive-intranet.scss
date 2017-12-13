@@ -1,0 +1,298 @@
+#task_breaker-new-project-btn {
+	 height: 40px;
+	 &:before {
+        @extend .material_font_extend;
+ 		content: "playlist_add";
+
+		position: relative;
+    	left: -12px;
+    	top: 7px;
+    	margin-right: -5px;
+	 }
+ }
+
+.task_breaker-project-meta {
+	.task-progress-percentage {
+		@media( max-width: 768px ) {
+			min-width: 50%;
+		}
+	}
+
+}
+
+.single-project  {
+
+	@media( max-width: 768px ) {
+
+		.thrive-form-field .alignright {
+			margin: 0;
+		}
+
+		#thrive-single-task-details {
+			padding: 10px;
+			.alignright {
+				float: none;
+				margin: 0;
+			}
+			.button {
+				display: inline-block;
+				margin-bottom: 15px;
+			}
+		}
+
+		#thriveUpdateProjectBtn {
+			margin-bottom: 15px;
+		}
+
+		#thrive-project-tasks ul li.details {
+			padding-left: 0;
+		}
+
+		#thrive-project-tasks ul li.priority span {
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			text-indent: -99999px;
+			padding: 0;
+
+			@media( max-width: 480px ) {
+				margin-left: 15px;
+			}
+		}
+	}
+	.task-meta{
+		@media( max-width: 992px ) {
+			float: left;
+			width: 100%;
+		}
+		.completed-by{
+			.added-on{
+				@media( max-width: 480px ) {
+				    float: left;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	#thrive-intranet-projects {
+
+		ul#thrive-projects-lists li.type-project {
+			padding-top: 0;
+		}
+
+	}
+
+	#thrive-project {
+		@media ( max-width: 768px ) {
+			#thrive-tasks-filter {
+				.alignright {
+					width: 100%;
+				}
+				#thrive-task-search-field,
+				#thrive-task-search-submit {
+					width: 100%;
+					margin-left: 0;
+				}
+			}
+		}
+		#thrive-task-filter-select{
+		    position: relative;
+			top: 15px;
+		}
+		.tablenav{
+			.tablenav-pages{
+				.displaying-num{
+				    margin-right: 15px;
+				}
+			}
+		}
+		#thrive-single-project-group-details {
+			margin-bottom: 0;
+		}
+
+		#thrive-project-tab-li li a {
+			@media ( max-width: 768px ) {
+				padding: 15px 10px;
+				font-size: 0.75em;
+			}
+
+		}
+
+		.thrive-tabs-tabs ul li {
+			@media ( max-width: 768px ) {
+				width: 100%;
+				a {
+					width: 100%;
+				}
+			}
+		}
+
+		#thrive-project-tab-content .thrive-project-tab-content-item {
+			@media ( max-width: 768px ) {
+				padding: 15px 0;
+				border: 0;
+				border-top: 1px solid #ddd;
+			}
+		}
+
+		#thrive-dashboard-at-a-glance ul li {
+			@media ( max-width: 768px ) {
+				width: 100%;
+				margin-right: 0;
+
+			}
+
+			.thrive-dashboard-at-a-glance-box {
+				@media ( max-width: 768px ) {
+					margin: 0 0 5px 0;
+				}
+			}
+		}
+
+
+	}
+
+}
+
+/**
+ * Task Breaker
+ */
+.projects {
+	 #task_breaker-intranet-projects {
+
+		ul#task_breaker-projects-lists li.type-project {
+
+			margin-bottom: 10px;
+			margin-top: 10px;
+			border-radius: 0;
+			margin: 0 -15px 0 -15px;
+			border-right: 0;
+			border-left: 0;
+			border-top: 0;
+			padding: 25px 15px;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+			
+			@media( max-width: 768px ) {
+				margin: 0 0 0 0;
+			}
+
+			.task_breaker-project-title {
+				h3 a {
+					color: $dark_text;
+				}
+			}
+
+			.task_breaker-project-author {
+				a {
+					color: $dark_text;
+				}
+			}
+
+			.task-progress-task-count-wrap {
+				top: -25px;
+			}
+
+			.task-progress-task-count {
+				padding: 0px 5px;
+			}
+	 	}
+	 }
+ }
+
+ .single.single-project  #task_breaker-intranet-projects {
+	 ul#task_breaker-projects-lists li.type-project {
+		 padding: 0;
+		 border-radius: 0;
+		 border: 0 none;
+		 background: none;
+		 margin-bottom: 0;
+	 }
+ }
+
+ #project-navigation {
+	 margin-top: 15px;
+	 font-weight: 700;
+	 margin-bottom: -15px;
+ }
+
+.task_breaker-form-field {
+	.select2-container {
+		line-height: initial;
+		.select2-selection--multiple {
+			.select2-selection__choice {
+			    margin: 5.5px 5.5px 0 0;
+			}
+			.select2-selection__clear {
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: 480px ) {
+	.single-project .task_breaker-tabs-tabs ul li {
+		&#task_breaker-task-add-tab {
+			a {
+    			padding-top: 6.5px;
+				margin-right: 0;
+			}
+		}
+		a {
+		    padding: 5px 5px 5px 5px;
+		    margin-right: 10px;
+		    min-height: 37px;
+		}
+	}
+	.single-project #task_breaker-project #task_breaker-tasks-filter {
+		.alignright {
+			width: 100%;
+			#task_breaker-task-search-field {
+				width: 65%;
+			}
+			#task_breaker-task-search-submit {
+				width: 30%;
+			}
+		}
+	}
+}
+@media (max-width: 375px ) {
+	#task_breaker-project-tab-content .task_breaker-project-tab-content-item {
+	    padding: 15px 10px;
+	}
+	#task_breaker-project-tab-li {
+		border-bottom: 1px solid #ddd;
+		li {
+			width: 100%;
+
+			&.active a {
+				border-top: 1px solid #ddd;
+				margin-bottom: 0;
+			}
+			
+			a {
+				padding: 10px;
+				border-right: 1px solid #ddd;
+				border-bottom: 0;
+			}
+		}
+	}
+	.single-project .task_breaker-tabs-tabs ul li {
+		a {
+		    margin-right: 2.5px;
+		}
+	}
+	.single-project #task_breaker-project #task_breaker-tasks-filter {
+		.alignright {
+			width: 100%;
+			#task_breaker-task-search-field {
+				width: 60%;
+			}
+			#task_breaker-task-search-submit {
+				width: 35%;
+			}
+		}
+	}
+}
