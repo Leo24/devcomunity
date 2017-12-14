@@ -157,6 +157,7 @@ function thrive_scripts() {
 	wp_enqueue_style( 'thrive-google-font', thrive_google_fonts_url(), array(), DUNHAKDIS_THEME_VERSION );
 
 	wp_enqueue_style( 'thrive-scaffolding', get_template_directory_uri() . '/css/bootstrap.css', array(), DUNHAKDIS_THEME_VERSION );
+	wp_enqueue_style( 'thrive-group-popup', get_template_directory_uri() . '/css/group_popup.css', array(), DUNHAKDIS_THEME_VERSION );
 
 	if ( thrive_is_rtl() ) {
 		wp_enqueue_style( 'thrive-rtl', get_template_directory_uri() . '/rtl.css', array(), DUNHAKDIS_THEME_VERSION );
@@ -182,6 +183,7 @@ function thrive_scripts() {
 	wp_enqueue_script( 'thrive-navigation', get_template_directory_uri() . '/js/navigation.js', array(), DUNHAKDIS_THEME_VERSION, true );
 	wp_enqueue_script( 'thrive-jquery-plugins', get_template_directory_uri() . '/js/jquery-plugins.js', array( 'jquery' ), DUNHAKDIS_THEME_VERSION, true );
 	wp_enqueue_script( 'thrive-script', get_template_directory_uri() . '/js/thrive.js', array(), DUNHAKDIS_THEME_VERSION, true );
+	wp_enqueue_script( 'thrive-group-popup', get_template_directory_uri() . '/js/group_popup.js', array(), DUNHAKDIS_THEME_VERSION, true );
 
 	wp_enqueue_script( 'thrive-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), DUNHAKDIS_THEME_VERSION, true );
 
@@ -194,6 +196,22 @@ function thrive_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'thrive_scripts' );
+
+function showGroupPagePopup(){
+    $showPopup = false;
+    $userId = get_current_user_id();
+    $userMeta = get_user_meta($userId, 'user_group_list', true);
+    $groupId = bp_get_group_id();
+    if($groupId && $groupId !==  0) {
+        if (strpos($userMeta, (string)$groupId) === false) {
+            $userMeta = $userMeta . ' ' . $groupId;
+            $showPopup = true;
+            update_user_meta($userId, 'user_group_list', $userMeta);
+        }
+    }
+//    delete_user_meta( $userId, 'user_group_list');
+    return $showPopup;
+}
 
 /**
  * Disable BuddyPress Cover Photo
