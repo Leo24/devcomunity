@@ -437,30 +437,37 @@ function thrive_bp_group_header() { ?>
                 /* ]]> */
             </script>
 
-            <?php if(showGroupPagePopup() !== false):?>
+            <?php
+            $group_id = bp_get_group_id();
+            $group = new BP_Groups_Group( $group_id );
+            $args = array(
+                'posts_per_page'   => -1,
+                'post_type'=>'gpages'
+            );
+            $groupPages = get_posts( $args );
+            foreach($groupPages as $groupPage){
+                if($groupPage->post_name == $group->slug){
+                    $value = get_field( 'popup_content', $groupPage->ID);
+                }
+            }
+            ?>
+
+            <?php if((showGroupPagePopup() !== false) && (!empty($value))):?>
                 <div class="group-overlay"></div>
-                    <div class="popup-holder">
-                        <div class="popup">
-                            <div class="header">
-                                <p>Bitte bestätigen Sie unsere Bedingungen</p>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert).
-                                </p>
-                                <p>
-                                    Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie.
-                                </p>
-                                <p>
-                                    Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert).
-                                </p>
-                            </div>
-                            <div class="footer">
-                                <div class="back-button buttons"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>zurück</span></div>
-                                <div class="confirm-button buttons" data-userid="<?php echo get_current_user_id();?>" data-groupid="<?php echo bp_get_group_id();?>"><span>bestätigen</span></div>
-                            </div>
+                <div class="popup-holder">
+                    <div class="popup">
+                        <div class="header">
+                            <p>Bitte bestätigen Sie unsere Bedingungen</p>
+                        </div>
+                        <div class="content">
+                             <?php echo $value;?>
+                        </div>
+                        <div class="footer">
+                            <div class="back-button buttons"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>zurück</span></div>
+                            <div class="confirm-button buttons" data-userid="<?php echo get_current_user_id();?>" data-groupid="<?php echo bp_get_group_id();?>"><span>bestätigen</span></div>
                         </div>
                     </div>
+                </div>
             <?php endif;?>
 
 			<div class="col-md-12">
