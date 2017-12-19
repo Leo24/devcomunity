@@ -204,13 +204,31 @@ function showGroupPagePopup(){
     $groupId = bp_get_group_id();
     if($groupId && $groupId !==  0) {
         if (strpos($userMeta, (string)$groupId) === false) {
-            $userMeta = $userMeta . ' ' . $groupId;
             $showPopup = true;
-            update_user_meta($userId, 'user_group_list', $userMeta);
         }
     }
 //    delete_user_meta( $userId, 'user_group_list');
     return $showPopup;
+}
+
+add_action('wp_ajax_acceptGroupConditions', 'acceptGroupConditions');
+add_action('wp_ajax_nopriv_acceptGroupConditions', 'acceptGroupConditions');
+
+function acceptGroupConditions(){
+    if(isset($_POST['action']) && $_POST['action'] === 'acceptGroupConditions'){
+        $data = $_POST;
+        $userId = $data['userId'];
+        $groupId = $data['groupId'];
+        $userMeta = get_user_meta($userId, 'user_group_list', true);
+        if (strpos($userMeta, (string)$groupId) === false) {
+            $userMeta = $userMeta . ' ' . $groupId;
+            update_user_meta($userId, 'user_group_list', $userMeta);
+            wp_send_json(array(
+                'message'  => 'Data saved.',
+            ));
+        }
+    }
+    return false;
 }
 
 /**

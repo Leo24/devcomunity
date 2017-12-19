@@ -431,6 +431,12 @@ function thrive_bp_group_header() { ?>
 
 		<?php bp_the_group(); ?>
 
+            <script type='text/javascript'>
+                /* <![CDATA[ */
+                var ajax = {"url":"<?php echo get_home_url().'/wp-admin/admin-ajax.php';?>"};
+                /* ]]> */
+            </script>
+
             <?php if(showGroupPagePopup() !== false):?>
                 <div class="group-overlay"></div>
                     <div class="popup-holder">
@@ -451,9 +457,8 @@ function thrive_bp_group_header() { ?>
                             </div>
                             <div class="footer">
                                 <div class="back-button buttons"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>zurück</span></div>
-                                <div class="confirm-button buttons"><span>bestätigen</span></div>
+                                <div class="confirm-button buttons" data-userid="<?php echo get_current_user_id();?>" data-groupid="<?php echo bp_get_group_id();?>"><span>bestätigen</span></div>
                             </div>
-
                         </div>
                     </div>
             <?php endif;?>
