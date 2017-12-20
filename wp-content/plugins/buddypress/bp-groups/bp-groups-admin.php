@@ -969,6 +969,7 @@ function bp_groups_admin_edit_metabox_members( $item ) {
 							?>
 							<input type="hidden" name="bp-groups-existing-role[<?php echo esc_attr( $type_user->ID ); ?>]" value="<?php echo esc_attr( $member_type ); ?>" />
 						</td>
+                        <?php renderUserConfurmation($type_user->ID, $_REQUEST['gid'], $member_type);?>
 					</tr>
 
 					<?php if ( has_filter( 'bp_groups_admin_manage_member_row' ) ) : ?>

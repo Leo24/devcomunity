@@ -231,6 +231,24 @@ function acceptGroupConditions(){
     return false;
 }
 
+function renderUserConfurmation($userId, $groupId, $member_type){
+    if($member_type == 'member' || $member_type == 'banned'){
+        $userMeta = get_user_meta($userId, 'user_group_list', true);
+        if($groupId && $groupId !==  0) {
+            if (strpos($userMeta, (string)$groupId) !== false) {
+                echo '<td class="urole-column">';
+                _e('User Confirmed Terms', 'thrive');
+                echo '</td>';
+         }
+            else{
+                echo '<td class="urole-column">';
+                _e('User Not Confirmed Terms', 'thrive');
+                echo '</td>';
+            }
+        }
+    }
+}
+
 /**
  * Disable BuddyPress Cover Photo
  */
